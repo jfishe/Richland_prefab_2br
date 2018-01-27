@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-72
+0
  20
-115
+-9e-014
  30
 0
   9
 $EXTMAX
  10
-398
+550
  20
-403
+424.9999999999999
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-Walls
+0
   9
 $CELTYPE
   6
@@ -415,7 +415,7 @@ $DIMLTEX2
   9
 $LUNITS
  70
-    4
+    2
   9
 $LUPREC
  70
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-242.7799227799228
+322.1685971685972
  22
-203.3050193050193
+215.2348777348778
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-295.4131274131274
+435.939510939511
  41
 1.693851944792974
  42
@@ -2241,7 +2241,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    1
+    0
  62
     7
   6
@@ -2254,28 +2254,6 @@ F
 LAYER
   5
 4A
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-Rooms
- 70
-    0
- 62
-    6
-  6
-CONTINUOUS
-370
-    0
-390
-F
-  0
-LAYER
-  5
-4B
 330
 2
 100
@@ -2299,7 +2277,7 @@ F
   0
 LAYER
   5
-4C
+4B
 330
 2
 100
@@ -2312,6 +2290,28 @@ Removed_Original
     0
  62
     2
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Rooms
+ 70
+    0
+ 62
+    6
   6
 CONTINUOUS
 370
@@ -2375,7 +2375,7 @@ AcDbLayerTableRecord
   2
 frame
  70
-    1
+    0
  62
     3
   6
@@ -2447,7 +2447,7 @@ AcDbLayerTableRecord
   2
 ticks
  70
-    1
+    0
  62
     6
   6
@@ -2481,7 +2481,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2495,7 +2495,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2509,7 +2509,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2523,7 +2523,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2845,7 +2845,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-US Projection 3rd Angle
+US Projection 3rd Angle-0
  70
     0
 280
@@ -2863,7 +2863,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-Title_Block
+Title_Block-0
  70
     0
 280
@@ -3435,7 +3435,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-US Projection 3rd Angle
+US Projection 3rd Angle-0
  70
     0
  10
@@ -3443,7 +3443,7 @@ US Projection 3rd Angle
  20
 0
   3
-US Projection 3rd Angle
+US Projection 3rd Angle-0
   1
 
   0
@@ -4667,7 +4667,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-Title_Block
+Title_Block-0
  70
     0
  10
@@ -4675,7 +4675,7 @@ Title_Block
  20
 0
   3
-Title_Block
+Title_Block-0
   1
 
   0
@@ -4695,17 +4695,17 @@ ByLayer
 100
 AcDbBlockReference
   2
-US Projection 3rd Angle
+US Projection 3rd Angle-0
  10
-5
+0
  20
 0
  30
 0
  41
-1
+37.5
  42
-1
+37.5
  43
 0
  50
@@ -5058,6 +5058,8 @@ AcDbDimension
    32
  71
     5
+ 72
+    0
   3
 Standard
  53
@@ -5118,6 +5120,8 @@ AcDbDimension
    32
  71
     5
+ 72
+    0
   3
 Standard
  53
@@ -6710,6 +6714,46 @@ AcDbPolyline
 230
  20
 284
+  0
+INSERT
+  5
+CE
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Title_Block-0
+ 10
+512.5
+ 20
+18.74999999999991
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
   0
 ENDSEC
   0
