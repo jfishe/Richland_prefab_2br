@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--75
+-5
  20
--110.5000000000001
+-6.5
  30
 0
   9
 $EXTMAX
  10
-475
+324.3125
  20
-314.4999999999999
+288.5625
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+Actual_Walls_Fridge
   9
 $CELTYPE
   6
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-284.7007722007722
+208.1007078507079
  22
-159.9903474903475
+146.2021396396397
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-435.939510939511
+302.6574163449164
  41
 1.693851944792974
  42
@@ -2315,7 +2315,7 @@ AcDbLayerTableRecord
   2
 Actual_Rooms
  70
-    0
+    1
  62
   216
 420
@@ -2427,7 +2427,7 @@ AcDbLayerTableRecord
   2
 dim
  70
-    0
+    1
  62
     1
   6
@@ -2471,7 +2471,7 @@ AcDbLayerTableRecord
   2
 frame
  70
-    0
+    1
  62
     3
   6
@@ -2493,7 +2493,7 @@ AcDbLayerTableRecord
   2
 ticks
  70
-    0
+    1
  62
     6
   6
@@ -6761,47 +6761,9 @@ AcDbLine
  21
 189.84375
   0
-LWPOLYLINE
-  5
-D9
-100
-AcDbEntity
-  8
-Actual_Walls
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-33.78125
- 20
-124.4375
- 10
-92.625
- 20
-124.4375
- 10
-92.625
- 20
-124.0625
- 10
-33.78125
- 20
-124.0625
-  0
 LINE
   5
-DA
+D9
 100
 AcDbEntity
   8
@@ -6825,7 +6787,7 @@ AcDbLine
   0
 LINE
   5
-DB
+DA
 100
 AcDbEntity
   8
@@ -6846,6 +6808,30 @@ AcDbLine
 279.5625
  21
 0
+  0
+LINE
+  5
+DB
+100
+AcDbEntity
+  8
+Actual_Walls
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+279.5625
+ 20
+179.15625
+ 11
+280.3125
+ 21
+179.15625
   0
 LINE
   5
@@ -6865,30 +6851,6 @@ AcDbLine
  10
 279.5625
  20
-179.15625
- 11
-280.3125
- 21
-179.15625
-  0
-LINE
-  5
-DD
-100
-AcDbEntity
-  8
-Actual_Walls
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-279.5625
- 20
 0
  11
 279.5625
@@ -6897,7 +6859,7 @@ AcDbLine
   0
 LINE
   5
-DE
+DD
 100
 AcDbEntity
   8
@@ -6921,7 +6883,7 @@ AcDbLine
   0
 INSERT
   5
-DF
+DE
 100
 AcDbEntity
   8
@@ -6958,6 +6920,44 @@ Door
 1
  45
 1
+  0
+LWPOLYLINE
+  5
+DF
+100
+AcDbEntity
+  8
+Actual_Walls_Fridge
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+193.28125
+ 20
+189.84375
+ 10
+241.84375
+ 20
+189.84375
+ 10
+241.84375
+ 20
+186.0625
+ 10
+193.28125
+ 20
+186.0625
   0
 ENDSEC
   0
