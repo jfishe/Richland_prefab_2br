@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-284.9742599742603
+285.1463901203826
  22
-159.9903474903477
+160.146829441368
  13
 0
  23
@@ -1151,7 +1151,7 @@ AcDbViewportTableRecord
  40
 435.9395109395114
  41
-1.693851944792974
+1.755526657997399
  42
 50
  43
@@ -2593,7 +2593,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2607,7 +2607,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2621,7 +2621,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2635,7 +2635,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -3065,7 +3065,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-Dryer-0
+Dryer_Remove
  70
     0
 280
@@ -3083,7 +3083,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-Dryer-2
+Dryer_New
  70
     0
 280
@@ -4689,52 +4689,6 @@ ByLayer
 100
 AcDbMText
  10
--34
- 20
-39
- 30
-0
- 40
-3.6875
- 41
-27.04166666666666
- 71
-    7
- 72
-    1
-  1
-2018-02-04
-  7
-iso
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-A7
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
 -28
  20
 7
@@ -4767,7 +4721,7 @@ iso
   0
 MTEXT
   5
-A8
+A7
 100
 AcDbEntity
   8
@@ -4813,7 +4767,7 @@ iso
   0
 INSERT
   5
-A9
+A8
 100
 AcDbEntity
   8
@@ -4853,7 +4807,7 @@ Floor_Plan-0
   0
 MTEXT
   5
-AA
+A9
 100
 AcDbEntity
   8
@@ -4882,6 +4836,52 @@ AcDbMText
     1
   1
 Richland Pre-fab, 2 BR (Elev, K & L)
+  7
+iso
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+AA
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+-34
+ 20
+39
+ 30
+0
+ 40
+3.6875
+ 41
+24.99305555555555
+ 71
+    7
+ 72
+    1
+  1
+2018-02-11
   7
 iso
 210
@@ -7669,7 +7669,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-Dryer-0
+Dryer_Remove
  70
     0
  10
@@ -7677,7 +7677,7 @@ Dryer-0
  20
 0
   3
-Dryer-0
+Dryer_Remove
   1
 
   0
@@ -7851,7 +7851,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-Dryer-2
+Dryer_New
  70
     0
  10
@@ -7859,7 +7859,7 @@ Dryer-2
  20
 0
   3
-Dryer-2
+Dryer_New
   1
 
   0
@@ -8769,47 +8769,9 @@ AcDbPolyline
  20
 47.03125000000001
   0
-LWPOLYLINE
-  5
-127
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-158
- 20
--40
- 10
-158
- 20
--6.281249999999993
- 10
-74
- 20
--6.281249999999993
- 10
-74
- 20
--39.99999999999999
-  0
 MTEXT
   5
-128
+127
 100
 AcDbEntity
   8
@@ -8855,7 +8817,7 @@ iso
   0
 MTEXT
   5
-129
+128
 100
 AcDbEntity
   8
@@ -8901,7 +8863,7 @@ iso
   0
 MTEXT
   5
-12A
+129
 100
 AcDbEntity
   8
@@ -8947,7 +8909,7 @@ iso
   0
 MTEXT
   5
-12B
+12A
 100
 AcDbEntity
   8
@@ -8993,7 +8955,7 @@ iso
   0
 MTEXT
   5
-12C
+12B
 100
 AcDbEntity
   8
@@ -9039,7 +9001,7 @@ iso
   0
 INSERT
   5
-12D
+12C
 100
 AcDbEntity
   8
@@ -9079,7 +9041,7 @@ Convenience_Duplex
   0
 INSERT
   5
-12E
+12D
 100
 AcDbEntity
   8
@@ -9119,7 +9081,7 @@ Convenience_Duplex
   0
 INSERT
   5
-12F
+12E
 100
 AcDbEntity
   8
@@ -9159,47 +9121,7 @@ Range
   0
 INSERT
   5
-130
-100
-AcDbEntity
-  8
-dim
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Convenience_Duplex
- 10
-360
- 20
-130
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-131
+12F
 100
 AcDbEntity
   8
@@ -9239,7 +9161,7 @@ Convenience_Duplex_Remove
   0
 INSERT
   5
-132
+130
 100
 AcDbEntity
   8
@@ -9279,7 +9201,7 @@ Convenience_Duplex_Remove
   0
 INSERT
   5
-133
+131
 100
 AcDbEntity
   8
@@ -9319,7 +9241,7 @@ Convenience_Duplex_New
   0
 INSERT
   5
-134
+132
 100
 AcDbEntity
   8
@@ -9359,7 +9281,7 @@ Convenience_Duplex_New
   0
 INSERT
   5
-135
+133
 100
 AcDbEntity
   8
@@ -9399,127 +9321,7 @@ Convenience_Duplex_New
   0
 INSERT
   5
-136
-100
-AcDbEntity
-  8
-dim
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Convenience_Duplex_New
- 10
-390
- 20
-90
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-137
-100
-AcDbEntity
-  8
-dim
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Dryer-0
- 10
-380
- 20
-240
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-138
-100
-AcDbEntity
-  8
-dim
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Dryer-2
- 10
-370
- 20
-90
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-139
+134
 100
 AcDbEntity
   8
@@ -9559,7 +9361,7 @@ Convenience_Duplex
   0
 MTEXT
   5
-13A
+135
 100
 AcDbEntity
   8
@@ -9605,7 +9407,7 @@ iso
   0
 MTEXT
   5
-13B
+136
 100
 AcDbEntity
   8
@@ -9651,11 +9453,49 @@ iso
   0
 LWPOLYLINE
   5
-13C
+137
 100
 AcDbEntity
   8
+Actual_Walls
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
 0
+ 10
+236
+ 20
+226.90625
+ 10
+320
+ 20
+226.90625
+ 10
+320
+ 20
+195.53125
+ 10
+236
+ 20
+195.53125
+  0
+LWPOLYLINE
+  5
+138
+100
+AcDbEntity
+  8
+Actual_Walls_Laundry
   6
 ByLayer
  62
@@ -9686,6 +9526,162 @@ AcDbPolyline
 236
  20
 107.5111406048905
+  0
+LWPOLYLINE
+  5
+139
+100
+AcDbEntity
+  8
+Actual_Walls_Fridge
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+158
+ 20
+-40
+ 10
+158
+ 20
+-6.281249999999993
+ 10
+74
+ 20
+-6.281249999999993
+ 10
+74
+ 20
+-39.99999999999999
+  0
+LWPOLYLINE
+  5
+13A
+100
+AcDbEntity
+  8
+Actual_Walls_Fridge
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+158
+ 20
+47.03125000000001
+ 10
+158
+ 20
+-6.281249999999993
+ 10
+110
+ 20
+-6.281249999999993
+ 10
+110
+ 20
+47.03125000000001
+  0
+INSERT
+  5
+13B
+100
+AcDbEntity
+  8
+dim
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Convenience_Duplex
+ 10
+360
+ 20
+190
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+13C
+100
+AcDbEntity
+  8
+dim
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Convenience_Duplex_New
+ 10
+380
+ 20
+240
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
   0
 INSERT
   5
@@ -9703,11 +9699,11 @@ ByLayer
 100
 AcDbBlockReference
   2
-Power_Panel
+Dryer_New
  10
-260
+360
  20
-210
+240
  30
 0
  41
@@ -9723,85 +9719,89 @@ Power_Panel
  71
     1
  44
-0
+1
  45
-0
+1
   0
-LWPOLYLINE
+INSERT
   5
 13E
 100
 AcDbEntity
   8
-0
+dim
   6
 ByLayer
  62
-    5
+  256
 370
    -1
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
+AcDbBlockReference
+  2
+Dryer_Remove
+ 10
+370
+ 20
+90
+ 30
+0
+ 41
+1
+ 42
+1
  43
 0
- 10
-236
- 20
-226.90625
- 10
-320
- 20
-226.90625
- 10
-320
- 20
-195.53125
- 10
-236
- 20
-195.53125
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
   0
-LWPOLYLINE
+INSERT
   5
 13F
 100
 AcDbEntity
   8
-0
+dim
   6
 ByLayer
  62
-    5
+  256
 370
    -1
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
+AcDbBlockReference
+  2
+Power_Panel
+ 10
+270
+ 20
+120
+ 30
+0
+ 41
+1
+ 42
+1
  43
 0
- 10
-158
- 20
-47.03125000000001
- 10
-158
- 20
--6.281249999999993
- 10
-110
- 20
--6.281249999999993
- 10
-110
- 20
-47.03125000000001
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
   0
 ENDSEC
   0
