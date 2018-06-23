@@ -39,22 +39,24 @@ Richland, WA 99354\
    interior walls will likely need to be surface mounted.
 
 # Kitchen
-1. Relocate Dryer outlet to about 4 ft on wall behind Washer. We intend to
+1. How should ceiling lights be placed in kitchen?
+2. The hood vent has task lighting. Should we include task lighting for the counter space?
+3. Relocate Dryer outlet to about 4 ft on wall behind Washer. We intend to
    stack the Washer and Dryer. The wall appears deep enough for a normal
    outlet.
-2. Update wired outlet in cupboard above stove for hood vent with normal,
+4. Update wired outlet in cupboard above stove for hood vent with normal,
    in-wall  wired connection for hood vent. Leave sufficient wire to
    connect to hood vent.
-3. Update Stove/Oven outlet. Change to normal in-wall outlet.
-4. Check/update outlet behind dishwasher. It is currently a normal,
+5. Update Stove/Oven outlet. Change to normal in-wall outlet.
+6. Check/update outlet behind dishwasher. It is currently a normal,
    in-wall, wired outlet.
-5. Remove power from outlet directly above stove.
-6. Add a surface mounted, power strip above counter height along wall
+7. Remove power from outlet directly above stove.
+8. Add a surface mounted, power strip above counter height along wall
    adjacent to bathroom. I assume 12 inch spacing is OK. This is for
    connecting small appliances; let me know the maximum amperage. We want
    convenience locations, not large load.
-7. Check/update refrigerator outlet.
-8. Check/update outlet in half-height partition wall.
+9. Check/update refrigerator outlet.
+10. Check/update outlet in half-height partition wall.
 
 # Living Room
 1. Check/update light switch for ceiling light. Add a second switch for
