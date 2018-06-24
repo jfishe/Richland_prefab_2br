@@ -1,12 +1,5 @@
 # Electrical Upgrade
 
-John D. Fisher\
-1329 Sanford Ave\
-Richland, WA 99354\
-\
-[509-531-5444](sip:5095315444)\
-[jdfenw@gmail.com](mailto:jdfenw@gmail.com)
-
 ## General
 
 1. Relocate the breaker box to outside Bedroom #1.
