@@ -32,6 +32,7 @@
    to bathroom), one pair near the doors and the other near the corners.
 3. The exterior wall may be deep enough for a normal outlet. The
    interior walls will likely need to be surface mounted.
+4. Add exhaust fan for clothes drying and smoking room. 
 
 ## Kitchen
 
