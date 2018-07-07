@@ -4,6 +4,10 @@ Richland, WA, 2 bedroom Prefab Remodel starting from the original floor plans,
 which are available from @columbiaabc. The dimensions have been updated to
 match the actual house.
 
+### Electrical
+
+[Electrical](Electrical.md)
+
 ## References
 
 <!--
