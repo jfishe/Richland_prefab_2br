@@ -9,11 +9,9 @@ email: jdfenw@gmail.com
 
 ## General
 
-1. Relocate the breaker box to outside Bedroom #1.
-2. Relocate the purlin to the opposite side of the house. Can we switch to
-   a pole with a weatherhead instead of purlin?
-3. The cable appears to come in on the power line, so I assume we'll have
-   to relocate that with the purlin. Do you do that or do we need Charter?
+1. Relocate the breaker box to outside BR#1.
+2. Remove the purlin and patch the hole. Install weatherhead outside Bedroom #1.
+3. Relocate cable near breaker box. Do you do that or do we need Charter?
 4. I assume Charter will be needed to install the cable connection inside.
 5. Will the breaker box contain GFCI circuit breakers? For all lines or
    just rooms with sinks?
@@ -26,63 +24,75 @@ email: jdfenw@gmail.com
 
 ### Bedroom #1 (BR#1)
 
-1. Check/update outlets beside bed; they are not currently grounded.
-2. Add outlet near the door.
-3. Add outlet in corner, beside the closet.
+1. Ground outlets beside bed; outlets are new. Gang boxes may not be up to code.
+2. Add duplex outlet near right side of window.
+3. Add duplex outlet ~4 ft from door on wall adjacent to Living Room.
 
 ### Bedroom #2 (BR#2)
 
-1. Add two surface mounted outlets, about 4 ft. from closet door, one
-   low and one about 3 ft. The TV will be mounted on this wall with
-   shelves below.
-2. Add two outlets on outside wall (by back door) and inside wall (adjacent
-   to bathroom), one pair near the doors and the other near the corners.
-3. The exterior wall may be deep enough for a normal outlet. The
+1. Add duplex outlet on outside wall (by back door) and another on inside wall
+   (adjacent to bathroom), near the doors.
+2. The exterior wall may be deep enough for a normal outlet. The
    interior walls will likely need to be surface mounted.
-4. Add exhaust fan for clothes drying and smoking room.
+3. Add exhaust fan for clothes drying and smoking room—i.e., high flow and low
+   noise fan. May be able to share roof vent with bathroom, but should avoid
+   back-drafting smoke into bathroom.
+4. Add dryer exhaust vent to wall. Add washer and dryer outlets to wall. (near
+   corner of outside walls)
+5. Add outlet for small chest freezer on corner adjacent to bathroom.
+6. Remove and patch cable outlets near inside corner, adjacent to bathroom. Add
+   cable outlet near ceiling on same wall. Run cable from breaker box. The
+   cable modem will reside on a shelf near ceiling. Add duplex outlet near new
+   cable outlet.
+7. Replace inside door with barn door or pocket door. Wall depth may be
+   sufficient for pocket door.
+
+## Bathroom
+
+1. Move toilet and vanity to wall adjacent to window. May want to swap new
+   vanity and toilet location for more clearance. However, the shelves next to
+   vanity and cabinets surrounding toilet may prevent this. Please advise.
+2. Move exhaust fan/light switch to wall adjacent to door. Separate light and
+   fan switch into two switches.
+3. Add ceiling light over vanity with switch adjacent to vanity.
+4. Add duplex outlet adjacent to vanity switch.
+5. Add duplex outlet on opposite wall to power items on shelves.
+6. Replace door with pocket door.
 
 ## Kitchen
 
-1. How should ceiling lights be placed in kitchen?
-2. The hood vent has task lighting. Should we include task lighting for the
-   counter space?
-3. Relocate Dryer outlet to about 4 ft on wall behind Washer. We intend to
-   stack the Washer and Dryer. The wall appears deep enough for a normal
-   outlet.
-4. Update wired outlet in cupboard above stove for hood vent with normal,
-   in-wall  wired connection for hood vent. Leave sufficient wire to
-   connect to hood vent.
-5. Update Stove/Oven outlet. Change to normal in-wall outlet.
-6. Check/update outlet behind dishwasher. It is currently a normal,
-   in-wall, wired outlet.
-7. Remove power from outlet directly above stove.
-8. Add a surface mounted, power strip above counter height along wall
-   adjacent to bathroom. I assume 12 inch spacing is OK. This is for
-   connecting small appliances; let me know the maximum amperage. We want
-   convenience locations, not large load.
-9. Check/update refrigerator outlet.
-10. Check/update outlet in half-height partition wall.
+1. How should ceiling lights be placed in kitchen? Current location may not be
+   ideal for open concept floor plan.
+2. The hood vent has task lighting.
+3. Add task lighting to right of sink for prep. area.
+4. Add/replace duplex outlets above counter. We have numerous small applicances.
+5. Remove dryer outlet and electrical panel.
+6. Remove drain for washer.
+7. Check/update refrigerator outlet.
+8. Add outlet for TV on wall outside refrigerator nook.
+9. Relocate sprinkler control to outside, near sprinkler valve box.
 
 ## Living Room
 
-1. Check/update light switch for ceiling light. Add a second switch for
-   a ceiling light in the corner.
+1. Check/update light switch for ceiling light.
 2. Check the gang box for the ceiling light. Is it up to code?
-3. Add a gang box for a ceiling light in corner between windows. This is
-   smaller light for a desk going there.
-4. Remove defunct gang boxes from walls. Patch walls; we'll paint.
-5. Install a gang box for the Mitsubishi Split; it's currently in a hole in the wall.
+4. Remove defunct gang boxes from walls. Patch walls.
+5. Install a gang box for the Mitsubishi Split; it's currently in a hole in the
+   wall. Does code require re-running power?
 6. Check/update outlets along walls. There is one near each corner and one
    by the hall doorway. All are normal, in-wall outlets.
-7. Add normal, in-wall outlets near front door, one on each side of the
-   door. There is an ungrounded outlet currently on one side; it should be
-   updated.
+7. Add outlet for wall mounted TV, near middle of wall adjacent to BR#1.
 
 ## Outside
 
 1. Check/update outside outlets. The gang boxes do not look correct for
-   outdoor use.
+   outdoor use. 
 2. Change outside outlets to grounded circuits that are not shared with the
    interior. They are currently 3-wire, but the ground is not connected.
 3. I'm happy with their current locations. Let me know if we're required to
    have more.
+
+## Water Heater
+
+1. Move water heater from attic to outside.
+2. Construct cubicle with insulation and heat tape.
