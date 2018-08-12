@@ -105,4 +105,11 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
 ## Water Heater
 
 1. Move water heater from attic to outside.
-2. Add power.
+2. Add power for the water heater and heat tape.
+3. Attic heat tape is new and may be re-used.
+
+## Crawl Space
+
+1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should be near crawl space entrance.
+2. Replace heat tape in crawl space.
+3. [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md) is addressing pipe and floor insulation.
