@@ -8,11 +8,19 @@ summary: Richland, WA, 2 bedroom Prefab Remodel starting from the original floor
 
 # Richland Prefab 2BR
 
+The [SweetHome 3D Home Plan](Home_Plan.sh3d) shows the layout and general idea of the color choices, materials, fittings and furnishings. See [Third party notices](#third-party-notices) for the SweetHome 3D free and open source software required to view/edit the Home Plan. The dimensions are close to actual, but there may be discrepancies.
+
+There is some overlap between the [electrical](#electrical) and the other [work](#walls-doors-and-cabinets-and-fixtures). Please let me know where it's confusing and/or redundant and I'll fix.
+
 ### Electrical
+
+Lighting, wiring, outlets and irrigation controls are discussed below.
 
 * [Electrical Upgrade](Electrical.md)
 
 ### Walls, Doors and Cabinets and Fixtures
+
+Plumbing, flooring, walls, cabinets (kitchen and bath) and fixtures, such as faucets and shower head, are discussed below.
 
 - [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md)
 
