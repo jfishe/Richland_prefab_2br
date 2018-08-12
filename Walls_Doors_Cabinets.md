@@ -10,32 +10,35 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 
 ## Walls
 
-1. Remove wall sconces and gang boxes in BR#1 and BR#2. Patch and finish holes.
-2. Add back-splash above counter and stove throughout kitchen. Some possibilities:
+1. We're planning to do interior painting ourselves, so any drywall work, etc. should leave the walls primer ready. Please leave the floor covered with protective paper.
+2. Please include baseboard trim, as appropriate, in the rooms where the floor is replaced.
+3. Remove wall sconces and gang boxes in BR#1 and BR#2. Patch and finish holes.
+4. Add backsplash above counter and stove throughout kitchen. Some possibilities:
     1. [Greecian White Arabesque 12 in. x 12 in. x 10 mm Polished Marble Mesh-Mounted Mosaic Floor and Wall Tile (10sq.ft./case)](https://www.homedepot.com/p/MSI-Greecian-White-Arabesque-12-in-x-12-in-x-10-mm-Polished-Marble-Mesh-Mounted-Mosaic-Floor-and-Wall-Tile-10sq-ft-case-GRE-AREBESQ/205762446 "Home Depot Tile Backsplashes") Model # GRE-AREBESQ Internet #205762446 Store SO SKU #1001231000
-    2. [Calacatta Cressa Leaf 12 in. x 12 in. x 10 mm Honed Marble Mesh-Mounted Mosaic Tile (10 sq. ft. / case)](https://www.homedepot.com/p/MSI-Calacatta-Cressa-Leaf-12-in-x-12-in-x-10-mm-Honed-Marble-Mesh-Mounted-Mosaic-Tile-10-sq-ft-case-CALCRE-LEAFH/301165224 "Home Depot Tile") Model # CALCRE-LEAFH Internet #301165224
+    2. [Calacatta Cressa Leaf 12 in. x 12 in. x 10 mm Honed Marble Mesh-Mounted Mosaic Tile (10 sq. ft. / case)](https://www.homedepot.com/p/MSI-Calacatta-Cressa-Leaf-12-in-x-12-in-x-10-mm-Honed-Marble-Mesh-Mounted-Mosaic-Tile-10-sq-ft-case-CALCRE-LEAFH/301165224 "Home Depot Tile Backsplashes") Model # CALCRE-LEAFH Internet #301165224
 
    We prefer the Calacatta Cressa Leaf. Edge trim will be needed for the exposed ends in the living room and by the pantry window. Seal with a penetrating sealer. I assume the sealed marble can handle heat/steam from stove. Please advise.
 
-3. Remove stub wall beside refrigerator.
-4. Move refrigerator cubicle back to front door. Leave room for front
+5. Remove stub wall beside refrigerator.
+6. Move refrigerator cubicle back to front door. Leave room for front
    door-knob.
-5. Remove and patch dryer vent in kitchen.
-6. Seal and finish irrigation control penetration.
-7. Remove and seal current stove exhaust vent. Repair roof at vent location.
-8. Add stove vent above new stove location. Small rectangular vent pipe to
+7. Remove and patch dryer vent in kitchen.
+8. Seal and finish irrigation control penetration.
+9. Remove and seal current stove exhaust vent. Repair roof at vent location.
+10. Add stove vent above new stove location. Small rectangular vent pipe to
    minimize cupboard impact desired.
-9. Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
+11. Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
    hall, bath, living room and kitchen. Bamboo flooring is acceptable for
    living room and hall. Include insulating underlayment.
-10. Remove extraneous drywall from kitchen. Do we need to replace kitchen
+12. Remove extraneous drywall from kitchen. Do we need to replace kitchen
     drywall or just patch, mud and finish?
-11. Remove wire raceway in ceiling between kitchen and living room.
-12. Fill patch and tape kitchen and living room walls as needed.
-13. In living room and BR#2, tape, mud and finish ceiling. Semi-smooth finish.
-14. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
+13. Remove wire raceway in ceiling between kitchen and living room.
+14. Fill patch and tape kitchen and living room walls as needed.
+15. In living room and BR#2, tape, mud and finish ceiling. Semi-smooth finish.
+16. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
     Currently WW2 era plywood.
-15. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
+17. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
+18. The wall insulation is mostly/completely original layered paper from WW2. What is the best approach for upgrading the insulation? E.g., inject foam, remove siding and insulate, etc. We're planning to re-paint the outside at a later time, so that may affect the decision.
 
 ### Water Heater
 
