@@ -3,7 +3,7 @@ title: Walls, Doors and Cabinets
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Proposed changes to walls, interior doors and cabinets in kitchen and bath.
+summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 ---
 
 # Walls, Doors and Cabinets
