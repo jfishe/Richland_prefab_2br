@@ -12,6 +12,10 @@ summary: Richland, WA, 2 bedroom Prefab Remodel starting from the original floor
 
 * [Electrical Upgrade](Electrical.md)
 
+### Walls, Doors and Cabinets and Fixtures
+
+- [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md)
+
 ## Third Party Notices
 
 * [Third Party Notices](THIRD-PARTY-NOTICES.md)
@@ -19,9 +23,11 @@ summary: Richland, WA, 2 bedroom Prefab Remodel starting from the original floor
 ## References
 
 <!--
-pandoc  --to="html" --output="README.html" --standalone
-        --bibliography="biblio.bib"
+pandoc  --to="html5" --output="README.html" --standalone
+        --template="pandoc.html5"
         --bibliography="biblio.bib" --csl="ieee.csl" "README.md"
+
+. md_htmldoc/md_htmldoc.sh  # Convert *.md to Remodel_htmldoc\*.html
 -->
 
 ---
