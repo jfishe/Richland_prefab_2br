@@ -13,6 +13,10 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 1. Remove wall sconces and gang boxes in BR#1 and BR#2. Patch and finish holes.
 2. Add back-splash above counter and stove throughout kitchen. Some possibilities:
     1. [Greecian White Arabesque 12 in. x 12 in. x 10 mm Polished Marble Mesh-Mounted Mosaic Floor and Wall Tile (10sq.ft./case)](https://www.homedepot.com/p/MSI-Greecian-White-Arabesque-12-in-x-12-in-x-10-mm-Polished-Marble-Mesh-Mounted-Mosaic-Floor-and-Wall-Tile-10sq-ft-case-GRE-AREBESQ/205762446 "Home Depot Tile Backsplashes") Model # GRE-AREBESQ Internet #205762446 Store SO SKU #1001231000
+    2. [Calacatta Cressa Leaf 12 in. x 12 in. x 10 mm Honed Marble Mesh-Mounted Mosaic Tile (10 sq. ft. / case)](https://www.homedepot.com/p/MSI-Calacatta-Cressa-Leaf-12-in-x-12-in-x-10-mm-Honed-Marble-Mesh-Mounted-Mosaic-Tile-10-sq-ft-case-CALCRE-LEAFH/301165224 "Home Depot Tile") Model # CALCRE-LEAFH Internet #301165224
+
+   We prefer the Calacatta Cressa Leaf. Edge trim will be needed for the exposed ends in the living room and by the pantry window. Seal with a penetrating sealer. I assume the sealed marble can handle heat/steam from stove. Please advise.
+
 3. Remove stub wall beside refrigerator.
 4. Move refrigerator cubicle back to front door. Leave room for front
    door-knob.
