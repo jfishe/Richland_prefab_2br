@@ -6,7 +6,7 @@ email: jdfenw@gmail.com
 summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 ---
 
-# Walls, Doors and Cabinets
+# Walls, Doors and Cabinets and Fixtures
 
 ## Walls
 
