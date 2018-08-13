@@ -20,6 +20,7 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
    in case somebody decides to chew on a power cord. Did I use the right
    terminology?
 7. Much of the wiring is ungrounded. Please replace with grounded and separate circuits per code. E.g., many of the lighting circuits feed duplex outlets.
+8. What do recommend for storing household dishes and furniture during construction—i.e., from whom should we rent a storage pod?
 
 ## Bedrooms (BR#1 and BR#2)
 
@@ -85,8 +86,9 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
    wall. Does code require re-running power instead?
 6. Check/update outlets along walls. There is one near each corner and one
    by the hall doorway. All are normal, in-wall outlets.
-7. Add outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
-   existing cable outlet.
+7. Add duplex outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
+   existing cable outlet. The TV, DVD player, ink-jet printer and two laptops will share the outlet. The outlet should support addition of a surround sound in the future--i.e., amplifier plus seven speakers.
+8. Add floor, quadradplex outlet with cover under coffee table. This is for laptops (2) when we work from home. The coffee table will transform into a desk/dining-table.
 
 ## Outside
 
