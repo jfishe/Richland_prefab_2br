@@ -79,6 +79,7 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 
 1. Raise door jamb close to ceiling.
 2. Replace door with pocket door. Frosted glass or similar synthetic material is desired to allow natural light into hall.
+3. Add cabinet door for closet.
 
 ## Cabinets and Fixtures
 
@@ -133,4 +134,3 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
    water supply, drain and dryer vent locations.
 4. Replace inside door with barn door or pocket door. Wall depth may be
    sufficient for pocket door.
-5. Add cabinet door for closet.
