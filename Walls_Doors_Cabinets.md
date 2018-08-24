@@ -24,7 +24,7 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
    door-knob.
 7. Remove and patch dryer vent in kitchen.
 8. Seal and finish irrigation control penetration.
-9. Remove and seal current stove exhaust vent. Repair roof at vent location.
+9. Remove and seal current stove exhaust vent. Repair roof at vent location or should we retain the roof exhaust as an attic vent and minimize roof repairs?
 10. Add stove vent above new stove location. Small rectangular vent pipe to
    minimize cupboard impact desired.
 11. Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
