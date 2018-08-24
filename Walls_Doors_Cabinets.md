@@ -38,7 +38,10 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 16. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
     Currently WW2 era plywood.
 17. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
-18. The wall insulation is mostly/completely original layered paper from WW2. What is the best approach for upgrading the insulation? E.g., inject foam, remove siding and insulate, etc. We're planning to re-paint the outside at a later time, so that may affect the decision.
+18. The wall insulation is mostly/completely original layered paper from WW2.
+    What is the best approach for upgrading the insulation? E.g., inject foam,
+    remove siding and insulate, etc. We're planning to re-paint the outside at
+    a later time, so that may affect the decision.
 
 ### Water Heater
 
@@ -130,3 +133,4 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
    water supply, drain and dryer vent locations.
 4. Replace inside door with barn door or pocket door. Wall depth may be
    sufficient for pocket door.
+5. Add cabinet door for closet.
