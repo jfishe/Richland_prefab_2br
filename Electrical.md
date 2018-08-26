@@ -1,6 +1,7 @@
 ---
 title: Electrical Upgrade
 subtitle: Richland Prefab 2BR
+date: \today
 author: John D. Fisher
 email: jdfenw@gmail.com
 summary: Proposed changes to wiring, lighting, outlets, switches and electrical supply.
