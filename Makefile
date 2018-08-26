@@ -31,9 +31,15 @@ htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)
 # End Variables }}}
 
 # Rules {{{
-all: $(objects)
+all: pdf html
 
-# Recipe for converting a Markdown file into PDF using Pandoc
+.PHONY : all pdf html clean
+
+pdf: $(objects)
+
+html : $(htmlobjects)
+
+# Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf: $(source)/%.md biblio.bib ieee.csl pandoc.tex pdflink_filter.py
 	pandoc \
 		--filter pdflink_filter.py \
@@ -48,11 +54,9 @@ $(output)/%.pdf: $(source)/%.md biblio.bib ieee.csl pandoc.tex pdflink_filter.py
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
+# }}}
 
-.PHONY : clean html
-
-html : $(htmlobjects)
-
+# Recipe for converting a Markdown file into HTML5 using Pandoc {{{
 $(htmloutput)/%.html: $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py
 	pandoc \
 		--filter link_filter.py \
@@ -70,8 +74,12 @@ $(htmloutput)/%.html: $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutp
 $(htmloutput)/%.css : $(CURDIR)/%.css
 	cp $< $@
 
+# }}}
+
+# Recipe for clean {{{
 clean:
 	rm -f $(output)/*.pdf
 	rm -f $(html)/*.css
 	rm -f $(html)/*.html
+# }}}
 # End Rules }}}
