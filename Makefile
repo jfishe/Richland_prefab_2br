@@ -1,4 +1,4 @@
-# Generate PDFs from the Markdown source files
+# Generate HTML5 and PDFs from the Markdown source files
 #
 # Derived from https://gist.github.com/bertvv/e77e3a5d24d8c2a9bcc4
 #
