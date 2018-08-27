@@ -42,7 +42,7 @@ html : $(htmlobjects)
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf: $(source)/%.md biblio.bib ieee.csl pandoc.tex pdflink_filter.py
 	pandoc \
-		--filter pdflink_filter.py \
+		--filter link_filter.py \
 		--table-of-contents \
 		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee.csl" \
