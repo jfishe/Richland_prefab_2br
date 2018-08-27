@@ -4,8 +4,10 @@
 #
 # In order to use this makefile, you need some tools:
 # - GNU make
-# - Pandoc
+# - Pandoc >= 2.2
 # - XeLaTeX
+# - Python >= 3.6
+#   - panflute
 
 # Variables {{{
 # Directory containing source (Markdown) files
