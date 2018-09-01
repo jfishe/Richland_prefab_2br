@@ -74,13 +74,15 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 ### Bedroom #2
 
 1. Raise door jamb close to ceiling.
-2. Replace door with pocket door or barn door. Frosted glass or similar synthetic material is desired to allow natural light into hall.
+2. Replace door with pocket door or barn door. Frosted glass or similar
+   synthetic material is desired to allow natural light into hall.
+3. Add cabinet door for closet.
 
 ### Bathroom
 
 1. Raise door jamb close to ceiling.
-2. Replace door with pocket door. Frosted glass or similar synthetic material is desired to allow natural light into hall.
-3. Add cabinet door for closet.
+2. Replace door with pocket door. Frosted glass or similar synthetic material
+   is desired to allow natural light into hall.
 
 ## Cabinets and Fixtures
 
