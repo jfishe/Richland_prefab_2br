@@ -18,12 +18,12 @@ output := print
 
 # All markdown files in src/ are considered sources
 sources := $(wildcard $(source)/*.md)
-$(info sources is $(sources))
+# $(info sources is $(sources))
 
 # Convert the list of source files (Markdown files in current directory)
 # into a list of output files (PDFs in directory print/).
 objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
-$(info objects is $(objects))
+# $(info objects is $(objects))
 
 # Directory containing pdf files
 htmloutput := HTML5
@@ -31,7 +31,7 @@ htmloutput := HTML5
 # Convert the list of source files (Markdown files in current directory)
 # into a list of output files (PDFs in directory HTML5/).
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
-$(info htmlobjects is $(htmlobjects))
+# $(info htmlobjects is $(htmlobjects))
 
 # End Variables }}}
 
@@ -86,7 +86,8 @@ $(htmloutput)/%.css : $(CURDIR)/%.css
 .PHONY : clean
 clean:
 	rm -f $(output)/*.pdf
-	rm -f $(html)/*.css
-	rm -f $(html)/*.html
+	rm -f $(htmloutput)/*.css
+	rm -f $(htmloutput)/*.html
+	rm -rf __pycache__
 # }}}
 # End Rules }}}
