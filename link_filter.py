@@ -1,8 +1,10 @@
 #! /usr/bin/env python
-"""pandoc filter converts .md URL to .pdf
+"""pandoc filter converts .md URL to match destination extension.
+
+    E.g., destination extension of .pdf or .html
 
     Usage:
-        pandoc --filter=pdflink_filter.py
+        pandoc --filter=link_filter.py
 """
 
 import panflute as pf
