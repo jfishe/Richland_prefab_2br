@@ -18,10 +18,12 @@ output := print
 
 # All markdown files in src/ are considered sources
 sources := $(wildcard $(source)/*.md)
+$(info sources is $(sources))
 
 # Convert the list of source files (Markdown files in current directory)
 # into a list of output files (PDFs in directory print/).
 objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
+$(info objects is $(objects))
 
 # Directory containing pdf files
 htmloutput := HTML5
@@ -29,48 +31,50 @@ htmloutput := HTML5
 # Convert the list of source files (Markdown files in current directory)
 # into a list of output files (PDFs in directory HTML5/).
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
+$(info htmlobjects is $(htmlobjects))
 
 # End Variables }}}
 
 # Rules {{{
+.PHONY : all
 all: pdf html
 
-.PHONY : all pdf html clean
-
+.PHONY : pdf
 pdf: $(objects)
 
+.PHONY : html
 html : $(htmlobjects)
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf: $(source)/%.md biblio.bib ieee.csl pandoc.tex pdflink_filter.py
+$(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 	pandoc \
 		--filter link_filter.py \
 		--table-of-contents \
 		--number-sections \
-		--bibliography="biblio.bib" --csl="ieee.csl" \
+		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
 		--template="pandoc.tex" \
-		--variable documentclass=article \
-		--variable papersize=letterpaper \
-		--variable fontsize=12pt \
-		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
 # }}}
+#		--variable documentclass=article \
+#		--variable papersize=letterpaper \
+#		--variable fontsize=12pt \
+#		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-$(htmloutput)/%.html: $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py
 	pandoc \
+		--standalone \
 		--filter link_filter.py \
 		--table-of-contents \
 		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee.csl" \
 		--highlight-style=breezedark \
-		--template="pandoc.hml5" \
+		--template="pandoc.html5" \
 		--css="pandoc.css" \
 		--from=markdown  $< \
 		--to="html5" \
-		--standalone \
 		--output $@
 
 $(htmloutput)/%.css : $(CURDIR)/%.css
@@ -79,6 +83,7 @@ $(htmloutput)/%.css : $(CURDIR)/%.css
 # }}}
 
 # Recipe for clean {{{
+.PHONY : clean
 clean:
 	rm -f $(output)/*.pdf
 	rm -f $(html)/*.css
