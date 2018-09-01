@@ -8,12 +8,18 @@
 """
 
 import panflute as pf
+import sys
 
 def action(elem, doc):
-    docformats = ['html', 'pdf']
+    docformats = dict([('html5', 'html'),
+                       ('html', 'html'),
+                       ('latex', 'pdf')]
+                     )
     if isinstance(elem, pf.Link) and elem.url.endswith('.md'):
         if doc.format in docformats:
-            elem.url = elem.url[:-3] + '.' + doc.format
+            pf.debug(docformats[doc.format])
+            elem.url = elem.url[:-3] + '.' + docformats[doc.format]
+            pf.debug(elem.url)
             return elem
         else:
             return None
@@ -21,4 +27,5 @@ def action(elem, doc):
     return None
 
 if __name__ == '__main__':
+    pf.debug(str(sys.argv))
     pf.run_filter(action)
