@@ -7,8 +7,11 @@ email: jdfenw@gmail.com
 
 # Third Party Notices
 
-* The floor plan drawings include dimensions from @columbiaabc. They have not placed a copyright notice on the book.
-* [Store markdown documentation in the same folder as code, run this script, get html documentation in a dedicated folder][md_htmldoc] was adapted for convenient conversion of markdown to HTML5.
+* The floor plan drawings include dimensions from @columbiaabc. They have not
+  placed a copyright notice on the book.
+* [Store markdown documentation in the same folder as code, run this script,
+  get html documentation in a dedicated folder][md_htmldoc] was adapted for
+  convenient conversion of markdown to HTML5.
 * [LibreCAD][librecad] was used to create the 2D drawings.
 * [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
 
