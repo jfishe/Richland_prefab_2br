@@ -77,6 +77,7 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmlout
 		--from=markdown  $< \
 		--to="html5" \
 		--output $@
+	rm -rf tex2pdf.[0-9]*.
 
 $(htmloutput)/%.css : $(CURDIR)/%.css
 	cp $< $@
@@ -86,9 +87,9 @@ $(htmloutput)/%.css : $(CURDIR)/%.css
 # Recipe for clean {{{
 .PHONY : clean
 clean:
-	rm -f $(output)/*.pdf
+	rm -f $(objects)
 	rm -f $(htmloutput)/*.css
-	rm -f $(htmloutput)/*.html
+	rm -f $(htmlobjects)
 	rm -rf __pycache__
 # }}}
 # End Rules }}}
