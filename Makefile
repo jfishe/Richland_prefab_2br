@@ -20,18 +20,13 @@ output := print
 sources := $(wildcard $(source)/*.md)
 # $(info sources is $(sources))
 
-# Convert the list of source files (Markdown files in current directory)
-# into a list of output files (PDFs in directory print/).
-objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
-# $(info objects is $(objects))
-
-# Directory containing pdf files
+# Directory containing HTML5 files
 htmloutput := HTML5
 
 # Convert the list of source files (Markdown files in current directory)
-# into a list of output files (PDFs in directory HTML5/).
+# into a list of output files (PDFs in directory print/).
+objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
-# $(info htmlobjects is $(htmlobjects))
 
 # End Variables }}}
 
@@ -65,8 +60,8 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 #		--variable documentclass=article \
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-.SECONDARY : $(htmloutput)/pandoc.css
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py
+.SECONDARY : $(htmloutput)/pandoc.css $(htmloutput)/Home_Plan.zip
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py $(htmloutput)/Home_Plan.zip
 	pandoc \
 		--standalone \
 		--filter link_filter.py \
@@ -83,6 +78,10 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmlout
 $(htmloutput)/%.css : $(CURDIR)/%.css
 	cp $< $@
 
+$(htmloutput)/Home_Plan.zip : $(source)/Home_Plan.zip
+	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(htmloutput)
+	touch $(htmloutput)/Home_Plan.zip
+
 # }}}
 
 # Recipe for clean {{{
@@ -91,6 +90,8 @@ clean:
 	rm -f $(objects)
 	rm -f $(htmloutput)/*.css
 	rm -f $(htmlobjects)
+	rm -rf $(htmloutput)/Home_Plan.zip
+	rm -rf $(htmloutput)/lib
 	rm -rf __pycache__
 # }}}
 # End Rules }}}
