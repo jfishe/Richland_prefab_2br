@@ -1,28 +1,34 @@
 #! /usr/bin/env python
-"""pandoc filter converts .md URL to match destination extension.
+"""pandoc filter converts URL extension to match destination extension.
 
-    E.g., destination extension of .pdf or .html
+    Convert .md extension to .pdf or .html, depending on output format.
+
+    Convert .sh3d to output extension.
 
     Usage:
         pandoc --filter=link_filter.py
 """
 
-import panflute as pf
+from os.path import splitext
+from urllib.parse import urlparse
+
 import sys
+import panflute as pf
 
 def action(elem, doc):
+    """Convert URL extensions to correct extension for output format"""
     docformats = dict([('html5', 'html'),
                        ('html', 'html'),
                        ('latex', 'pdf')]
                      )
-    if isinstance(elem, pf.Link) and elem.url.endswith('.md'):
+    extensions = ('.sh3d', '.md')
+    if isinstance(elem, pf.Link) and elem.url.endswith(extensions):
         if doc.format in docformats:
+            extension = splitext(urlparse(elem.url).path)[1]
             pf.debug(docformats[doc.format])
-            elem.url = elem.url[:-3] + '.' + docformats[doc.format]
+            elem.url = elem.url[:-len(extension)] + '.' + docformats[doc.format]
             pf.debug(elem.url)
             return elem
-        else:
-            return None
 
     return None
 
