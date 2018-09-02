@@ -67,7 +67,7 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmlout
 		--filter link_filter.py \
 		--table-of-contents \
 		--number-sections \
-		--bibliography="biblio.bib" --csl="ieee.csl" \
+		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
 		--highlight-style=breezedark \
 		--template="pandoc.html5" \
 		--css="pandoc.css" \
@@ -93,5 +93,10 @@ clean:
 	rm -rf $(htmloutput)/Home_Plan.zip
 	rm -rf $(htmloutput)/lib
 	rm -rf __pycache__
+# }}}
+# Recipe for web-browser {{{
+.PHONY : browse
+browse:
+	cd HTML5 && (python -m http.server &) && "$$BROWSER" http://localhost:8000/README.html
 # }}}
 # End Rules }}}
