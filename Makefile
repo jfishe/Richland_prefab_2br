@@ -60,10 +60,12 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
+	rm -rf tex2pdf.[0-9]*
 # }}}
 #		--variable documentclass=article \
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
+.SECONDARY : $(htmloutput)/pandoc.css
 $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py
 	pandoc \
 		--standalone \
@@ -77,7 +79,6 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmlout
 		--from=markdown  $< \
 		--to="html5" \
 		--output $@
-	rm -rf tex2pdf.[0-9]*.
 
 $(htmloutput)/%.css : $(CURDIR)/%.css
 	cp $< $@
