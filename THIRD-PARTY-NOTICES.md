@@ -14,12 +14,16 @@ email: jdfenw@gmail.com
   convenient conversion of markdown to HTML5.
 * [LibreCAD][librecad] was used to create the 2D drawings.
 * [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
+  - Use [Export to HTML5 plug-in][HTML5_plug] to export Home_Plan.zip, which the
+    Makefile uses to build HTML5 from the Markdown files.
 
-[sweethome3d]: http://www.sweethome3d.com/ "Sweet Home 3D - Draw floor plans and arrange furniture freely"
+[sweethome3d]: (http://www.sweethome3d.com/ "Sweet Home 3D - Draw floor plans and arrange furniture freely")
 
-[librecad]: https://librecad.org/ "LibreCAD Open Source 2D-CAD"
+[HTML5_plug]: (http://www.sweethome3d.com/blog/2016/05/05/export_to_html5_plug_in.html "Export to HTML5 plug-in")
 
-[md_htmldoc]: https://github.com/MatrixManAtYrService/md_htmldoc "MatrixManAtYrService/md_htmldoc"
+[librecad]: (https://librecad.org/ "LibreCAD Open Source 2D-CAD")
+
+[md_htmldoc]: (https://github.com/MatrixManAtYrService/md_htmldoc "MatrixManAtYrService/md_htmldoc")
 
 ## References
 

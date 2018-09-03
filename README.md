@@ -53,7 +53,7 @@ The [SweetHome 3D Home Plan](Home_Plan.sh3d) shows the layout and general idea o
               })'>View home</button>
 </div>
 
-There is some overlap between the [electrical](#electrical) and the other [work](#walls-doors-and-cabinets-and-fixtures). Please let me know where it's confusing and/or redundant and I'll fix.
+The [`Makefile`](Makefile.md) builds printable PDF's and local HTML5 files with a javascript viewer of the Sweet Home 3D plan. A Sweet Home 3D plugin is required to generate the javascript viewer. See [Third Party Notices][Third-Party-Notices] for information about downloading the plugin.
 
 ### Electrical
 
