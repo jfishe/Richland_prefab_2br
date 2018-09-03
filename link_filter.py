@@ -25,13 +25,13 @@ def action(elem, doc):
     if isinstance(elem, pf.Link) and elem.url.endswith(extensions):
         if doc.format in docformats:
             extension = splitext(urlparse(elem.url).path)[1]
-            pf.debug(docformats[doc.format])
+            # pf.debug(docformats[doc.format])
             elem.url = elem.url[:-len(extension)] + '.' + docformats[doc.format]
-            pf.debug(elem.url)
+            # pf.debug(elem.url)
             return elem
 
     return None
 
 if __name__ == '__main__':
-    pf.debug(str(sys.argv))
+    # pf.debug(str(sys.argv))
     pf.run_filter(action)
