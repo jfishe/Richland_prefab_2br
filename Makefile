@@ -57,6 +57,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 		--variable papersize=letterpaper \
 		--variable links-as-notes \
 		--filter link_filter.py \
+		--lua-filter date.lua \
 		--table-of-contents \
 		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
@@ -74,6 +75,7 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filt
 	pandoc \
 		--standalone \
 		--filter link_filter.py \
+		--lua-filter date.lua \
 		--table-of-contents \
 		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \

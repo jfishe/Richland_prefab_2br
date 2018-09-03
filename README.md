@@ -2,7 +2,6 @@
 title: README
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
-date: \today
 email: jdfenw@gmail.com
 summary: Richland, WA, 2 bedroom Prefab Remodel starting from the original floor plans, which are available from [@columbiaabc]. The dimensions have been updated to match the actual house.
 header-includes:
