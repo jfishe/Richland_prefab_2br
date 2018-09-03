@@ -1,0 +1,10 @@
+---
+title: Makefile
+subtitle: Richland Prefab 2BR
+author: John D. Fisher
+date: \today
+email: jdfenw@gmail.com
+summary: Makefile builds local HTML5 and PDF files.
+---
+
+!INCLUDECODE "Makefile" (make)
