@@ -8,16 +8,23 @@
 # - XeLaTeX
 # - Python >= 3.6
 #   - panflute
+#   - MarkdownPP
 
-# Variables {{{
+# # Variables {{{
 # Directory containing source (Markdown) files
 source := $(CURDIR)
+
+# Miscellaneous files to copy or process into HTML5 directory.
+miscfiles := pandoc.css Home_Plan.zip
+miscfiles := $(foreach var, $(miscfiles), $(source)/$(var))
+# $(info miscfiles is $(miscfiles))
 
 # Directory containing pdf files
 output := print
 
 # All markdown files in src/ are considered sources
 sources := $(wildcard $(source)/*.md)
+sources += $(source)/Makefile.md
 # $(info sources is $(sources))
 
 # Directory containing HTML5 files
@@ -27,6 +34,8 @@ htmloutput := HTML5
 # into a list of output files (PDFs in directory print/).
 objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
+miscobjects := $(subst $(source),$(htmloutput),$(miscfiles))
+# $(info miscobjects is $(miscobjects))
 
 # End Variables }}}
 
@@ -60,8 +69,8 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 #		--variable documentclass=article \
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-.SECONDARY : $(htmloutput)/pandoc.css $(htmloutput)/Home_Plan.zip
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmloutput)/pandoc.css link_filter.py $(htmloutput)/Home_Plan.zip
+.SECONDARY : $(miscobjects)
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py $(miscobjects)
 	pandoc \
 		--standalone \
 		--filter link_filter.py \
@@ -75,13 +84,18 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 $(htmlout
 		--to="html5" \
 		--output $@
 
-$(htmloutput)/%.css : $(CURDIR)/%.css
-	cp $< $@
+# $(htmloutput)/%.css : $(CURDIR)/%.css
+# 	cp $< $@
 
 $(htmloutput)/Home_Plan.zip : $(source)/Home_Plan.zip
 	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(htmloutput)
 	touch $(htmloutput)/Home_Plan.zip
 
+$(source)/%.md : $(source)/%.mdpp
+	markdown-pp $< --output $@
+
+$(htmloutput)/% : $(CURDIR)/%
+	cp $< $@
 # }}}
 
 # Recipe for clean {{{
