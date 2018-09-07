@@ -75,20 +75,20 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
 8. Remove drain for washer and seal drain vent. Drain vents into attic, so could be sealed from above. Patching may not be required as the pantry cabinet will likely cover the damage.
 9. Check/update refrigerator outlet.
 10. Add outlet for TV on wall outside refrigerator cubicle.
-12. Remove existing stove power and relocate to new location.
+11. Remove existing stove power and relocate to new location.
 
 ## Living Room
 
 1. Replace light switch for ceiling light with dimmer switch.
 2. Check the gang box for the ceiling light. Is it up to code?
-4. Remove defunct gang boxes from walls. Patch walls.
-5. Install a gang box for the Mitsubishi Split; it's currently in a hole in the
+3. Remove defunct gang boxes from walls. Patch walls.
+4. Install a gang box for the Mitsubishi Split; it's currently in a hole in the
    wall. Does code require re-running power instead?
-6. Check/update outlets along walls. There is one near each corner and one
+5. Check/update outlets along walls. There is one near each corner and one
    by the hall doorway. All are normal, in-wall outlets.
-7. Add duplex outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
+6. Add duplex outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
    existing cable outlet. The TV, DVD player, ink-jet printer and two laptops will share the outlet. The outlet should support addition of a surround sound in the future--i.e., amplifier plus seven speakers.
-8. Add floor, quadradplex outlet with cover under coffee table. This is for laptops (2) when we work from home. The coffee table will transform into a desk/dining-table.
+7. Add floor, quadradplex outlet with cover under coffee table. This is for laptops (2) when we work from home. The coffee table will transform into a desk/dining-table.
 
 ## Outside
 
@@ -109,6 +109,11 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
 1. Move water heater from attic to outside.
 2. Add power for the water heater and heat tape.
 3. Attic heat tape is new and may be re-used.
+4. Irrigation control will be located in the water heater cubicle. Add
+   electrical supply at new location. It should be un-pluggable or provide a
+   shutoff switch for winter. An associated circuit breaker would work.
+5. Re-run irrigation valve wires from valve box to cubicle.
+
 
 ## Crawl Space
 

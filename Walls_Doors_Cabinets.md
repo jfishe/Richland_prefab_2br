@@ -43,18 +43,32 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
     remove siding and insulate, etc. We're planning to re-paint the outside at
     a later time, so that may affect the decision.
 
+### BR#2
+
+1. BR#2 will be used as a laundry room and smoking lounge.
+2. Add a high flow, very low noise ceiling exhaust fan for controlling humidity
+   and exhausting smoke.
+
 ### Water Heater
 
 1. Current location is the attic. Remove existing piping as needed and plumb
    new location.
-2. Move water heater from attic to outside, between kitchen and bath windows
+2. Move water heater from attic to outside; between kitchen and bath windows
    appears best.
 3. Construct cubicle with insulation and heat tape pipes. May be able to reuse
    heat tape from attic as it was installed December 2017.
 4. Include drain pan and relief valve drain line(s), similar to attic
-   installation. They can exhaust on to lawn.
-5. Replace water heater drain valve with quarter-turn large bore valve. The
+   installation. They can exhaust on to lawn. Drain lines should be extendable
+   to allow adding deck or screened porch in the future. Hose fittings would
+   work.
+5. Replace existing drain valve with large bore quarter turn valve.
+6. Replace water heater drain valve with quarter-turn large bore valve. The
    discharge side should be hose-thread to make drain and flush easier.
+7. Re-locate and replace irrigation control inside water heater cubicle.
+8. Cubicle floor and door should be elevated to allow addition of deck or
+   screened porch in the future.
+9. Cubicle and door should be large enough to allow easy removal of the water heater.
+10. Water heater access panels, drain, etc. should face the door.
 
 ### Crawl Space
 
@@ -100,7 +114,7 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 11. Minimize sink drain obstruction in cabinet.
 12. Does the dishwasher need to share a drain with the sink? If not please add a shutoff valve (large bore, quarter turn) for the dishwasher connection to sink drain, so we can plunge the sink drain as needed without backing up into the dishwasher drain line.
 13. Relocate dishwasher drain vent.
-14. Relocate and replace irrigation control station from kitchen to outside near irrigation valve box. Add electrical supply at new location. It should be un-pluggable or provide a shutoff switch for winter. An associated circuit breaker would work.
+14. Relocate and replace irrigation control station from kitchen to new water heater cubicle.
 
 ### Bathroom
 
