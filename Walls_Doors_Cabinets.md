@@ -96,11 +96,11 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 7. Double lower cupboards should have pull out shelves, adjustable height if practical. Sink cupboard should have pull out shelves that work around the plumbing.
 8. Spice drawers adjacent to the dishwasher are desired.
 9. Installation cutout drawing are available for the dishwasher, stove and refrigerator.
-9. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-10. Minimize sink drain obstruction in cabinet.
-11. Does the dishwasher need to share a drain with the sink? If not please add a shutoff valve (large bore, quarter turn) for the dishwasher connection to sink drain, so we can plunge the sink drain as needed without backing up into the dishwasher drain line.
-12. Relocate dishwasher drain vent.
-13. Relocate and replace irrigation control station from kitchen to outside near irrigation valve box. Add electrical supply at new location. It should be un-pluggable or provide a shutoff switch for winter. An associated circuit breaker would work.
+10. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
+11. Minimize sink drain obstruction in cabinet.
+12. Does the dishwasher need to share a drain with the sink? If not please add a shutoff valve (large bore, quarter turn) for the dishwasher connection to sink drain, so we can plunge the sink drain as needed without backing up into the dishwasher drain line.
+13. Relocate dishwasher drain vent.
+14. Relocate and replace irrigation control station from kitchen to outside near irrigation valve box. Add electrical supply at new location. It should be un-pluggable or provide a shutoff switch for winter. An associated circuit breaker would work.
 
 ### Bathroom
 
@@ -111,22 +111,29 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 2. Add cabinets and shelves around toilet. Storage for towels, 14 rolls of
    toilet paper and bathroom cleaning supplies.
 3. Add shelves adjacent to vanity for electric toothbrushes, hot curler box,
-   hair dryer and Braun electric shaver. Hair dryer could be hung from a hook.
+   hair dryer and Braun electric shaver. Hair dryer could be hung from a hook
+   or preferably a stainless steel holster. There is room between the sink and
+   exterior wall.
 4. Retain bath towel bars near current location.
 5. Add hand towel rack on side of or adjacent to vanity.
 6. New mirror cabinet: [GODMORGON Mirror cabinet with 2 doors](https://www.ikea.com/us/en/catalog/products/10218999/ "GODMORGON") Article Number: 102.189.99 Size: 23-5/8 x 5-1/2 x 37-3/4 inches.
 7. New sink faucet: [DALSKÄR Bath faucet with strainer, chrome plated](https://www.ikea.com/us/en/catalog/products/20281297/ "DALSKÄR") Article Number: 202.812.97 Height: 7-1/8 inches.
 8. New sink: IKEA [GODMORGON / ODENSVIK Sink cabinet with 2 drawers, white stained oak white stained oak effect](https://www.ikea.com/us/en/catalog/products/S29247322/#/S69903252 "GODMORGON / ODENSVIK") Article Number: 699.032.52 Size 24-3/4 x 19-1/4 x 25 1/4 inches. Add GODMORGON legs since wall-mount is not likely to be strong enough.
 9. Shower head: [HansGrohe Showerhead 260 Square 1-Jet Trim, 2.5 GPM](http://www.hansgrohe-usa.com/articledetail.html?article=26481001&fsid=0x0000713100007511#l=product-recommendation-similar "HansGrohe Showerhead") mounted in the ceiling, in the center of the shower cabinet.
-    1. Shower: Surface mounted utility faucet and shower control/diverter that
-       can be moved out of the way, when the shower is in use. Should be
-       mounted near the door opening, so it can be controlled without reaching
-       through the spray. E.g., wall adjacent to kitchen near the corner of the
-       shower.
-    2. Utility faucet should be high enough to fill a commercial mop bucket
+    1. Surface mounted utility faucet that can be moved out of the way,
+       when the shower is in use. The water supply should tee, so a shower
+       diverter is not needed.
+    2. Utility faucet Should be mounted near the door opening, so it can be
+       controlled without reaching through the spray. E.g., wall adjacent to
+       kitchen near the corner of the shower. E.g: [Whitehaus WHFS9814-08-C Heavy Duty wall mount utility faucet with an extended swivel spout and lever handles - Polished Chrome](https://www.amazon.com/Whitehaus-WHFS9814-08-C-utility-extended-handles/dp/B00HVJ1AC0/ref=sr_1_8?s=kitchen-bath&ie=UTF8&qid=1535126534&sr=1-8&keywords=wall+mounted+laundry+faucet&refinements=p_n_style_browse-bin%3A542706011)
+    3. Utility faucet should be high enough to fill a commercial mop bucket
        (~24 inches).
-    3. Shower should support in-line water filter, either existing design or
+    4. Shower should support in-line water filter, either existing design or
        compatible with new mounting.
+    5. The shower control should be temperature regulated, e.g.:
+        - [ShowerTablet Thermostatic Trim 600 for Exposed Installation for 2 Functions](http://www.hansgrohe-usa.com/articledetail-showertablet-thermostatic-trim-600-for-exposed-installation-for-2-functions-13108401.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=) is preferred and claims to be compatible with shower head.
+        - [Ecostat S Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail.html?lang=en_US&article=15757001)
+        - [PuraVida Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail-puravida-thermostatic-trim-with-volume-control-15775001.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=)
 
 ### Bedroom #2 (BR#2)
 
