@@ -51,6 +51,8 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
    cable outlet near ceiling on same wall. Run cable from breaker box. The
    cable modem will reside on a shelf near ceiling.
 8. Add duplex outlet near new cable outlet.
+9. Replace light switch with duplex for ceiling light and fan. Note light
+   switch should support dimmer.
 
 ## Bathroom
 
@@ -73,7 +75,8 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
 6. Add/replace duplex outlets above counter. We have numerous small appliances.
 7. Remove dryer outlet and electrical panel. Seal and finish penetrations.
 8. Remove drain for washer and seal drain vent. Drain vents into attic, so could be sealed from above. Patching may not be required as the pantry cabinet will likely cover the damage.
-9. Check/update refrigerator outlet.
+9. Check/update refrigerator outlet. Note refrigerator wall is being move
+   closer to front door, so outlet will require re-wriring.
 10. Add outlet for TV on wall outside refrigerator cubicle.
 11. Remove existing stove power and relocate to new location.
 
@@ -88,7 +91,9 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
    by the hall doorway. All are normal, in-wall outlets.
 6. Add duplex outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
    existing cable outlet. The TV, DVD player, ink-jet printer and two laptops will share the outlet. The outlet should support addition of a surround sound in the future--i.e., amplifier plus seven speakers.
-7. Add floor, quadradplex outlet with cover under coffee table. This is for laptops (2) when we work from home. The coffee table will transform into a desk/dining-table.
+7. Add floor, quadradplex outlet with cover under coffee table. This is for
+   laptops (2) when we work from home. The coffee table will transform into a
+   desk/dining-table. We have ordered the coffee table: [Transforming X Coffee and Dining Table in Light Wood Finish (Backordered)](https://www.spacemaster.co/shop-online/LightWood-Xtable).
 
 ## Outside
 
@@ -101,8 +106,6 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
    interior. They are currently 3-wire, but the ground is not connected.
 4. I'm happy with their current locations. Let me know if we're required to
    have more.
-5. Relocate (from kitchen) and replace sprinkler control to outside, near
-   sprinkler valve box. Add power to new location.
 
 ## Water Heater
 
@@ -112,7 +115,8 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
 4. Irrigation control will be located in the water heater cubicle. Add
    electrical supply at new location. It should be un-pluggable or provide a
    shutoff switch for winter. An associated circuit breaker would work.
-5. Re-run irrigation valve wires from valve box to cubicle.
+5. Re-run irrigation valve wires from valve box to cubicle. It is not necessary
+   to excavate the existing wires from the front garden.
 
 
 ## Crawl Space
