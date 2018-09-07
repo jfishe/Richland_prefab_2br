@@ -11,7 +11,8 @@ email: jdfenw@gmail.com
   placed a copyright notice on the book.
 * [Store markdown documentation in the same folder as code, run this script,
   get html documentation in a dedicated folder][md_htmldoc] was adapted for
-  convenient conversion of markdown to HTML5.
+  convenient conversion of markdown to HTML5 and PDF.
+- [Today's date implemented as a pandoc lua filter](https://pandoc.org/lua-filters.html#setting-the-date-in-the-metadata "Setting the date in the metadata")
 * [LibreCAD][librecad] was used to create the 2D drawings.
 * [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
   - Use [Export to HTML5 plug-in][HTML5_plug] to export Home_Plan.zip, which the
