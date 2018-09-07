@@ -109,12 +109,13 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 6. Lower corner cupboard, near sink, should have a lazy susan or pull out shelving so that maximum space can be accessed.
 7. Double lower cupboards should have pull out shelves, adjustable height if practical. Sink cupboard should have pull out shelves that work around the plumbing.
 8. Spice drawers adjacent to the dishwasher are desired.
-9. Installation cutout drawing are available for the dishwasher, stove and refrigerator.
-10. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-11. Minimize sink drain obstruction in cabinet.
-12. Does the dishwasher need to share a drain with the sink? If not please add a shutoff valve (large bore, quarter turn) for the dishwasher connection to sink drain, so we can plunge the sink drain as needed without backing up into the dishwasher drain line.
-13. Relocate dishwasher drain vent.
-14. Relocate and replace irrigation control station from kitchen to new water heater cubicle.
+9. Dovetail drawer fronts are desired.
+10. Installation cutout drawing are available for the dishwasher, stove and refrigerator.
+11. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
+12. Minimize sink drain obstruction in cabinet.
+13. Does the dishwasher need to share a drain with the sink? If not please add a shutoff valve (large bore, quarter turn) for the dishwasher connection to sink drain, so we can plunge the sink drain as needed without backing up into the dishwasher drain line.
+14. Relocate dishwasher drain vent.
+15. Relocate and replace irrigation control station from kitchen to new water heater cubicle.
 
 ### Bathroom
 
