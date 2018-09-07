@@ -12,7 +12,8 @@ email: jdfenw@gmail.com
 * [Store markdown documentation in the same folder as code, run this script,
   get html documentation in a dedicated folder][md_htmldoc] was adapted for
   convenient conversion of markdown to HTML5 and PDF.
-- [Today's date implemented as a pandoc lua filter](https://pandoc.org/lua-filters.html#setting-the-date-in-the-metadata "Setting the date in the metadata")
+- The [date lua filter][date.lua], to add today's date to the pdf and html
+  output, is taken from [pandoc lua filters][date_lua].
 * [LibreCAD][librecad] was used to create the 2D drawings.
 * [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
   - Use [Export to HTML5 plug-in][HTML5_plug] to export Home_Plan.zip, which the
@@ -25,6 +26,9 @@ email: jdfenw@gmail.com
 [librecad]: (https://librecad.org/ "LibreCAD Open Source 2D-CAD")
 
 [md_htmldoc]: (https://github.com/MatrixManAtYrService/md_htmldoc "MatrixManAtYrService/md_htmldoc")
+
+[date_lua]: (https://pandoc.org/lua-filters.html#setting-the-date-in-the-metadata "Setting the date in the metadata")
+
 
 ## References
 
