@@ -17,16 +17,20 @@ import panflute as pf
 
 def action(elem, doc):
     """Convert URL extensions to correct extension for output format"""
-    docformats = dict([('html5', 'html'),
-                       ('html', 'html'),
-                       ('latex', 'pdf')]
+    # docformats = dict([('html5', '.html'),
+    #                    ('html', '.html'),
+    #                    ('latex', '.pdf')]
+    #                  )
+    docformats = dict([('html5', ''),
+                       ('html', '.html'),
+                       ('latex', '.pdf')]
                      )
     extensions = ('.sh3d', '.md')
     if isinstance(elem, pf.Link) and elem.url.endswith(extensions):
         if doc.format in docformats:
             extension = splitext(urlparse(elem.url).path)[1]
             # pf.debug(docformats[doc.format])
-            elem.url = elem.url[:-len(extension)] + '.' + docformats[doc.format]
+            elem.url = elem.url[:-len(extension)] + docformats[doc.format]
             # pf.debug(elem.url)
             return elem
 
