@@ -19,15 +19,15 @@ email: jdfenw@gmail.com
   - Use [Export to HTML5 plug-in][HTML5_plug] to export Home_Plan.zip, which the
     Makefile uses to build HTML5 from the Markdown files.
 
-[sweethome3d]: (http://www.sweethome3d.com/ "Sweet Home 3D - Draw floor plans and arrange furniture freely")
+[sweethome3d]: http://www.sweethome3d.com/ "Sweet Home 3D - Draw floor plans and arrange furniture freely"
 
-[HTML5_plug]: (http://www.sweethome3d.com/blog/2016/05/05/export_to_html5_plug_in.html "Export to HTML5 plug-in")
+[HTML5_plug]: http://www.sweethome3d.com/blog/2016/05/05/export_to_html5_plug_in.html "Export to HTML5 plug-in"
 
-[librecad]: (https://librecad.org/ "LibreCAD Open Source 2D-CAD")
+[librecad]: https://librecad.org/ "LibreCAD Open Source 2D-CAD"
 
-[md_htmldoc]: (https://github.com/MatrixManAtYrService/md_htmldoc "MatrixManAtYrService/md_htmldoc")
+[md_htmldoc]: https://github.com/MatrixManAtYrService/md_htmldoc "MatrixManAtYrService/md_htmldoc"
 
-[date_lua]: (https://pandoc.org/lua-filters.html#setting-the-date-in-the-metadata "Setting the date in the metadata")
+[date_lua]: https://pandoc.org/lua-filters.html#setting-the-date-in-the-metadata "Setting the date in the metadata"
 
 
 ## References
