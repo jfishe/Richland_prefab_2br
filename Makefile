@@ -15,9 +15,9 @@
 source := $(CURDIR)
 
 # Miscellaneous files to copy or process into HTML5 directory.
-miscfiles := pandoc.css Home_Plan.zip
-miscfiles := $(foreach var, $(miscfiles), $(source)/$(var))
-# $(info miscfiles is $(miscfiles))
+staticfiles := pandoc.css Home_Plan.zip
+staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
+$(info staticfiles is $(staticfiles))
 
 # Directory containing pdf files
 output := print
@@ -28,14 +28,15 @@ sources += $(source)/Makefile.md
 # $(info sources is $(sources))
 
 # Directory containing HTML5 files
-htmloutput := HTML5
+htmloutput := remodel_richland.droppages.com/Content
+staticoutput := remodel_richland.droppages.com/Public
 
 # Convert the list of source files (Markdown files in current directory)
 # into a list of output files (PDFs in directory print/).
 objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
-miscobjects := $(subst $(source),$(htmloutput),$(miscfiles))
-# $(info miscobjects is $(miscobjects))
+staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
+$(info staticobjects is $(staticobjects))
 
 # End Variables }}}
 
@@ -70,8 +71,8 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 #		--variable documentclass=article \
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-.SECONDARY : $(miscobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py $(miscobjects)
+.SECONDARY : $(staticobjects)
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py $(staticobjects)
 	pandoc \
 		--standalone \
 		--filter link_filter.py \
@@ -89,14 +90,14 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filt
 # $(htmloutput)/%.css : $(CURDIR)/%.css
 # 	cp $< $@
 
-$(htmloutput)/Home_Plan.zip : $(source)/Home_Plan.zip
-	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(htmloutput)
-	touch $(htmloutput)/Home_Plan.zip
+$(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip
+	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(staticoutput)
+	touch $(staticoutput)/Home_Plan.zip
 
 $(source)/%.md : $(source)/%.mdpp
 	markdown-pp $< --output $@
 
-$(htmloutput)/% : $(CURDIR)/%
+$(staticoutput)/% : $(CURDIR)/%
 	cp $< $@
 # }}}
 
@@ -104,10 +105,10 @@ $(htmloutput)/% : $(CURDIR)/%
 .PHONY : clean
 clean:
 	rm -f $(objects)
-	rm -f $(htmloutput)/*.css
-	rm -f $(htmlobjects)
-	rm -rf $(htmloutput)/Home_Plan.zip
-	rm -rf $(htmloutput)/lib
+	rm -f $(htmloutput)/*.html
+	rm -f $(staticoutput)/*.css
+	rm -rf $(staticoutput)/Home_Plan.zip
+	rm -rf $(staticoutput)/lib
 	rm -rf __pycache__
 # }}}
 # Recipe for web-browser {{{
