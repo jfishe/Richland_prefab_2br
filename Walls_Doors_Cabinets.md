@@ -185,3 +185,15 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
    water supply, drain and dryer vent locations.
 4. Replace inside door with barn door or pocket door. Wall depth may be
    sufficient for pocket door.
+
+### Living Room
+
+1. Electronics Cabinet Under TV:
+    1. Similar style as kitchen cabinets
+    2. Printer enclosure with filter & fan
+    3. Shelf for 2 laptops
+    4. Surge protector for laptops, printer, TV and DVD player
+    5. Space on top for DVD player
+    6. Four drawer file cabinet with lock for both drawers. Preferably two
+       drawers on each end.
+    7. Cupboard for printer paper ~10 reams
