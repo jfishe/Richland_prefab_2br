@@ -192,7 +192,7 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
 ### Living Room
 
 1. Electronics Cabinet Under TV:
-    1. Similar style as kitchen cabinets
+    1. Similar style as kitchen cabinets. Depth 18 in. for file cabinets.
     2. Printer enclosure with filter & fan
     3. Shelf for 2 laptops
     4. Surge protector for laptops, printer, TV and DVD player
