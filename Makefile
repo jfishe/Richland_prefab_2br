@@ -51,7 +51,7 @@ pdf: $(objects)
 html : $(htmlobjects)
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
+$(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py date.lua
 	pandoc \
 		--variable fontsize=12pt \
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
@@ -72,7 +72,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
 .SECONDARY : $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py $(staticobjects)
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py date.lua $(staticobjects)
 	pandoc \
 		--standalone \
 		--filter link_filter.py \
