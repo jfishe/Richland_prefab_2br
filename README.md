@@ -29,7 +29,14 @@ header-includes:
 
 # Richland Prefab 2BR
 
-The [SweetHome 3D Home Plan](Home_Plan.sh3d) shows the layout and general idea of the color choices, materials, fittings and furnishings. See [Third party notices](#third-party-notices) for the SweetHome 3D free and open source software required to view/edit the Home Plan. The dimensions are close to actual, but there may be discrepancies.
+The [home page](http://remodel_richland.droppages.com/README) shows the layout
+and general idea of the color choices, materials, fittings and furnishings in
+a format viewable from modern web browsers (Chrome and Edge have been tested).
+[SweetHome 3D Home Plan](Home_Plan.sh3d) contains the native drawing format.
+
+See [Third party notices](#third-party-notices) for the SweetHome 3D free and
+open source software required to view/edit the Home Plan. The dimensions are
+close to actual, but there may be discrepancies.
 
 <div>
   <!-- Copy the following button in your page -->
