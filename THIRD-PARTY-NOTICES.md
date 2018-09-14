@@ -12,7 +12,7 @@ email: jdfenw@gmail.com
 * [Store markdown documentation in the same folder as code, run this script,
   get html documentation in a dedicated folder][md_htmldoc] was adapted for
   convenient conversion of markdown to HTML5 and PDF.
-- The [date lua filter][date.lua], to add today's date to the pdf and html
+- The [date lua filter](date.lua), to add today's date to the pdf and html
   output, is taken from [pandoc lua filters][date_lua].
 * [LibreCAD][librecad] was used to create the 2D drawings.
 * [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
