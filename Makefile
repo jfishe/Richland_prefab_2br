@@ -17,7 +17,7 @@ source := $(CURDIR)
 # Miscellaneous files to copy or process into HTML5 directory.
 staticfiles := pandoc.css Home_Plan.zip
 staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
-$(info staticfiles is $(staticfiles))
+# $(info staticfiles is $(staticfiles))
 
 # Directory containing pdf files
 output := print
@@ -36,7 +36,7 @@ staticoutput := remodel_richland.droppages.com/Public
 objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
 staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
-$(info staticobjects is $(staticobjects))
+# $(info staticobjects is $(staticobjects))
 
 # End Variables }}}
 
@@ -114,6 +114,8 @@ clean:
 # Recipe for web-browser {{{
 .PHONY : browse
 browse:
-	cd HTML5 && (python -m http.server &) && "$$BROWSER" http://localhost:8000/README.html
+	"$$BROWSER" http://remodel_richland.droppages.com
+# browse:
+# 	cd HTML5 && (python -m http.server &) && "$$BROWSER" http://localhost:8000/README.html
 # }}}
 # End Rules }}}
