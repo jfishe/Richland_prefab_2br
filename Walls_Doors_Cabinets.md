@@ -116,30 +116,31 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 5. Add appliance garage near wine rack for 5-qt Kitchen-Aid mixer, blender and
    food processor. Garage should have fold away door, so that counter space is
    accessible when the garage is open.
-6. Lower corner cupboard, near sink, should have a lazy susan or pull out
+6. Wine rack should have a door to protect wine from light damage.
+7. Lower corner cupboard, near sink, should have a lazy susan or pull out
    shelving so that maximum space can be accessed.
-7. Double lower cupboards should have pull out shelves, adjustable height if
+8. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-8. Spice drawers adjacent to the dishwasher are desired.
-9. Dovetail drawer fronts are desired.
-10. Installation cutout drawings are available for the dishwasher, stove and
+9. Spice drawers adjacent to the dishwasher are desired.
+10. Dovetail drawer fronts are desired.
+11. Installation cutout drawings are available for the dishwasher, stove and
     refrigerator.
-11. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-12. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
+12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
+13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one.
-13. Does the dishwasher need to share a drain with the sink? If so please add a
+14. Does the dishwasher need to share a drain with the sink? If so please add a
     shutoff valve (large bore, quarter turn, as close as possible to the sink
     drain) for the dishwasher connection to sink drain, so we can plunge the
     sink drain as needed without backing up into the dishwasher drain line.
-14. The dishwasher drain vent should be located behind the dishwasher, rather
+15. The dishwasher drain vent should be located behind the dishwasher, rather
     than running into the sink cabinet.
-15. The dishwasher supply valve should be accessible, which probably means in
+16. The dishwasher supply valve should be accessible, which probably means in
     the sink cabinet. However, it would be nice not to have the dishwasher
     supply hose in the sink cabinet; presumably it can be piped from the valve
     to the dishwasher cabinet.
-16. Relocate dishwasher drain vent.
-17. Relocate and replace irrigation control station from kitchen to new water
+17. Relocate dishwasher drain vent.
+18. Relocate and replace irrigation control station from kitchen to new water
     heater cubicle.
 
 ### Bathroom
