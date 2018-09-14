@@ -8,6 +8,8 @@ summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 
 # Walls, Doors and Cabinets and Fixtures
 
+When generating dust from demo, drywall etc., seal the HVAC indoor unit to protect heat exchanger.
+
 ## Walls
 
 1. We're planning to do interior painting ourselves, so any drywall work, etc. should leave the walls primer ready. Please leave the floor covered with protective paper.
