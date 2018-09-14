@@ -77,6 +77,13 @@ Plumbing, flooring, walls, cabinets (kitchen and bath) and fixtures, such as fau
 
 * [Third Party Notices](THIRD-PARTY-NOTICES.md)
 
+## Errata
+
+- The Sweet Home 3D viewer plugin does not show the horizontal KALLAX shelf in
+  Bedroom #2 correctly; rather it renders the shelf vertically, instead of
+  horizontal. The plants show the correct elevation of the shelf. The Sweet
+  Home 3D application renders correctly.
+
 ## References
 
 <!--
