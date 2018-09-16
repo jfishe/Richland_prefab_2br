@@ -12,8 +12,12 @@ summary: Proposed changes to wiring, lighting, outlets, switches and electrical 
 
 1. Relocate the breaker box to outside BR#1.
 2. Remove the purlin and patch the hole. Install weatherhead outside Bedroom #1. Please anchor for high wind to avoid damaging the roof and causing leaks.
-3. Relocate cable near breaker box. Do you do that or do we need Charter?
-4. I assume Charter will be needed to install the cable connection inside.
+3. Relocate cable near breaker box: It currently follows the power line from
+   the pole in the neighbors yard. A longer run of coaxial cable is likely
+   needed to reach BR#2. Do you do that or do we need Charter?
+4. I assume Charter would not be needed to install the cable connection inside,
+   but if they're here for run to the house, I assume it makes sense to have
+   them finish through the inside.
 5. Will the breaker box contain GFCI circuit breakers? For all lines or
    just rooms with sinks?
 6. We have cats, so arc-fault interrupt circuit breakers seem like a good idea
