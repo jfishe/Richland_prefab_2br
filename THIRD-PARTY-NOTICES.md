@@ -16,7 +16,7 @@ header-includes:
   placed a copyright notice on the book.
 - [Store markdown documentation in the same folder as code, run this script,
   get html documentation in a dedicated folder][md_htmldoc] was adapted for
-  convenient conversion of markdown to HTML5 and PDF.
+  convenient conversion of markdown to HTML5 and PDF, using GNU make.
 - The [date lua filter](date.lua), to add today's date to the pdf and html
   output, is taken from [pandoc lua filters][date_lua]. The filter is modified
   to print UTC date/time.
