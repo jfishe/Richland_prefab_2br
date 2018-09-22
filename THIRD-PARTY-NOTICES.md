@@ -18,7 +18,8 @@ header-includes:
   get html documentation in a dedicated folder][md_htmldoc] was adapted for
   convenient conversion of markdown to HTML5 and PDF.
 - The [date lua filter](date.lua), to add today's date to the pdf and html
-  output, is taken from [pandoc lua filters][date_lua].
+  output, is taken from [pandoc lua filters][date_lua]. The filter is modified
+  to print UTC date/time.
 - The style sheet `print.css` is taken from the recommendations of [CSS Design: Going to Print by Eric Meyer May 10, 2002](https://alistapart.com/article/goingtoprint).
 - [LibreCAD][librecad] was used to create the 2D drawings.
 - [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
