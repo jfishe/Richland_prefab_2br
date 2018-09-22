@@ -3,19 +3,25 @@ title: Third Party Notices
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
+header-includes:
+- |
+  ```{=html}
+    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+  ```
 ---
 
 # Third Party Notices
 
-* The floor plan drawings include dimensions from @columbiaabc. They have not
+- The floor plan drawings include dimensions from @columbiaabc. They have not
   placed a copyright notice on the book.
-* [Store markdown documentation in the same folder as code, run this script,
+- [Store markdown documentation in the same folder as code, run this script,
   get html documentation in a dedicated folder][md_htmldoc] was adapted for
   convenient conversion of markdown to HTML5 and PDF.
 - The [date lua filter](date.lua), to add today's date to the pdf and html
   output, is taken from [pandoc lua filters][date_lua].
-* [LibreCAD][librecad] was used to create the 2D drawings.
-* [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
+- The style sheet `print.css` is taken from the recommendations of [CSS Design: Going to Print by Eric Meyer May 10, 2002](https://alistapart.com/article/goingtoprint).
+- [LibreCAD][librecad] was used to create the 2D drawings.
+- [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
   - Use [Export to HTML5 plug-in][HTML5_plug] to export Home_Plan.zip, which the
     Makefile uses to build HTML5 from the Markdown files.
 

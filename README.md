@@ -24,6 +24,7 @@ header-includes:
         .viewerComponent {
         }
     </style>
+    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
   ```
 ---
 

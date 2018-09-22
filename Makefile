@@ -15,7 +15,7 @@
 source := $(CURDIR)
 
 # Miscellaneous files to copy or process into HTML5 directory.
-staticfiles := pandoc.css Home_Plan.zip
+staticfiles := pandoc.css Home_Plan.zip print.css
 staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
 # $(info staticfiles is $(staticfiles))
 
