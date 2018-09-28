@@ -5,10 +5,10 @@ author: John D. Fisher
 email: jdfenw@gmail.com
 summary: Proposed changes to wiring, lighting, outlets, switches and electrical supply.
 header-includes:
-- |
-  ```{=html}
-    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
-  ```
+  - |
+    ```{=html}
+      <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+    ```
 ---
 
 # Electrical Upgrade
@@ -16,7 +16,9 @@ header-includes:
 ## General
 
 1. Relocate the breaker box to outside BR#1.
-2. Remove the purlin and patch the hole. Install weatherhead outside Bedroom #1. Please anchor for high wind to avoid damaging the roof and causing leaks.
+2. Remove the purlin and patch the hole. Install weatherhead outside Bedroom
+   #1. Please anchor for high wind to avoid damaging the roof and causing
+   leaks.
 3. Relocate cable near breaker box: It currently follows the power line from
    the pole in the neighbors yard. A longer run of coaxial cable is likely
    needed to reach BR#2. Do you do that or do we need Charter?
@@ -28,21 +30,30 @@ header-includes:
 6. We have cats, so arc-fault interrupt circuit breakers seem like a good idea
    in case somebody decides to chew on a power cord. Did I use the right
    terminology?
-7. Much of the wiring is ungrounded. Please replace with grounded and separate circuits per code. E.g., many of the lighting circuits feed duplex outlets.
-8. What do recommend for storing household dishes and furniture during construction—i.e., from whom should we rent a storage pod?
+7. Much of the wiring is ungrounded. Please replace with grounded and separate
+   circuits per code. E.g., many of the lighting circuits feed duplex outlets.
+8. What do recommend for storing household dishes and furniture during
+   construction—i.e., from whom should we rent a storage pod?
 
 ## Bedrooms (BR#1 and BR#2)
 
 1. Remove power from wall sconces in BR#1 and BR#2.
 2. Add LED ceiling lights with dimmer switch, next to the inside door in
-   BR#1 and BR#2. We like the style of the ones in the kitchen and living room; I think they're dimmable. E.g., [13 in. 180-Watt Equivalent Brushed Nickel Integrated LED Flushmount with Frosted Glass Shade (2-Pack)](https://www.homedepot.com/p/Commercial-Electric-13-in-180-Watt-Equivalent-Brushed-Nickel-Integrated-LED-Flushmount-with-Frosted-Glass-Shade-2-Pack-JAL8011L-BN/206814821 "Commercial Electric").
+   BR#1 and BR#2. We like the style of the ones in the kitchen and living room;
+   I think they're dimmable. E.g.,
+   <!-- markdownlint-disable MD013 -->
+   [13 in. 180-Watt Equivalent Brushed Nickel Integrated LED Flushmount with Frosted Glass Shade (2-Pack)](https://www.homedepot.com/p/Commercial-Electric-13-in-180-Watt-Equivalent-Brushed-Nickel-Integrated-LED-Flushmount-with-Frosted-Glass-Shade-2-Pack-JAL8011L-BN/206814821 "Commercial Electric").
+   <!-- markdownlint-enable MD013 -->
 
 ### Bedroom #1 (BR#1)
 
-1. Ground outlets beside bed; outlets are new. Gang boxes may not be up to code because the drywall was added over them. They are shallow depth gang boxes. I added extenders to bring flush with drywall.
+1. Ground outlets beside bed; outlets are new. Gang boxes may not be up to code
+   because the drywall was added over them. They are shallow depth gang boxes.
+   I added extenders to bring flush with drywall.
 2. Add duplex outlet near right side of window.
 3. Add duplex outlet ~4 ft from door on wall adjacent to Living Room.
-4. Existing ceiling light location has power in attic but is not connected to switch by door. Please correct.
+4. Existing ceiling light location has power in attic but is not connected to
+   switch by door. Please correct.
 
 ### Bedroom #2 (BR#2)
 
@@ -71,19 +82,24 @@ header-includes:
    cabinet. Please advise.
 3. Add ceiling light over vanity with switch adjacent to vanity.
 4. Add duplex outlet adjacent to vanity switch.
-5. Add quadraplex outlet on opposite wall to power items on shelves: two toothbrushes, Braun shaver and hot curler box.
+5. Add quadraplex outlet on opposite wall to power items on shelves: two
+   toothbrushes, Braun shaver and hot curler box.
 
 ## Kitchen
 
 1. How should ceiling lights be placed in kitchen? Current location may not be
    ideal for open concept floor plan.
-2. Check ceiling light gang boxes. They're surface mounted, galvanized steel with wire clamps.
+2. Check ceiling light gang boxes. They're surface mounted, galvanized steel
+   with wire clamps.
 3. The hood vent has task lighting. We already have a hood vent.
-4. Add task lighting to right of sink for preparation area. Is under-cabinet the best choice?
+4. Add task lighting to right of sink for preparation area. Is under-cabinet
+   the best choice?
 5. Add switch near preparation area for task lighting.
 6. Add/replace duplex outlets above counter. We have numerous small appliances.
 7. Remove dryer outlet and electrical panel. Seal and finish penetrations.
-8. Remove drain for washer and seal drain vent. Drain vents into attic, so could be sealed from above. Patching may not be required as the pantry cabinet will likely cover the damage.
+8. Remove drain for washer and seal drain vent. Drain vents into attic, so
+   could be sealed from above. Patching may not be required as the pantry
+   cabinet will likely cover the damage.
 9. Check/update refrigerator outlet. Note refrigerator wall is being move
    closer to front door, so outlet will require re-wriring.
 10. Add outlet for TV on wall outside refrigerator cubicle.
@@ -99,10 +115,13 @@ header-includes:
 5. Check/update outlets along walls. There is one near each corner and one
    by the hall doorway. All are normal, in-wall outlets.
 6. Add duplex outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
-   existing cable outlet. The TV, DVD player, ink-jet printer and two laptops will share the outlet. The outlet should support addition of a surround sound in the future--i.e., amplifier plus seven speakers.
+   existing cable outlet. The TV, DVD player, ink-jet printer and two laptops
+   will share the outlet. The outlet should support addition of a surround
+   sound in the future--i.e., amplifier plus seven speakers.
 7. Add floor, quadradplex outlet with cover under coffee table. This is for
    laptops (2) when we work from home. The coffee table will transform into a
-   desk/dining-table. We have ordered the coffee table: [Transforming X Coffee and Dining Table in Light Wood Finish (Backordered)](https://www.spacemaster.co/shop-online/LightWood-Xtable).
+   desk/dining-table. We have ordered the coffee table:
+   [Transforming X Coffee and Dining Table in Light Wood Finish (Backordered)](https://www.spacemaster.co/shop-online/LightWood-Xtable).
 
 ## Outside
 
@@ -127,9 +146,10 @@ header-includes:
 5. Re-run irrigation valve wires from valve box to cubicle. It is not necessary
    to excavate the existing wires from the front garden.
 
-
 ## Crawl Space
 
-1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should be near crawl space entrance.
+1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should
+   be near crawl space entrance.
 2. Replace heat tape in crawl space.
-3. [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md) is addressing pipe and floor insulation.
+3. [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md) is
+   addressing pipe and floor insulation.

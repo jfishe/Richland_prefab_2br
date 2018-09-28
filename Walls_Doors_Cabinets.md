@@ -5,38 +5,53 @@ author: John D. Fisher
 email: jdfenw@gmail.com
 summary: Proposed changes to walls, interior doors and cabinets and fixtures.
 header-includes:
-- |
-  ```{=html}
-    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
-  ```
+  - |
+    ```{=html}
+      <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+    ```
 ---
 
 # Walls, Doors and Cabinets and Fixtures
 
-When generating dust from demo, drywall etc., seal the HVAC indoor unit to protect heat exchanger.
+When generating dust from demo, drywall etc., seal the HVAC indoor unit to
+protect heat exchanger.
 
 ## Walls
 
-1. We're planning to do interior painting ourselves, so any drywall work, etc. should leave the walls primer ready. Please leave the floor covered with protective paper.
-2. Please include baseboard trim, as appropriate, in the rooms where the floor is replaced.
+1. We're planning to do interior painting ourselves, so any drywall work, etc.
+   should leave the walls primer ready. Please leave the floor covered with
+   protective paper.
+2. Please include baseboard trim, as appropriate, in the rooms where the floor
+   is replaced.
 3. Remove wall sconces and gang boxes in BR#1 and BR#2. Patch and finish holes.
 4. Add backsplash above counter and stove throughout kitchen. Some possibilities:
-    1. [Greecian White Arabesque 12 in. x 12 in. x 10 mm Polished Marble Mesh-Mounted Mosaic Floor and Wall Tile (10sq.ft./case)](https://www.homedepot.com/p/MSI-Greecian-White-Arabesque-12-in-x-12-in-x-10-mm-Polished-Marble-Mesh-Mounted-Mosaic-Floor-and-Wall-Tile-10sq-ft-case-GRE-AREBESQ/205762446 "Home Depot Tile Backsplashes") Model # GRE-AREBESQ Internet #205762446 Store SO SKU #1001231000
-    2. [Calacatta Cressa Leaf 12 in. x 12 in. x 10 mm Honed Marble Mesh-Mounted Mosaic Tile (10 sq. ft. / case)](https://www.homedepot.com/p/MSI-Calacatta-Cressa-Leaf-12-in-x-12-in-x-10-mm-Honed-Marble-Mesh-Mounted-Mosaic-Tile-10-sq-ft-case-CALCRE-LEAFH/301165224 "Home Depot Tile Backsplashes") Model # CALCRE-LEAFH Internet #301165224
 
-   We prefer the Calacatta Cressa Leaf. Edge trim will be needed for the exposed ends in the living room and by the pantry window. Seal with a penetrating sealer. I assume the sealed marble can handle heat/steam from stove. Please advise.
+   <!-- markdownlint-disable MD013 -->
+
+   1. [Greecian White Arabesque 12 in. x 12 in. x 10 mm Polished Marble Mesh-Mounted Mosaic Floor and Wall Tile (10sq.ft./case)](https://www.homedepot.com/p/MSI-Greecian-White-Arabesque-12-in-x-12-in-x-10-mm-Polished-Marble-Mesh-Mounted-Mosaic-Floor-and-Wall-Tile-10sq-ft-case-GRE-AREBESQ/205762446 "Home Depot Tile Backsplashes")
+      Model # GRE-AREBESQ Internet #205762446 Store SO SKU #1001231000
+   2. [Calacatta Cressa Leaf 12 in. x 12 in. x 10 mm Honed Marble Mesh-Mounted Mosaic Tile (10 sq. ft. / case)](https://www.homedepot.com/p/MSI-Calacatta-Cressa-Leaf-12-in-x-12-in-x-10-mm-Honed-Marble-Mesh-Mounted-Mosaic-Tile-10-sq-ft-case-CALCRE-LEAFH/301165224 "Home Depot Tile Backsplashes") Model # CALCRE-LEAFH Internet #301165224
+
+   <!-- markdownlint-enable MD013 -->
+
+   We prefer the Calacatta Cressa Leaf. Edge trim will be needed for the
+   exposed ends in the living room and by the pantry window. Seal with
+   a penetrating sealer. I assume the sealed marble can handle heat/steam from
+   stove. Please advise.
 
 5. Remove stub wall beside refrigerator.
 6. Move refrigerator cubicle back to front door. Leave room for front
    door-knob.
 7. Remove and patch dryer vent in kitchen.
 8. Remove penetration, seal and finish wall.
-9. Remove and seal current stove exhaust vent. Repair roof at vent location or should we retain the roof exhaust as an attic vent and minimize roof repairs?
+9. Remove and seal current stove exhaust vent. Repair roof at vent location or
+   should we retain the roof exhaust as an attic vent and minimize roof
+   repairs?
 10. Add stove vent above new stove location. Small rectangular vent pipe to
-   minimize cupboard impact desired.
+    minimize cupboard impact desired.
 11. Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
-   hall, bath, living room and kitchen. Bamboo flooring is acceptable for
-   living room and hall. Include insulating underlayment.
+    hall, bath, living room and kitchen. Bamboo flooring is acceptable for
+    living room and hall. Include insulating underlayment.
 12. Remove extraneous drywall from kitchen (adjacent to bathroom). Do we need
     to replace kitchen drywall or just patch, mud and finish?
 13. Remove wire raceway in ceiling between kitchen and living room and between
@@ -71,11 +86,11 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
    screened porch in the future. Hose fittings would work.
 5. Replace existing drain valve with large bore quarter turn valve.
    Discharge side should be hose-thread to make drain and flush easier.
-7. Re-locate and replace irrigation control inside water heater cubicle.
-8. Cubicle floor and door should be elevated to allow addition of deck or
+6. Re-locate and replace irrigation control inside water heater cubicle.
+7. Cubicle floor and door should be elevated to allow addition of deck or
    screened porch in the future.
-9. Cubicle and door should be large enough to allow easy removal of the water heater.
-10. Water heater access panels, drain, etc. should face the door.
+8. Cubicle and door should be large enough to allow easy removal of the water heater.
+9. Water heater access panels, drain, etc. should face the door.
 
 ### Crawl Space
 
@@ -85,7 +100,8 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
    unprotected sections if any. Heat tape in crawl space is old, so replace
    with new. Let me know if the lifetime is less than 5 years.
 3. Add/replace under-floor insulation.
-4. Do we need to replace the cast-iron drain? I assume ABS is recommended for the drains. Please advise.
+4. Do we need to replace the cast-iron drain? I assume ABS is recommended for
+   the drains. Please advise.
 5. I assume PEX is the best choice for supply plumbing. Please don't re-use existing
    copper pipe.
 
@@ -94,7 +110,8 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
 ### Bedroom #1
 
 1. Raise door jamb close to ceiling.
-2. Replace door. Frosted glass or similar synthetic material is desired to allow natural light into hall.
+2. Replace door. Frosted glass or similar synthetic material is desired to
+   allow natural light into hall.
 
 ### Bedroom #2
 
@@ -114,7 +131,10 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
 ### Kitchen
 
 1. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
-2. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN") Article Number: 891.574.84 Size 22 x 20-5/8 inches.
+   <!-- markdownlint-disable MD013 -->
+2. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN")
+   <!-- markdownlint-enable MD013 -->
+   Article Number: 891.574.84 Size 22 x 20-5/8 inches.
 3. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
 4. Add faucet and drain for stove. Drain should be capped for future use by a
    steam injecting oven. Faucet should have a pull-out nozzle that reaches
@@ -150,7 +170,11 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
 18. Relocate and replace irrigation control station from kitchen to new water
     heater cubicle.
 
+<!-- markdownlint-disable MD024 -->
+
 ### Bathroom
+
+<!-- markdownlint-enable MD024 -->
 
 1. Remove old vanity and mirror. Relocate toilet and vanity to wall adjacent to
    window. May want to swap new vanity and toilet location for more clearance.
@@ -164,26 +188,39 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
    exterior wall.
 4. Retain bath towel bars near current location.
 5. Add hand towel rack on side of or adjacent to vanity.
-6. New mirror cabinet: [GODMORGON Mirror cabinet with 2 doors](https://www.ikea.com/us/en/catalog/products/10218999/ "GODMORGON") Article Number: 102.189.99 Size: 23-5/8 x 5-1/2 x 37-3/4 inches.
-7. New sink faucet: [DALSKÄR Bath faucet with strainer, chrome plated](https://www.ikea.com/us/en/catalog/products/20281297/ "DALSKÄR") Article Number: 202.812.97 Height: 7-1/8 inches.
-8. New sink: IKEA [GODMORGON / ODENSVIK Sink cabinet with 2 drawers, white stained oak white stained oak effect](https://www.ikea.com/us/en/catalog/products/S29247322/#/S69903252 "GODMORGON / ODENSVIK") Article Number: 699.032.52 Size 24-3/4 x 19-1/4 x 25 1/4 inches:
-    1. Add GODMORGON legs since wall-mount is not likely to be strong enough.
-    2. IKEA sink fittings are probably required to avoid interference with the
-       GODMORGON drawers
-9. Shower head: [HansGrohe Showerhead 260 Square 1-Jet Trim, 2.5 GPM](http://www.hansgrohe-usa.com/articledetail.html?article=26481001&fsid=0x0000713100007511#l=product-recommendation-similar "HansGrohe Showerhead") mounted in the ceiling, in the center of the shower cabinet.
-    1. Surface mounted utility faucet that can be moved out of the way,
-       when the shower is in use. The water supply should tee, so a shower
-       diverter is not needed.
-    2. Utility faucet Should be mounted near the door opening, so it can be
-       controlled without reaching through the spray. E.g., wall adjacent to
-       kitchen near the corner of the shower. E.g: [Whitehaus WHFS9814-08-C Heavy Duty wall mount utility faucet with an extended swivel spout and lever handles - Polished Chrome](https://www.amazon.com/Whitehaus-WHFS9814-08-C-utility-extended-handles/dp/B00HVJ1AC0/ref=sr_1_8?s=kitchen-bath&ie=UTF8&qid=1535126534&sr=1-8&keywords=wall+mounted+laundry+faucet&refinements=p_n_style_browse-bin%3A542706011)
-    3. Utility faucet should be high enough to fill a commercial mop bucket
-       (~24 inches).
-    4. Shower should support in-line water filter, either existing design, [Sprite Showers Universal Shower Filter in Chrome](https://www.homedepot.com/p/Sprite-Showers-Universal-Shower-Filter-in-Chrome-SL2-CM-R/202386562 "Model # SL2-CM-R Internet #202386562 Store SKU #149467" or compatible with new mounting.
-    5. The shower control should be temperature regulated, e.g.:
-        - [ShowerTablet Thermostatic Trim 600 for Exposed Installation for 2 Functions](http://www.hansgrohe-usa.com/articledetail-showertablet-thermostatic-trim-600-for-exposed-installation-for-2-functions-13108401.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=) is preferred and claims to be compatible with shower head.
-        - [Ecostat S Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail.html?lang=en_US&article=15757001)
-        - [PuraVida Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail-puravida-thermostatic-trim-with-volume-control-15775001.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=)
+   <!-- markdownlint-disable MD013 -->
+6. New mirror cabinet: [GODMORGON Mirror cabinet with 2 doors](https://www.ikea.com/us/en/catalog/products/10218999/ "GODMORGON")
+   Article Number: 102.189.99 Size: 23-5/8 x 5-1/2 x 37-3/4 inches.
+7. New sink faucet: [DALSKÄR Bath faucet with strainer, chrome plated](https://www.ikea.com/us/en/catalog/products/20281297/ "DALSKÄR")
+   Article Number: 202.812.97 Height: 7-1/8 inches.
+8. New sink: IKEA
+   [GODMORGON / ODENSVIK Sink cabinet with 2 drawers, white stained oak white stained oak effect](https://www.ikea.com/us/en/catalog/products/S29247322/#/S69903252 "GODMORGON / ODENSVIK")
+   <!-- markdownlint-enable MD013 -->
+   Article Number: 699.032.52 Size 24-3/4 x 19-1/4 x 25 1/4 inches:
+   1. Add GODMORGON legs since wall-mount is not likely to be strong enough.
+   2. IKEA sink fittings are probably required to avoid interference with the
+      GODMORGON drawers
+9. Shower head:
+   <!-- markdownlint-disable MD013 -->
+   [HansGrohe Showerhead 260 Square 1-Jet Trim, 2.5 GPM](http://www.hansgrohe-usa.com/articledetail.html?article=26481001&fsid=0x0000713100007511#l=product-recommendation-similar "HansGrohe Showerhead")
+   mounted in the ceiling, in the center of the shower cabinet.
+   1. Surface mounted utility faucet that can be moved out of the way,
+      when the shower is in use. The water supply should tee, so a shower
+      diverter is not needed.
+   2. Utility faucet Should be mounted near the door opening, so it can be
+      controlled without reaching through the spray. E.g., wall adjacent to
+      kitchen near the corner of the shower. E.g:
+      [Whitehaus WHFS9814-08-C Heavy Duty wall mount utility faucet with an extended swivel spout and lever handles - Polished Chrome](https://www.amazon.com/Whitehaus-WHFS9814-08-C-utility-extended-handles/dp/B00HVJ1AC0/ref=sr_1_8?s=kitchen-bath&ie=UTF8&qid=1535126534&sr=1-8&keywords=wall+mounted+laundry+faucet&refinements=p_n_style_browse-bin%3A542706011)
+   3. Utility faucet should be high enough to fill a commercial mop bucket
+      (~24 inches).
+   4. Shower should support in-line water filter, either existing design,
+      [Sprite Showers Universal Shower Filter in Chrome](https://www.homedepot.com/p/Sprite-Showers-Universal-Shower-Filter-in-Chrome-SL2-CM-R/202386562 "Model # SL2-CM-R Internet #202386562 Store SKU #149467")
+      or compatible with new mounting.
+   5. The shower control should be temperature regulated, e.g.:
+      - [ShowerTablet Thermostatic Trim 600 for Exposed Installation for 2 Functions](http://www.hansgrohe-usa.com/articledetail-showertablet-thermostatic-trim-600-for-exposed-installation-for-2-functions-13108401.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=) is preferred and claims to be compatible with shower head.
+      - [Ecostat S Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail.html?lang=en_US&article=15757001)
+      - [PuraVida Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail-puravida-thermostatic-trim-with-volume-control-15775001.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=)
+      <!-- markdownlint-enable MD013 -->
 
 ### Bedroom #2 (BR#2)
 
@@ -197,11 +234,11 @@ When generating dust from demo, drywall etc., seal the HVAC indoor unit to prote
 ### Living Room
 
 1. Electronics Cabinet Under TV:
-    1. Similar style as kitchen cabinets. Depth 18 in. for file cabinets.
-    2. Printer enclosure with filter & fan
-    3. Shelf for 2 laptops
-    4. Surge protector for laptops, printer, TV and DVD player
-    5. Space on top for DVD player
-    6. Four drawer file cabinet with lock for both drawers. Preferably two
-       drawers on each end.
-    7. Cupboard for printer paper ~10 reams
+   1. Similar style as kitchen cabinets. Depth 18 in. for file cabinets.
+   2. Printer enclosure with filter & fan
+   3. Shelf for 2 laptops
+   4. Surge protector for laptops, printer, TV and DVD player
+   5. Space on top for DVD player
+   6. Four drawer file cabinet with lock for both drawers. Preferably two
+      drawers on each end.
+   7. Cupboard for printer paper ~10 reams
