@@ -53,7 +53,6 @@ html : $(htmlobjects)
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py date.lua
 	pandoc \
-		--variable documentclass=scrartcl \
 		--variable fontsize=12pt \
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 		--variable papersize=letter \
