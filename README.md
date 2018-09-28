@@ -5,6 +5,7 @@ author: John D. Fisher
 email: jdfenw@gmail.com
 summary: Richland, WA, 2 bedroom Prefab Remodel starting from the original floor plans, which are available from [@columbiaabc]. The dimensions have been updated to match the actual house.
 link-citations: true
+reference-section-title: References
 header-includes:
   - |
     ```{=html}
@@ -96,5 +97,3 @@ faucets and shower head, are discussed below.
   Home 3D application renders correctly.
 - The corner cabinet counter top does not display correctly. It should be
   quartz, like the rest of the counter.
-
-## References
