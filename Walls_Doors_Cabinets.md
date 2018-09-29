@@ -170,11 +170,7 @@ protect heat exchanger.
 18. Relocate and replace irrigation control station from kitchen to new water
     heater cubicle.
 
-<!-- markdownlint-disable MD024 -->
-
-### Bathroom
-
-<!-- markdownlint-enable MD024 -->
+### Bathroom Cabinets and Fixtures
 
 1. Remove old vanity and mirror. Relocate toilet and vanity to wall adjacent to
    window. May want to swap new vanity and toilet location for more clearance.
