@@ -22,17 +22,21 @@ staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
 # Directory containing pdf files
 output := print
 
-# All markdown files in src/ are considered sources
+# All markdown files in $(source) are considered sources
 sources := $(wildcard $(source)/*.md)
 sources += $(source)/Makefile.md
 # $(info sources is $(sources))
 
 # Directory containing HTML5 files
+#
+# For files in /Content droppages.com strips the extension and relocates
+# to the root directory. So relative URL's should assume root.
+# For files in /Public, droppages.com copies files and folders as-is to root.
 htmloutput := remodel_richland.droppages.com/Content
 staticoutput := remodel_richland.droppages.com/Public
 
-# Convert the list of source files (Markdown files in current directory)
-# into a list of output files (PDFs in directory print/).
+# Convert the list of source files into a list of output files (PDFs in
+# directory print/).
 objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
 htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
 staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
