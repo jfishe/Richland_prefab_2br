@@ -30,8 +30,9 @@ sources += $(source)/Makefile.md
 # Directory containing HTML5 files
 #
 # For files in /Content droppages.com strips the extension and relocates
-# to the root directory. So relative URL's should assume root.
+# to the root directory.
 # For files in /Public, droppages.com copies files and folders as-is to root.
+# href and script src relative URL's should assume root.
 htmloutput := remodel_richland.droppages.com/Content
 staticoutput := remodel_richland.droppages.com/Public
 
