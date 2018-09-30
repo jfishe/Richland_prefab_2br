@@ -66,12 +66,6 @@ protect heat exchanger.
     remove siding and insulate, etc. We're planning to re-paint the outside at
     a later time, so that may affect the decision.
 
-### BR#2
-
-1. BR#2 will be used as a laundry room and smoking lounge.
-2. Add a high flow, very low noise ceiling exhaust fan for controlling humidity
-   and exhausting smoke.
-
 ### Water Heater
 
 1. Current location is the attic. Remove existing piping as needed and plumb
@@ -107,20 +101,20 @@ protect heat exchanger.
 
 ## Doors
 
-### Bedroom #1
+### Bedroom #1 Door
 
 1. Raise door jamb close to ceiling.
 2. Replace door. Frosted glass or similar synthetic material is desired to
    allow natural light into hall.
 
-### Bedroom #2
+### Bedroom #2 Door
 
 1. Raise door jamb close to ceiling.
 2. Replace door with pocket door or barn door. Frosted glass or similar
    synthetic material is desired to allow natural light into hall.
 3. Add cabinet door for closet.
 
-### Bathroom
+### Bathroom Door
 
 1. Raise door jamb close to ceiling.
 2. Replace door with pocket door. Frosted glass or similar synthetic material
@@ -144,7 +138,7 @@ protect heat exchanger.
    food processor. Garage should have fold away door, so that counter space is
    accessible when the garage is open.
 6. Wine rack should have a door to protect wine from light damage.
-7. Lower corner cupboard, near sink, should have a lazy susan or pull out
+7. Lower corner cupboard, near sink, should have a lazy-susan or pull out
    shelving so that maximum space can be accessed.
 8. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
@@ -218,16 +212,19 @@ protect heat exchanger.
       - [PuraVida Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail-puravida-thermostatic-trim-with-volume-control-15775001.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=)
       <!-- markdownlint-enable MD013 -->
 
-### Bedroom #2 (BR#2)
+### Bedroom #2 Cabinets and Fixtures
 
-1. Add dryer vent
-2. Add washer water supply and drain.
-3. Installation drawings for washer and dryer are available showing recommended
+1. BR#2 will be used as a laundry room and smoking lounge.
+2. Add a high flow, very low noise ceiling exhaust fan for controlling humidity
+   and exhausting smoke.
+3. Add dryer vent
+4. Add washer water supply and drain.
+5. Installation drawings for washer and dryer are available showing recommended
    water supply, drain and dryer vent locations.
-4. Replace inside door with barn door or pocket door. Wall depth may be
+6. Replace inside door with barn door or pocket door. Wall depth may be
    sufficient for pocket door.
 
-### Living Room
+### Living Room Cabinets and Fixtures
 
 1. Electronics Cabinet Under TV:
    1. Similar style as kitchen cabinets. Depth 18 in. for file cabinets.
