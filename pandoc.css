@@ -83,7 +83,7 @@ h4, h5, h6 {
   font-weight: bold;
 }
 
-h1[id] { display: none; }
+/* h1:not([id="bibliography"]) { display: none; } */
 
 h1 {
   font-size: 2.5em;
