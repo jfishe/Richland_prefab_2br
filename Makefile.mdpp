@@ -7,4 +7,6 @@ email: jdfenw@gmail.com
 summary: Makefile builds local HTML5 and PDF files.
 ---
 
+# Makefile
+
 !INCLUDECODE "Makefile" (make)
