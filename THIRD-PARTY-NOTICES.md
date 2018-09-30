@@ -15,12 +15,14 @@ header-includes:
 
 - The floor plan drawings include dimensions from @columbiaabc. They have not
   placed a copyright notice on the book.
-- [Store markdown documentation in the same folder as code, run this script,
-  get html documentation in a dedicated folder][md_htmldoc] was adapted for
-  convenient conversion of markdown to HTML5 and PDF, using GNU make.
+- `link_filter.py` was adapted from [md_htmldoc][md_htmldoc] for use with GNU
+  make to convert markdown to HTML5 and PDF.
 - The [date lua filter](date.lua), to add today's date to the pdf and html
   output, is taken from [pandoc lua filters][date_lua]. The filter is modified
   to print UTC date/time.
+  <!-- TODO:  <30-09-18, jfishe>
+  Use CSS media per [I totally forgot about print style sheets](https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6 "Manuel Matuzovic")
+  -->
   <!-- markdownlint-disable MD013 -->
 - The style sheet `print.css` is taken from the recommendations of [CSS Design: Going to Print by Eric Meyer May 10, 2002](https://alistapart.com/article/goingtoprint).
   <!-- markdownlint-enable MD013 -->
