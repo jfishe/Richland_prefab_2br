@@ -72,6 +72,12 @@ required to generate the javascript viewer. See
 [Third Party Notices](#third-party-notices) for information about downloading
 the plugin.
 
+## Abbreviations
+
+BR#x
+
+:   Bedroom #x, where x is 1 or 2 (e.g., Bedroom #1)
+
 ## Electrical
 
 Lighting, wiring, outlets and irrigation controls are discussed below.
