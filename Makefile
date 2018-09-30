@@ -50,10 +50,12 @@ staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
 all: pdf html
 
 .PHONY : pdf
-pdf: $(objects)
+pdf: $(output)/Richland_Prefab_2BR.pdf
 
 .PHONY : html
-html : $(htmlobjects)
+html : $(htmloutput)/index.html
+$(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html
+	mv $< $@
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py date.lua
@@ -62,6 +64,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py d
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 		--variable papersize=letter \
 		--variable links-as-notes \
+		--variable colorlinks \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
@@ -73,17 +76,16 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py d
 		--output $@
 	rm -rf tex2pdf.[0-9]*
 # }}}
-#		--variable documentclass=article \
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
 .SECONDARY : $(staticobjects)
 $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py date.lua $(staticobjects)
 	pandoc \
 		--standalone \
+		--base-header-level=2 \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
-		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
 		--highlight-style=breezedark \
 		--template="pandoc.html5" \
@@ -107,15 +109,18 @@ $(staticoutput)/% : $(CURDIR)/%
 # }}}
 
 # Recipe for clean {{{
-.PHONY : clean
-clean:
-	rm -f $(objects)
+.PHONY : clean cleanhtml cleanpdf
+clean : cleanhtml cleanpdf
+	rm -rf __pycache__
+cleanhtml:
 	rm -f $(htmloutput)/*.html
 	rm -f $(staticoutput)/*.css
 	rm -rf $(staticoutput)/Home_Plan.zip
 	rm -rf $(staticoutput)/lib
-	rm -rf __pycache__
+cleanpdf:
+	rm -f $(objects)
 # }}}
+
 # Recipe for web-browser {{{
 .PHONY : browse
 browse:
