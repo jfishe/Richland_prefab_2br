@@ -35,7 +35,7 @@ header-includes:
 8. What do recommend for storing household dishes and furniture during
    construction—i.e., from whom should we rent a storage pod?
 
-## Bedrooms (BR#1 and BR#2)
+## Bedrooms
 
 1. Remove power from wall sconces in BR#1 and BR#2.
 2. Add LED ceiling lights with dimmer switch, next to the inside door in
@@ -45,7 +45,7 @@ header-includes:
    [13 in. 180-Watt Equivalent Brushed Nickel Integrated LED Flushmount with Frosted Glass Shade (2-Pack)](https://www.homedepot.com/p/Commercial-Electric-13-in-180-Watt-Equivalent-Brushed-Nickel-Integrated-LED-Flushmount-with-Frosted-Glass-Shade-2-Pack-JAL8011L-BN/206814821 "Commercial Electric").
    <!-- markdownlint-enable MD013 -->
 
-### Bedroom #1 (BR#1)
+### Bedroom #1
 
 1. Ground outlets beside bed; outlets are new. Gang boxes may not be up to code
    because the drywall was added over them. They are shallow depth gang boxes.
@@ -55,7 +55,7 @@ header-includes:
 4. Existing ceiling light location has power in attic but is not connected to
    switch by door. Please correct.
 
-### Bedroom #2 (BR#2)
+### Bedroom #2
 
 1. Add duplex outlet on outside wall and another on inside wall
    (adjacent to bathroom), near the doors.
@@ -151,5 +151,5 @@ header-includes:
 1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should
    be near crawl space entrance.
 2. Replace heat tape in crawl space.
-3. [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md) is
+3. [Walls, Doors and Cabinets and Fixtures](#Walls-Doors-Cabinets) is
    addressing pipe and floor insulation.
