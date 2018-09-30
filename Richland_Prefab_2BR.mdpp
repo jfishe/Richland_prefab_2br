@@ -31,9 +31,10 @@ header-includes:
 
 # Overview
 
-The [home page](http://remodel_richland.droppages.com/) shows the layout
-and general idea of the color choices, materials, fittings and furnishings in
-a format viewable from modern web browsers (Chrome and Edge have been tested).
+The [home page for the remodel](http://remodel_richland.droppages.com/) shows
+the layout and general idea of the color choices, materials, fittings and
+furnishings in a format which can be viewed with modern web browsers (Chrome
+and Edge have been tested).
 
 - Click the `View home` button to open the `Sweet Home 3D` viewer. The viewer
   provides an aerial view and allows a walk-through (Virtual visit) of the
@@ -68,23 +69,6 @@ a format viewable from modern web browsers (Chrome and Edge have been tested).
 </div>
 <!-- markdownlint-enable MD013 MD033 -->
 
-## Sweet Home 3D Model and Dimensional CAD Drawings
-
-Refer to the [Github project site][Github project site] for dimensional
-`LibreCAD` drawings, which should be readable by most CAD software. These
-drawings show the before and after floor plan.
-
-The `Sweet Home 3D` model is also available at the
-[project site][Github project site].
-
-<!-- markdownlint-disable MD013 -->
-[Github project site]: https://github.com/jfishe/Richland_prefab_2br "jfishe/Richland_prefab_2br"
-<!-- markdownlint-enable MD013 -->
-
-See [Third party notices](#third-party-notices) for the free and open source
-software required to view/edit the Home Plan and the CAD drawings. The
-dimensions are close to actual, but there may be discrepancies.
-
 ## Abbreviations
 
 BR#x
@@ -105,6 +89,23 @@ BR#x
 !INCLUDE "Walls_Doors_Cabinets.md"
 
 !INCLUDE "THIRD-PARTY-NOTICES.md"
+
+# Sweet Home 3D Model and Dimensional CAD Drawings
+
+Refer to the [Github project site][Github project site] for dimensional
+`LibreCAD` drawings, which should be readable by most CAD software. These
+drawings show the before and after floor plan.
+
+The `Sweet Home 3D` model is also available at the
+[project site][Github project site].
+
+<!-- markdownlint-disable MD013 -->
+[Github project site]: https://github.com/jfishe/Richland_prefab_2br "jfishe/Richland_prefab_2br"
+<!-- markdownlint-enable MD013 -->
+
+See [Third party notices](#third-party-notices) for the free and open source
+software required to view/edit the Home Plan and the CAD drawings. The
+dimensions are close to actual, but there may be discrepancies.
 
 # License
 
