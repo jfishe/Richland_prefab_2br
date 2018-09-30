@@ -4,7 +4,6 @@ subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
 link-citations: true
-reference-section-title: References
 header-includes:
 - |
   ```{=html}
