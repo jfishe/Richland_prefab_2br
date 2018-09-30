@@ -34,12 +34,16 @@ header-includes:
 The [home page](http://remodel_richland.droppages.com/) shows the layout
 and general idea of the color choices, materials, fittings and furnishings in
 a format viewable from modern web browsers (Chrome and Edge have been tested).
-[SweetHome 3D Home Plan](https://github.com/jfishe/Richland_prefab_2br/Home_Plan.sh3d) contains the native drawing format, available from the
-[Github project site](https://github.com/jfishe/Richland_prefab_2br "jfishe/Richland_prefab_2br").
 
-See [Third party notices](#third-party-notices) for the SweetHome 3D free and
-open source software required to view/edit the Home Plan. The dimensions are
-close to actual, but there may be discrepancies.
+- Click the `View home` button to open the `Sweet Home 3D` viewer. The viewer
+  provides an aerial view and allows a walk-through (Virtual visit) of the
+  house.
+- Check Virtual visit to switch from Aerial view (check boxes are at the bottom
+  of the view-window):
+  - Arrow keys rotate the view.
+  - Shift+Up moves forward.
+  - Shift+Down moves backward.
+  - Shift+Left or Right turns Left or Right.
 
 <!-- markdownlint-disable MD013 MD033 -->
 <div>
@@ -64,11 +68,22 @@ close to actual, but there may be discrepancies.
 </div>
 <!-- markdownlint-enable MD013 MD033 -->
 
-The [`Makefile`](https://github.com/jfishe/Richland_prefab_2br/Makefile) builds
-printable PDF's and local HTML5 files with a javascript viewer of the Sweet
-Home 3D plan. A Sweet Home 3D plugin is required to generate the javascript
-viewer. See [Third Party Notices](#third-party-notices) for information about
-downloading the plugin.
+## Sweet Home 3D Model and Dimensional CAD Drawings
+
+Refer to the [Github project site][Github project site] for dimensional
+`LibreCAD` drawings, which should be readable by most CAD software. These
+drawings show the before and after floor plan.
+
+The `Sweet Home 3D` model is also available at the
+[project site][Github project site].
+
+<!-- markdownlint-disable MD013 -->
+[Github project site]: https://github.com/jfishe/Richland_prefab_2br "jfishe/Richland_prefab_2br"
+<!-- markdownlint-enable MD013 -->
+
+See [Third party notices](#third-party-notices) for the free and open source
+software required to view/edit the Home Plan and the CAD drawings. The
+dimensions are close to actual, but there may be discrepancies.
 
 ## Abbreviations
 
@@ -78,10 +93,10 @@ BR#x
 
 ## Errata
 
-- The Sweet Home 3D viewer plugin does not show the horizontal KALLAX shelf in
-  Bedroom #2 correctly; rather it renders the shelf vertically, instead of
-  horizontal. The plants show the correct elevation of the shelf. The Sweet
-  Home 3D application renders correctly.
+- The `Sweet Home 3D viewer` plugin does not show the horizontal KALLAX shelf
+  in Bedroom #2 correctly; rather it renders the shelf vertically, instead of
+  horizontal. The plants show the correct elevation of the shelf. The
+  `Sweet Home 3D` application renders correctly.
 - The corner cabinet counter top does not display correctly. It should be
   quartz, like the rest of the counter.
 
