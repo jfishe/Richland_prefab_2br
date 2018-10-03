@@ -24,7 +24,6 @@ output := print
 
 # All markdown files in $(source) are considered sources
 sources := $(wildcard $(source)/*.md)
-sources += $(source)/Makefile.md
 # $(info sources is $(sources))
 
 # Directory containing HTML5 files
@@ -38,8 +37,8 @@ staticoutput := remodel_richland.droppages.com/Public
 
 # Convert the list of source files into a list of output files (PDFs in
 # directory print/).
-objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
-htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
+# objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
+# htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
 staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
 # $(info staticobjects is $(staticobjects))
 
@@ -54,11 +53,13 @@ pdf: $(output)/Richland_Prefab_2BR.pdf
 
 .PHONY : html
 html : $(htmloutput)/index.html
+
+.INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
 $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html
-	mv $< $@
+	cp $< $@
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py date.lua
+$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua $(sources)
 	pandoc \
 		--variable fontsize=12pt \
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
@@ -79,7 +80,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee.csl pandoc.tex link_filter.py d
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
 .SECONDARY : $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee.csl pandoc.html5 link_filter.py date.lua $(staticobjects)
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(staticobjects) $(sources)
 	pandoc \
 		--standalone \
 		--base-header-level=2 \
@@ -118,7 +119,7 @@ cleanhtml:
 	rm -rf $(staticoutput)/Home_Plan.zip
 	rm -rf $(staticoutput)/lib
 cleanpdf:
-	rm -f $(objects)
+	rm -f $(output)/*.pdf
 # }}}
 
 # Recipe for web-browser {{{
