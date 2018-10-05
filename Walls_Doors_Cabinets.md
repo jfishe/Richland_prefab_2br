@@ -3,7 +3,8 @@ title: Walls, Doors and Cabinets
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Proposed changes to walls, interior doors and cabinets and fixtures.
+summary: Proposed changes to walls, interior doors, floors and cabinets and
+  fixtures.
 header-includes:
   - |
     ```{=html}
@@ -11,7 +12,7 @@ header-includes:
     ```
 ---
 
-# Walls, Doors and Cabinets and Fixtures
+# Walls, Doors, Floors and Cabinets and Fixtures
 
 When generating dust from demo, drywall etc., seal the HVAC indoor unit to
 protect heat exchanger.
@@ -119,6 +120,11 @@ protect heat exchanger.
 1. Raise door jamb close to ceiling.
 2. Replace door with pocket door. Frosted glass or similar synthetic material
    is desired to allow natural light into hall.
+
+## Floors
+
+For Living Room, Kitchen, BR#2, hall and bathroom, use TAS Bourbon Street,
+Applewood LOLG1039.
 
 ## Cabinets and Fixtures
 
