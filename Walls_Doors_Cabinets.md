@@ -150,18 +150,13 @@ protect heat exchanger.
 12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
 13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one.
-14. Does the dishwasher need to share a drain with the sink? If so please add a
-    shutoff valve (large bore, quarter turn, as close as possible to the sink
-    drain) for the dishwasher connection to sink drain, so we can plunge the
-    sink drain as needed without backing up into the dishwasher drain line.
-15. The dishwasher drain vent should be located behind the dishwasher, rather
-    than running into the sink cabinet.
-16. The dishwasher supply valve should be accessible, which probably means in
+14. The dishwasher drain vent should be located on the counter, behind the
+    dishwasher, rather than running into the sink cabinet.
+15. The dishwasher supply valve should be accessible, which probably means in
     the sink cabinet. However, it would be nice not to have the dishwasher
     supply hose in the sink cabinet; presumably it can be piped from the valve
     to the dishwasher cabinet.
-17. Relocate dishwasher drain vent.
-18. Relocate and replace irrigation control station from kitchen to new water
+16. Relocate and replace irrigation control station from kitchen to new water
     heater cubicle.
 
 ### Bathroom Cabinets and Fixtures
@@ -210,7 +205,7 @@ protect heat exchanger.
       - [ShowerTablet Thermostatic Trim 600 for Exposed Installation for 2 Functions](http://www.hansgrohe-usa.com/articledetail-showertablet-thermostatic-trim-600-for-exposed-installation-for-2-functions-13108401.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=) is preferred and claims to be compatible with shower head.
       - [Ecostat S Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail.html?lang=en_US&article=15757001)
       - [PuraVida Thermostatic Trim with Volume Control](http://www.hansgrohe-usa.com/articledetail-puravida-thermostatic-trim-with-volume-control-15775001.html?fsid=fffffff5x00006CC1000076B1000076C1&pageid=dd703b76-de37-4d83-8027-cb272402d7c4&q=)
-      <!-- markdownlint-enable MD013 -->
+        <!-- markdownlint-enable MD013 -->
 
 ### Bedroom #2 Cabinets and Fixtures
 
