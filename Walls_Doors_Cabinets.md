@@ -72,7 +72,7 @@ protect heat exchanger.
 - Shower cabinet should be clear _glass/glass-like_ on two sides, facing room,
   and cultured marble on wall sides and pan.
 - If not too expensive/challenging, locate the shower drain in the center.
-- See [Bathroom Cabinets and Fixtures](#Bathroom-Cabinets-and-Fixtures) for
+- See [Bathroom Cabinets and Fixtures](#bathroom-cabinets-and-fixtures) for
   related details.
 - We like cultured marble: Orchard Mexican Sand, light mink, country gray and
   white.
