@@ -19,17 +19,18 @@ available from the
 See [Third party notices](#third-party-notices) for the free and open source
 software required to view/edit the Home Plan and CAD drawings.
 
-The [`Makefile`][Makefile] builds printable PDF's and local HTML5 files with
+The [`Makefile`][makefile] builds printable PDF's and local HTML5 files with
 a javascript viewer of the Sweet Home 3D plan. A Sweet Home 3D plugin is
 required to generate the javascript viewer. See
 [Third Party Notices](#third-party-notices) for information about downloading
-the plugin. Refer to the [`Makefile`][Makefile] for build software.
+the plugin. Refer to the [`Makefile`][makefile] for build software.
 
-[Makefile]: Makefile
+[makefile]: Makefile
 
 ## Overview
 
-[`Richland_Prefab_2BR.mdpp`](Richland_Prefab_2BR.mdpp) contains an overview of the project and defines the content for the PDF and HTML5 versions.
+[`Richland_Prefab_2BR.mdpp`](Richland_Prefab_2BR.mdpp) contains an overview of
+the project and defines the content for the PDF and HTML5 versions.
 
 ## Electrical
 
@@ -47,4 +48,3 @@ faucets and shower head, are discussed below.
 ## Third Party Notices
 
 - [Third Party Notices](THIRD-PARTY-NOTICES.md)
-
