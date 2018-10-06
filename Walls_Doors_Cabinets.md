@@ -145,39 +145,41 @@ Applewood LOLG1039.
 
 ### Kitchen
 
-1. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
+1. For the kitchen counter, we like Latte Quartz from
+   _SBN Marble Granite & Tile, Inc._.
+2. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
    <!-- markdownlint-disable MD013 -->
-2. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN")
+3. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN")
    <!-- markdownlint-enable MD013 -->
    Article Number: 891.574.84 Size 22 x 20-5/8 inches.
-3. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
-4. Add faucet and drain for stove. Drain should be capped for future use by a
+4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
+5. Add faucet and drain for stove. Drain should be capped for future use by a
    steam injecting oven. Faucet should have a pull-out nozzle that reaches
    front of stove for filling large pressure canner. Only cold water plumbing
    is needed. The kitchen sink faucet design looks workable.
-5. Add appliance garage near wine rack for 5-qt Kitchen-Aid mixer, blender and
+6. Add appliance garage near wine rack for 5-qt Kitchen-Aid mixer, blender and
    food processor. Garage should have fold away door, so that counter space is
    accessible when the garage is open.
-6. Wine rack should have a door to protect wine from light damage.
-7. Lower corner cupboard, near sink, should have a lazy-susan or pull out
+7. Wine rack should have a door to protect wine from light damage.
+8. Lower corner cupboard, near sink, should have a lazy-susan or pull out
    shelving so that maximum space can be accessed.
-8. Double lower cupboards should have pull out shelves, adjustable height if
+9. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-9. Spice drawers adjacent to the dishwasher are desired.
-10. Dovetail drawer fronts are desired.
-11. Installation cutout drawings are available for the dishwasher, stove and
+10. Spice drawers adjacent to the dishwasher are desired.
+11. Dovetail drawer fronts are desired.
+12. Installation cutout drawings are available for the dishwasher, stove and
     refrigerator.
-12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
+13. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
+14. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one.
-14. The dishwasher drain vent should be located on the counter, behind the
+15. The dishwasher drain vent should be located on the counter, behind the
     dishwasher, rather than running into the sink cabinet.
-15. The dishwasher supply valve should be accessible, which probably means in
+16. The dishwasher supply valve should be accessible, which probably means in
     the sink cabinet. However, it would be nice not to have the dishwasher
     supply hose in the sink cabinet; presumably it can be piped from the valve
     to the dishwasher cabinet.
-16. Relocate and replace irrigation control station from kitchen to new water
+17. Relocate and replace irrigation control station from kitchen to new water
     heater cubicle.
 
 ### Bathroom Cabinets and Fixtures
