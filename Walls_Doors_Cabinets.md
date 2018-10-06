@@ -67,6 +67,21 @@ protect heat exchanger.
     remove siding and insulate, etc. We're planning to re-paint the outside at
     a later time, so that may affect the decision.
 
+### Bathroom
+
+- Shower cabinet should be clear _glass/glass-like_ on two sides, facing room,
+  and cultured marble on wall sides and pan.
+- If not too expensive/challenging, locate the shower drain in the center.
+- See [Bathroom Cabinets and Fixtures](#Bathroom-Cabinets-and-Fixtures) for
+  related details.
+- We like cultured marble: Orchard Mexican Sand, light mink, country gray and
+  white.
+- Replace bathroom walls with drywall or recommend better material. We prefer a
+  minimally textured surface.
+- Finish and paint bathroom. Sherwin Williams 7002 Downy eggshell would
+  match the rest of the house well (we're using flat in the other rooms).
+- Does bathroom ceiling need to be replaced or just sand and texture?
+
 ### Water Heater
 
 1. Current location is the attic. Remove existing piping as needed and plumb
