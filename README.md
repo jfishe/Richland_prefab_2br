@@ -7,7 +7,7 @@ email: jdfenw@gmail.com
 
 # Description
 
-The [home page](http://remodel_richland.droppages.com/) shows the layout
+The [home page](https://remodel_richland.droppages.com/) shows the layout
 and general idea of the color choices, materials, fittings and furnishings in
 a format viewable from modern web browsers (Chrome and Edge have been tested).
 [SweetHome 3D Home Plan](Home_Plan.sh3d) contains the native drawing format,
