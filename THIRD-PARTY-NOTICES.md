@@ -25,7 +25,8 @@ header-includes:
   Use CSS media per [I totally forgot about print style sheets](https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6 "Manuel Matuzovic")
   -->
 - The style sheet `print.css` is taken from the recommendations of [CSS Design: Going to Print by Eric Meyer May 10, 2002](https://alistapart.com/article/goingtoprint).
-  <!-- markdownlint-enable MD013 -->
+  - Incorporate Phil Archer's [Automatic Heading Numbers with CSS](https://philarcher.org/diary/2013/headingnumbers/) from [numberheadings.css](http://philarcher.org/css/numberheadings.css). [License Creative Commons v3.0](http://creativecommons.org/licenses/by/3.0/)
+    <!-- markdownlint-enable MD013 -->
 - [LibreCAD][librecad] was used to create the 2D drawings.
 - [Sweet Home 3D][sweethome3d] was used to develop the interior layout and fixtures.
   - Use [Export to HTML5 plug-in][html5_plug] to export Home_Plan.zip, which the
