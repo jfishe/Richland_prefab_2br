@@ -52,7 +52,7 @@ all: pdf html
 pdf: $(output)/Richland_Prefab_2BR.pdf
 
 .PHONY : html
-html : $(htmloutput)/index.html
+html : $(htmloutput)/index.html $(staticobjects)
 
 .INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
 $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html
@@ -80,7 +80,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
 .SECONDARY : $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(staticobjects) $(sources)
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(sources)
 	pandoc \
 		--standalone \
 		--base-header-level=2 \
