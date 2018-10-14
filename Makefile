@@ -32,8 +32,10 @@ sources := $(wildcard $(source)/*.md)
 # to the root directory.
 # For files in /Public, droppages.com copies files and folders as-is to root.
 # href and script src relative URL's should assume root.
-htmloutput := remodel_richland.droppages.com/Content
-staticoutput := remodel_richland.droppages.com/Public
+remodel := remodel_richland.droppages.com
+htmloutput := $(remodel)/Content
+staticoutput := $(remodel)/Public
+templates := $(remodel)/Templates
 
 # Convert the list of source files into a list of output files (PDFs in
 # directory print/).
@@ -52,7 +54,7 @@ all: pdf html
 pdf: $(output)/Richland_Prefab_2BR.pdf
 
 .PHONY : html
-html : $(htmloutput)/index.html $(staticobjects)
+html : $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html
 
 .INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
 $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html
@@ -106,6 +108,12 @@ $(source)/%.md : $(source)/%.mdpp
 	markdown-pp $< --output $@
 
 $(staticoutput)/% : $(CURDIR)/%
+	cp $< $@
+
+$(templates)/% : $(CURDIR)/%
+	cp $< $@
+
+$(htmloutput)/% : $(CURDIR)/%
 	cp $< $@
 # }}}
 
