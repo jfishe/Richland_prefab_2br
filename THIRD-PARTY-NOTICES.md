@@ -33,7 +33,7 @@ header-includes:
     Makefile uses to build HTML5 from the Markdown files.
 
 [sweethome3d]: http://www.sweethome3d.com/ "Sweet Home 3D - Draw floor plans and arrange furniture freely"
-[html5_plug]: http://www.sweethome3d.com/blog/2016/05/05/export_to_html5_plug_in.html "Export to HTML5 plug-in"
+[html5_plug]: http://www.sweethome3d.com/plugins.jsp "ExportToHTML5-1.4.sh3p"
 [librecad]: https://librecad.org/ "LibreCAD Open Source 2D-CAD"
 [md_htmldoc]: https://github.com/MatrixManAtYrService/md_htmldoc "MatrixManAtYrService/md_htmldoc"
 [date_lua]: https://pandoc.org/lua-filters.html#setting-the-date-in-the-metadata "Setting the date in the metadata"
