@@ -101,6 +101,7 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 
 # 	cp $< $@
 
 $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip
+	make cleanhome
 	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(staticoutput)
 	touch $(staticoutput)/Home_Plan.zip
 
@@ -118,12 +119,14 @@ $(htmloutput)/% : $(CURDIR)/%
 # }}}
 
 # Recipe for clean {{{
-.PHONY : clean cleanhtml cleanpdf
+.PHONY : clean cleanhtml cleanhome cleanpdf
 clean : cleanhtml cleanpdf
 	rm -rf __pycache__
 cleanhtml:
 	rm -f $(htmloutput)/*.html
 	rm -f $(staticoutput)/*.css
+
+cleanhome:
 	rm -rf $(staticoutput)/Home_Plan.zip
 	rm -rf $(staticoutput)/lib
 cleanpdf:
