@@ -1,6 +1,9 @@
+.DEFAULT_GOAL := help
 # Generate HTML5 and PDFs from the Markdown source files
 #
-# Derived from https://gist.github.com/bertvv/e77e3a5d24d8c2a9bcc4
+# Derived from:
+#   https://gist.github.com/bertvv/e77e3a5d24d8c2a9bcc4
+#   https://gist.github.com/prwhite/8168133
 #
 # In order to use this makefile, you need some tools:
 # - GNU make
@@ -10,19 +13,23 @@
 #   - panflute
 #   - MarkdownPP
 
-# # Variables {{{
+# Variables {{{
 # Directory containing source (Markdown) files
+
 source := $(CURDIR)
 
 # Miscellaneous files to copy or process into HTML5 directory.
+
 staticfiles := pandoc.css Home_Plan.zip print.css
 staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
 # $(info staticfiles is $(staticfiles))
 
 # Directory containing pdf files
+
 output := print
 
 # All markdown files in $(source) are considered sources
+
 sources := $(wildcard $(source)/*.md)
 # $(info sources is $(sources))
 
@@ -32,29 +39,63 @@ sources := $(wildcard $(source)/*.md)
 # to the root directory.
 # For files in /Public, droppages.com copies files and folders as-is to root.
 # href and script src relative URL's should assume root.
-remodel := remodel_richland.droppages.com
-htmloutput := $(remodel)/Content
-staticoutput := $(remodel)/Public
-templates := $(remodel)/Templates
 
+remodel := remodel_richland.droppages.com
+htmloutput := $(remodel)/Content$(drafts)
+staticoutput := $(remodel)/Public$(drafts)
+templates := $(remodel)/Templates$(drafts)
+staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
+
+# drafts := $(subst $(remodel),$(remodel)/_drafts,$(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html)
 # Convert the list of source files into a list of output files (PDFs in
 # directory print/).
-# objects := $(patsubst %.md,%.pdf,$(subst $(source),$(output),$(sources)))
-# htmlobjects := $(patsubst %.md,%.html,$(subst $(source),$(htmloutput),$(sources)))
-staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
 # $(info staticobjects is $(staticobjects))
 
 # End Variables }}}
 
 # Rules {{{
+.PHONY : help
+## Show the help message
+# COLORS
+GREEN  := $(shell tput -Txterm setaf 2)
+YELLOW := $(shell tput -Txterm setaf 3)
+WHITE  := $(shell tput -Txterm setaf 7)
+RESET  := $(shell tput -Txterm sgr0)
+
+
+TARGET_MAX_CHAR_NUM=20
+## Show help
+help:
+	@echo ''
+	@echo 'Usage:'
+	@echo '  ${YELLOW}make${RESET} ${GREEN}<target>${RESET}'
+	@echo ''
+	@echo 'Targets:'
+	@awk '/^[a-zA-Z\-\_0-9]+:/ { \
+		helpMessage = match(lastLine, /^## (.*)/); \
+		if (helpMessage) { \
+			helpCommand = substr($$1, 0, index($$1, ":")-1); \
+			helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
+			printf "  ${YELLOW}%-$(TARGET_MAX_CHAR_NUM)s${RESET} ${GREEN}%s${RESET}\n", helpCommand, helpMessage; \
+		} \
+	} \
+	{ lastLine = $$0 }' $(MAKEFILE_LIST)
 .PHONY : all
+## Generate HTML5 and PDFs from the Markdown source files
 all: pdf html
 
 .PHONY : pdf
-pdf: $(output)/Richland_Prefab_2BR.pdf
+## Generate PDFs from the Markdown source files
+pdf: $(output)/Richland_Prefab_2BR.pdf | $(output)/ ## Build pdf
 
 .PHONY : html
-html : $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html
+## Geneate HTML with CSS, JavaScript and SweetHome3D plan on website.
+html: $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html | $(staticoutput)/ $(htmloutput)/ $(templates)/ ## Build html and copy to website.
+
+.PHONY : draft
+## Generate draft html output in webpage/_drafts
+draft:
+	$(MAKE) html drafts:=/_drafts
 
 .INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
 $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html
@@ -97,9 +138,6 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 
 		--to="html5" \
 		--output $@
 
-# $(htmloutput)/%.css : $(CURDIR)/%.css
-# 	cp $< $@
-
 $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip
 	make cleanhome
 	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(staticoutput)
@@ -118,25 +156,40 @@ $(htmloutput)/% : $(CURDIR)/%
 	cp $< $@
 # }}}
 
+# Order out rule to create directories if needed {{{
+
+$(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ :
+	mkdir -p  $@
+# }}}
+
 # Recipe for clean {{{
-.PHONY : clean cleanhtml cleanhome cleanpdf
-clean : cleanhtml cleanpdf
+.PHONY : clean cleanhtml cleanhome cleanpdf cleandraft
+clean : cleanhtml cleanhome cleanpdf cleandraft
 	rm -rf __pycache__
+
 cleanhtml:
-	rm -f $(htmloutput)/*.html
+	rm -f $(htmloutput)/*
 	rm -f $(staticoutput)/*.css
+	rm -f $(templates)/*
 
 cleanhome:
 	rm -rf $(staticoutput)/Home_Plan.zip
 	rm -rf $(staticoutput)/lib
+
 cleanpdf:
 	rm -f $(output)/*.pdf
+
+cleandraft:
+	rm -rf $(htmloutput)/_drafts
+	rm -rf $(staticoutput)/_drafts
+	rm -rf $(templates)/_drafts
 # }}}
 
 # Recipe for web-browser {{{
 .PHONY : browse
+# Open default web browser to website.
 browse:
-	"$$BROWSER" http://remodel_richland.droppages.com
+	"$$BROWSER" https://$(remodel)
 # browse:
 # 	cd HTML5 && (python -m http.server &) && "$$BROWSER" http://localhost:8000/README.html
 # }}}
