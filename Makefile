@@ -187,7 +187,7 @@ cleandraft:
 
 # Recipe for web-browser {{{
 .PHONY : browse
-# Open default web browser to website.
+## Open default web browser to website.
 browse:
 	"$$BROWSER" https://$(remodel)
 # browse:
