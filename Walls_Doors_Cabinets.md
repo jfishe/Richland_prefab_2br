@@ -29,16 +29,13 @@ protect heat exchanger.
 
    <!-- markdownlint-disable MD013 -->
 
-   1. [Greecian White Arabesque 12 in. x 12 in. x 10 mm Polished Marble Mesh-Mounted Mosaic Floor and Wall Tile (10sq.ft./case)](https://www.homedepot.com/p/MSI-Greecian-White-Arabesque-12-in-x-12-in-x-10-mm-Polished-Marble-Mesh-Mounted-Mosaic-Floor-and-Wall-Tile-10sq-ft-case-GRE-AREBESQ/205762446 "Home Depot Tile Backsplashes")
-      Model # GRE-AREBESQ Internet #205762446 Store SO SKU #1001231000
-   2. [Calacatta Cressa Leaf 12 in. x 12 in. x 10 mm Honed Marble Mesh-Mounted Mosaic Tile (10 sq. ft. / case)](https://www.homedepot.com/p/MSI-Calacatta-Cressa-Leaf-12-in-x-12-in-x-10-mm-Honed-Marble-Mesh-Mounted-Mosaic-Tile-10-sq-ft-case-CALCRE-LEAFH/301165224 "Home Depot Tile Backsplashes") Model # CALCRE-LEAFH Internet #301165224
+   [Florida Tile FTI33301BI9X9 ORNAMENT COOL](http://www.floridatile.com/products/level10 "Florida Tile Level 10")
 
    <!-- markdownlint-enable MD013 -->
 
-   We prefer the Calacatta Cressa Leaf. Edge trim will be needed for the
-   exposed ends in the living room and by the pantry window. Seal with
-   a penetrating sealer. I assume the sealed marble can handle heat/steam from
-   stove. Please advise.
+   Edge trim will be needed for the exposed ends in the living room and by the
+   pantry window. Seal with a penetrating sealer. I assume the sealed marble
+   can handle heat/steam from stove. Please advise.
 
 5. Remove stub wall beside refrigerator.
 6. Move refrigerator cubicle back to front door. Leave room for front
@@ -145,8 +142,8 @@ Applewood LOLG1039.
 
 ### Kitchen
 
-1. For the kitchen counter, we like Latte Quartz from
-   _SBN Marble Granite & Tile, Inc._.
+1. For the kitchen counter, we like Latte Quartz from _SBN Marble Granite
+   & Tile, Inc._.
 2. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
    <!-- markdownlint-disable MD013 -->
 3. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN")
