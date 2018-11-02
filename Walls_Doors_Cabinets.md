@@ -47,9 +47,6 @@ protect heat exchanger.
    repairs?
 10. Add stove vent above new stove location. Small rectangular vent pipe to
     minimize cupboard impact desired.
-11. Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
-    hall, bath, living room and kitchen. Bamboo flooring is acceptable for
-    living room and hall. Include insulating underlayment.
 12. Remove extraneous drywall from kitchen (adjacent to bathroom). Do we need
     to replace kitchen drywall or just patch, mud and finish?
 13. Remove wire raceway in ceiling between kitchen and living room and between
@@ -135,8 +132,13 @@ protect heat exchanger.
 
 ## Floors
 
-For Living Room, Kitchen, BR#2, hall and bathroom, use TAS Bourbon Street,
-Applewood LOLG1039.
+Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
+hall, living room and kitchen. Bamboo flooring is acceptable for living room
+and hall. Include insulating underlayment.
+
+TAS Bourbon Street Applewood LOLG1039 matches well with BR#1 and current
+counter, backsplash and cabinet selections.
+
 
 ## Cabinets and Fixtures
 
