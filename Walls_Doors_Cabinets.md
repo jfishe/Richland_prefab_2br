@@ -25,7 +25,8 @@ protect heat exchanger.
 2. Please include baseboard trim, as appropriate, in the rooms where the floor
    is replaced.
 3. Remove wall sconces and gang boxes in BR#1 and BR#2. Patch and finish holes.
-4. Add backsplash above counter and stove throughout kitchen. Some possibilities:
+4. Add backsplash above counter and stove throughout kitchen. Backsplash should
+   not extend into Living Room—i.e., around the corner from the kitchen.
 
    <!-- markdownlint-disable MD013 -->
 
@@ -34,8 +35,7 @@ protect heat exchanger.
    <!-- markdownlint-enable MD013 -->
 
    Edge trim will be needed for the exposed ends in the living room and by the
-   pantry window. Seal with a penetrating sealer. I assume the sealed marble
-   can handle heat/steam from stove. Please advise.
+   pantry window.
 
 5. Remove stub wall beside refrigerator.
 6. Move refrigerator cubicle back to front door. Leave room for front
