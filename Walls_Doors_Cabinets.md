@@ -153,7 +153,10 @@ Applewood LOLG1039.
 5. Add faucet and drain for stove. Drain should be capped for future use by a
    steam injecting oven. Faucet should have a pull-out nozzle that reaches
    front of stove for filling large pressure canner. Only cold water plumbing
-   is needed. The kitchen sink faucet design looks workable.
+   is needed.
+
+   [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
+
 6. Add appliance garage near wine rack for 5-qt Kitchen-Aid mixer, blender and
    food processor. Garage should have fold away door, so that counter space is
    accessible when the garage is open.
