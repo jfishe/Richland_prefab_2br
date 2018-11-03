@@ -3,7 +3,7 @@ title: Electrical Upgrade
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Proposed changes to wiring, lighting, outlets, switches and electrical supply.
+summary: Proposed Phase 1 changes to wiring, lighting, outlets, switches and electrical supply.
 header-includes:
   - |
     ```{=html}
@@ -11,7 +11,7 @@ header-includes:
     ```
 ---
 
-# Electrical Upgrade
+# Electrical Upgrade Phase 1
 
 ## General
 
@@ -76,14 +76,7 @@ header-includes:
 
 ## Bathroom
 
-1. Move exhaust fan/light switch to wall adjacent to door. Separate light and
-   fan switch into two switches.
-2. Ceiling light/exhaust fan may need to be shifted to accommodate shower
-   cabinet. Please advise.
-3. Add ceiling light over vanity with switch adjacent to vanity.
-4. Add duplex outlet adjacent to vanity switch.
-5. Add quadraplex outlet on opposite wall to power items on shelves: two
-   toothbrushes, Braun shaver and hot curler box.
+Bathroom remodel is Phase 2. For Phase 1 power existing connections, which are already grounded.
 
 ## Kitchen
 
