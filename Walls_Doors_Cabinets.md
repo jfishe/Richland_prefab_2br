@@ -1,5 +1,5 @@
 ---
-title: Walls, Doors and Cabinets
+title: Walls, Doors and Cabinets Phase 1
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
@@ -12,7 +12,7 @@ header-includes:
     ```
 ---
 
-# Walls, Doors, Floors and Cabinets and Fixtures
+# Walls, Doors, Floors and Cabinets and Fixtures Phase 1
 
 When generating dust from demo, drywall etc., seal the HVAC indoor unit to
 protect heat exchanger.
@@ -55,10 +55,6 @@ protect heat exchanger.
 16. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
     Currently WW2 era plywood.
 17. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
-18. The wall insulation is mostly/completely original layered paper from WW2.
-    What is the best approach for upgrading the insulation? E.g., inject foam,
-    remove siding and insulate, etc. We're planning to re-paint the outside at
-    a later time, so that may affect the decision.
 
 ### Bathroom
 
