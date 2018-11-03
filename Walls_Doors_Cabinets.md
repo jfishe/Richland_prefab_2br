@@ -182,14 +182,3 @@ counter, backsplash and cabinet selections.
 6. Replace inside door with barn door or pocket door. Wall depth may be
    sufficient for pocket door.
 
-### Living Room Cabinets and Fixtures
-
-1. Electronics Cabinet Under TV:
-   1. Similar style as kitchen cabinets. Depth 18 in. for file cabinets.
-   2. Printer enclosure with filter & fan
-   3. Shelf for 2 laptops
-   4. Surge protector for laptops, printer, TV and DVD player
-   5. Space on top for DVD player
-   6. Four drawer file cabinet with lock for both drawers. Preferably two
-      drawers on each end.
-   7. Cupboard for printer paper ~10 reams
