@@ -102,8 +102,8 @@ bathroom changes are Phase 2.
 
 ## Floors
 
-Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to BR#2,
-hall, living room and kitchen. Bamboo flooring is acceptable for living room
+Remove tile floor. Add water-proof flooring similar to BR#1 bamboo to
+living room and kitchen. Bamboo flooring is acceptable for living room
 and hall. Include insulating underlayment.
 
 TAS Bourbon Street Applewood LOLG1039 matches well with BR#1 and current
