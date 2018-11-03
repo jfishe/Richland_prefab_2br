@@ -3,7 +3,8 @@ title: Walls, Doors and Cabinets Phase 1
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Proposed Phase 1 changes to walls, interior doors, floors and cabinets and
+summary:
+  Proposed Phase 1 changes to walls, interior doors, floors and cabinets and
   fixtures.
 header-includes:
   - |
@@ -47,14 +48,14 @@ protect heat exchanger.
    repairs?
 10. Add stove vent above new stove location. Small rectangular vent pipe to
     minimize cupboard impact desired.
-12. Replace drywall in kitchen.
-13. Remove wire raceway in ceiling between kitchen and living room and between
+11. Replace drywall in kitchen.
+12. Remove wire raceway in ceiling between kitchen and living room and between
     bathroom and hall. Bathroom ceiling remain unfinished in Phase 1.
-14. Fill patch and tape kitchen and living room walls as needed.
-15. In living room and BR#2, tape, mud and finish ceiling. Semi-smooth finish.
-16. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
+13. Fill patch and tape kitchen and living room walls as needed.
+14. In living room and BR#2, tape, mud and finish ceiling. Semi-smooth finish.
+15. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
     Currently WW2 era plywood.
-17. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
+16. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
 
 ### Bathroom
 
@@ -83,15 +84,12 @@ bathroom changes are Phase 2.
 
 ### Crawl Space
 
-1. Cut concrete footer blocking crawl space access. Enlarge crawl space access
-   and add cover/access hatch.
-2. Replace heat tape and insulate pipes as needed. Add additional heat tape to
+1. Replace heat tape and insulate pipes as needed. Add additional heat tape to
    unprotected sections if any. Heat tape in crawl space is old, so replace
    with new. Let me know if the lifetime is less than 5 years.
-3. Add/replace under-floor insulation.
-4. Do we need to replace the cast-iron drain? I assume ABS is recommended for
+2. Do we need to replace the cast-iron drain? I assume ABS is recommended for
    the drains. Please advise.
-5. I assume PEX is the best choice for supply plumbing. Please don't re-use existing
+3. I assume PEX is the best choice for supply plumbing. Please don't re-use existing
    copper pipe.
 
 ## Doors
@@ -124,7 +122,6 @@ and hall. Include insulating underlayment.
 TAS Bourbon Street Applewood LOLG1039 matches well with BR#1 and current
 counter, backsplash and cabinet selections.
 
-
 ## Cabinets and Fixtures
 
 ### Kitchen
@@ -134,16 +131,18 @@ counter, backsplash and cabinet selections.
 2. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
    <!-- markdownlint-disable MD013 -->
 3. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN")
-   <!-- markdownlint-enable MD013 -->
    Article Number: 891.574.84 Size 22 x 20-5/8 inches.
 4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
    is installed in the existing kitchen sink. Please re-use the faucet.
+   <!-- markdownlint-enable MD013 -->
 5. Add faucet and drain for stove. Drain should be capped for future use by a
    steam injecting oven. Faucet should have a pull-out nozzle that reaches
    front of stove for filling large pressure canner (13 inch height).
-
    Only cold water plumbing is needed.
 
+   <!--  TODO:  <02-11-18, John D. Fisher>
+   Find cheaper alternative. See Issue #4.
+   -->
    [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
 
 6. Add appliance garage near wine rack for 5-qt Kitchen-Aid mixer, blender and
