@@ -94,19 +94,6 @@ bathroom changes are Phase 2.
 
 ## Doors
 
-### Bedroom #1 Door
-
-1. Raise door jamb close to ceiling.
-2. Replace door. Frosted glass or similar synthetic material is desired to
-   allow natural light into hall.
-
-### Bedroom #2 Door
-
-1. Raise door jamb close to ceiling.
-2. Replace door with pocket door or barn door. Frosted glass or similar
-   synthetic material is desired to allow natural light into hall.
-3. Add cabinet door for closet.
-
 ### Bathroom Door
 
 1. Raise door jamb close to ceiling.
@@ -179,6 +166,3 @@ counter, backsplash and cabinet selections.
 4. Add washer water supply and drain.
 5. Installation drawings for washer and dryer are available showing recommended
    water supply, drain and dryer vent locations.
-6. Replace inside door with barn door or pocket door. Wall depth may be
-   sufficient for pocket door.
-
