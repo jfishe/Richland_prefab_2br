@@ -25,6 +25,9 @@ required to generate the javascript viewer. See
 [Third Party Notices](#third-party-notices) for information about downloading
 the plugin. Refer to the [`Makefile`][makefile] for build software.
 
+The pdf defaults to `documentclass` article but can be changed to `extarticle`
+to allow larger default font sizes.
+
 [makefile]: Makefile
 
 ## Overview
