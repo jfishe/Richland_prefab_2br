@@ -109,6 +109,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--variable papersize=letter \
 		--variable links-as-notes \
 		--variable colorlinks \
+		--variable documentclass=article \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
