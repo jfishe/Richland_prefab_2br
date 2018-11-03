@@ -3,7 +3,7 @@ title: Walls, Doors and Cabinets
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Proposed changes to walls, interior doors, floors and cabinets and
+summary: Proposed Phase 1 changes to walls, interior doors, floors and cabinets and
   fixtures.
 header-includes:
   - |
@@ -47,8 +47,7 @@ protect heat exchanger.
    repairs?
 10. Add stove vent above new stove location. Small rectangular vent pipe to
     minimize cupboard impact desired.
-12. Remove extraneous drywall from kitchen (adjacent to bathroom). Do we need
-    to replace kitchen drywall or just patch, mud and finish?
+12. Replace drywall in kitchen.
 13. Remove wire raceway in ceiling between kitchen and living room and between
     bathroom and hall.
 14. Fill patch and tape kitchen and living room walls as needed.
