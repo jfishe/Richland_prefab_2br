@@ -7,7 +7,7 @@
 # In order to use this makefile, you need some tools:
 # - GNU make
 # - Pandoc >= 2.2
-# - XeLaTeX
+# - XeLaTeX, including extsizes macros if make large is used.
 # - Python >= 3.6
 #   - panflute
 #   - MarkdownPP
@@ -24,8 +24,13 @@ staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
 # $(info staticfiles is $(staticfiles))
 
 # Directory containing pdf files
+# make large overides location, etc.
 
-output := print
+output := print$(large)
+
+# Select default fontsize and documentclass for XeLaTeX.
+fontsize := 12pt
+documentclass := article
 
 # All markdown files in $(source) are considered sources
 
@@ -38,6 +43,7 @@ sources := $(wildcard $(source)/*.md)
 # to the root directory.
 # For files in /Public, droppages.com copies files and folders as-is to root.
 # href and script src relative URL's should assume root.
+# make draft overides location.
 
 remodel := remodel_richland.droppages.com
 htmloutput := $(remodel)/Content$(drafts)
@@ -99,15 +105,20 @@ html: $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templ
 draft:
 	$(MAKE) html drafts:=/_drafts
 
+.PHONY : large
+## Generate PDF with larger fonts for accessibility.
+large :
+	$(MAKE) pdf large:=large fontsize:=17pt documentclass:=extarticle
+
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua $(sources) | $(output)/
 	pandoc \
-		--variable fontsize=12pt \
+		--variable fontsize=$(fontsize) \
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 		--variable papersize=letter \
 		--variable links-as-notes \
 		--variable colorlinks \
-		--variable documentclass=article \
+		--variable documentclass=$(documentclass) \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
@@ -121,6 +132,10 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
+.INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
+$(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput)/
+	cp $< $@
+
 .SECONDARY : $(staticobjects)
 $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(sources) | $(htmloutput)/
 	pandoc \
@@ -145,10 +160,6 @@ $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip | $(staticoutput)/
 $(source)/%.md : $(source)/%.mdpp
 	markdown-pp $< --output $@
 
-.INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
-$(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput)/
-	cp $< $@
-
 $(staticoutput)/% : $(CURDIR)/% | $(staticoutput)/
 	cp $< $@
 
@@ -166,9 +177,12 @@ $(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ :
 # }}}
 
 # Recipe for clean {{{
-.PHONY : clean cleanhtml cleanhome cleanpdf cleandraft
+.PHONY : clean cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
 ## Remove all output.
-clean : cleanhtml cleanhome cleanpdf cleandraft
+clean : cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
+
+## Remove pychache.
+cleanpy :
 	rm -rf __pycache__
 
 ## Remove HTML output.
@@ -184,13 +198,17 @@ cleanhome:
 
 ## Remove pdf output.
 cleanpdf:
-	rm -f $(output)/*.pdf
+	rm -rf $(output)
 
 ## Remove draft
 cleandraft:
 	rm -rf $(htmloutput)/_drafts
 	rm -rf $(staticoutput)/_drafts
 	rm -rf $(templates)/_drafts
+
+## Remove large pdf output.
+cleanlarge:
+	rm -rf $(output)large
 # }}}
 
 # Recipe for web-browser {{{
