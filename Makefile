@@ -1,4 +1,3 @@
-.DEFAULT_GOAL := help
 # Generate HTML5 and PDFs from the Markdown source files
 #
 # Derived from:
@@ -54,6 +53,8 @@ staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
 # End Variables }}}
 
 # Rules {{{
+# Help {{{
+.DEFAULT_GOAL := help
 .PHONY : help
 ## Show the help message
 # COLORS
@@ -80,29 +81,26 @@ help:
 		} \
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
+# End Help }}}
 .PHONY : all
 ## Generate HTML5 and PDFs from the Markdown source files
 all: pdf html
 
 .PHONY : pdf
 ## Generate PDFs from the Markdown source files
-pdf: $(output)/Richland_Prefab_2BR.pdf | $(output)/ ## Build pdf
+pdf: $(output)/Richland_Prefab_2BR.pdf | $(output)/
 
 .PHONY : html
 ## Geneate HTML with CSS, JavaScript and SweetHome3D plan on website.
-html: $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html | $(staticoutput)/ $(htmloutput)/ $(templates)/ ## Build html and copy to website.
+html: $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html | $(htmloutput)/
 
 .PHONY : draft
 ## Generate draft html output in webpage/_drafts
 draft:
 	$(MAKE) html drafts:=/_drafts
 
-.INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
-$(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html
-	cp $< $@
-
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua $(sources)
+$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua $(sources) | $(output)/
 	pandoc \
 		--variable fontsize=12pt \
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
@@ -124,7 +122,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
 .SECONDARY : $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(sources)
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(sources) | $(htmloutput)/
 	pandoc \
 		--standalone \
 		--base-header-level=2 \
@@ -139,7 +137,7 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 
 		--to="html5" \
 		--output $@
 
-$(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip
+$(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip | $(staticoutput)/
 	make cleanhome
 	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(staticoutput)
 	touch $(staticoutput)/Home_Plan.zip
@@ -147,13 +145,17 @@ $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip
 $(source)/%.md : $(source)/%.mdpp
 	markdown-pp $< --output $@
 
-$(staticoutput)/% : $(CURDIR)/%
+.INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
+$(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput)/
 	cp $< $@
 
-$(templates)/% : $(CURDIR)/%
+$(staticoutput)/% : $(CURDIR)/% | $(staticoutput)/
 	cp $< $@
 
-$(htmloutput)/% : $(CURDIR)/%
+$(templates)/% : $(CURDIR)/% | $(templates)/
+	cp $< $@
+
+$(htmloutput)/% : $(CURDIR)/% | $(htmloutput)/
 	cp $< $@
 # }}}
 
@@ -165,21 +167,26 @@ $(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ :
 
 # Recipe for clean {{{
 .PHONY : clean cleanhtml cleanhome cleanpdf cleandraft
+## Remove all output.
 clean : cleanhtml cleanhome cleanpdf cleandraft
 	rm -rf __pycache__
 
+## Remove HTML output.
 cleanhtml:
 	rm -f $(htmloutput)/*
 	rm -f $(staticoutput)/*.css
 	rm -f $(templates)/*
 
+## Remove SweetHome 3D Home Plan from output.
 cleanhome:
 	rm -rf $(staticoutput)/Home_Plan.zip
 	rm -rf $(staticoutput)/lib
 
+## Remove pdf output.
 cleanpdf:
 	rm -f $(output)/*.pdf
 
+## Remove draft
 cleandraft:
 	rm -rf $(htmloutput)/_drafts
 	rm -rf $(staticoutput)/_drafts
