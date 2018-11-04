@@ -35,6 +35,7 @@ documentclass := article
 # All markdown files in $(source) are considered sources
 
 sources := $(wildcard $(source)/*.md)
+sources := $(subst $(source),$(source)/tmp,$(sources))
 # $(info sources is $(sources))
 
 # Directory containing HTML5 files
@@ -111,7 +112,7 @@ large :
 	$(MAKE) pdf large:=large fontsize:=17pt documentclass:=extarticle
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua $(sources) | $(output)/
+$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
 	pandoc \
 		--variable fontsize=$(fontsize) \
 		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
@@ -128,7 +129,6 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
-	rm -rf tex2pdf.[0-9]*
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
@@ -137,7 +137,7 @@ $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput
 	cp $< $@
 
 .SECONDARY : $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua $(sources) | $(htmloutput)/
+$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua | $(htmloutput)/
 	pandoc \
 		--standalone \
 		--base-header-level=2 \
@@ -153,12 +153,16 @@ $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 
 		--output $@
 
 $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip | $(staticoutput)/
-	make cleanhome
+	$(MAKE) cleanhome
 	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(staticoutput)
 	touch $(staticoutput)/Home_Plan.zip
+# }}}
 
-$(source)/%.md : $(source)/%.mdpp
+$(source)/%.md : $(source)/%.mdpp $(sources)
 	markdown-pp $< --output $@
+
+$(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
+	pandoc $< --atx-headers --to markdown --output $@
 
 $(staticoutput)/% : $(CURDIR)/% | $(staticoutput)/
 	cp $< $@
@@ -172,42 +176,45 @@ $(htmloutput)/% : $(CURDIR)/% | $(htmloutput)/
 
 # Order out rule to create directories if needed {{{
 
-$(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ :
+.INTERMEDIATE : $(source)/tmp/
+$(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ $(source)/tmp/ :
 	mkdir -p  $@
 # }}}
 
 # Recipe for clean {{{
-.PHONY : clean cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
-## Remove all output.
-clean: cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
-
-## Remove pychache.
-cleanpy:
+.PHONY : clean cleanall cleanhtml cleanhome cleanpdf cleandraft cleanlarge
+## Remove build cruft: cleanpy cleantmp
+clean:
+	rm -rf tex2pdf.[0-9]*
 	rm -rf __pycache__
+	rm -rf $(source)/tmp
+
+## Remove all output: clean cleanhtml cleanhome cleanpdf cleandraft cleanlarge.
+cleanall: clean cleanhtml cleanhome cleanpdf cleandraft cleanlarge
 
 ## Remove HTML output.
-cleanhtml:
+cleanhtml :
 	rm -f $(htmloutput)/*
 	rm -f $(staticoutput)/*.css
 	rm -f $(templates)/*
 
 ## Remove SweetHome 3D Home Plan from output.
-cleanhome:
+cleanhome :
 	rm -rf $(staticoutput)/Home_Plan.zip
 	rm -rf $(staticoutput)/lib
 
 ## Remove pdf output.
-cleanpdf:
+cleanpdf :
 	rm -rf $(output)
 
 ## Remove draft
-cleandraft:
+cleandraft :
 	rm -rf $(htmloutput)/_drafts
 	rm -rf $(staticoutput)/_drafts
 	rm -rf $(templates)/_drafts
 
 ## Remove large pdf output.
-cleanlarge:
+cleanlarge :
 	rm -rf $(output)large
 # }}}
 
