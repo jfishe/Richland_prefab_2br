@@ -1,4 +1,4 @@
-# Generate HTML5 and PDFs from the Markdown source files
+# Generate HTML5 and PDF from the Markdown source files
 #
 # Derived from:
 #   https://gist.github.com/bertvv/e77e3a5d24d8c2a9bcc4
@@ -52,7 +52,7 @@ templates := $(remodel)/Templates$(drafts)
 staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
 
 # drafts := $(subst $(remodel),$(remodel)/_drafts,$(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html)
-# Convert the list of source files into a list of output files (PDFs in
+# Convert the list of source files into a list of output files (PDF in
 # directory print/).
 # $(info staticobjects is $(staticobjects))
 
@@ -89,11 +89,11 @@ help:
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
 # End Help }}}
 .PHONY : all
-## Generate HTML5 and PDFs from the Markdown source files
+## Generate HTML5 and PDF from the Markdown source files
 all: pdf html
 
 .PHONY : pdf
-## Generate PDFs from the Markdown source files
+## Generate PDF from the Markdown source files
 pdf: $(output)/Richland_Prefab_2BR.pdf | $(output)/
 
 .PHONY : html
@@ -179,10 +179,10 @@ $(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ :
 # Recipe for clean {{{
 .PHONY : clean cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
 ## Remove all output.
-clean : cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
+clean: cleanpy cleanhtml cleanhome cleanpdf cleandraft cleanlarge
 
 ## Remove pychache.
-cleanpy :
+cleanpy:
 	rm -rf __pycache__
 
 ## Remove HTML output.
