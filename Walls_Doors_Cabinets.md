@@ -130,31 +130,31 @@ counter, backsplash and cabinet selections.
    <!--  TODO:  <02-11-18, John D. Fisher>
    Find cheaper alternative. See Issue #4.
    -->
+
    [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
 
-6. Add appliance garage near wine rack for 5-qt Kitchen-Aid mixer, blender and
+6. Add appliance garage near prep. area for 5-qt Kitchen-Aid mixer, blender and
    food processor. Garage should have fold away door, so that counter space is
    accessible when the garage is open.
-7. Wine rack should have a door to protect wine from light damage.
-8. Lower corner cupboard, near sink, should have a lazy-susan or pull out
+7. Lower corner cupboard, near sink, should have a lazy-susan or pull out
    shelving so that maximum space can be accessed.
-9. Double lower cupboards should have pull out shelves, adjustable height if
+8. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-10. Spice drawers adjacent to the dishwasher are desired.
-11. Dovetail drawer fronts are desired.
-12. Installation cutout drawings are available for the dishwasher, stove and
+9. Spice drawers adjacent to the dishwasher are desired.
+10. Dovetail drawer fronts are desired.
+11. Installation cutout drawings are available for the dishwasher, stove and
     refrigerator.
-13. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-14. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
+12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
+13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one.
-15. The dishwasher drain vent should be located on the counter, behind the
+14. The dishwasher drain vent should be located on the counter, behind the
     dishwasher, rather than running into the sink cabinet.
-16. The dishwasher supply valve should be accessible, which probably means in
+15. The dishwasher supply valve should be accessible, which probably means in
     the sink cabinet. However, it would be nice not to have the dishwasher
     supply hose in the sink cabinet; presumably it can be piped from the valve
     to the dishwasher cabinet.
-17. Relocate and replace irrigation control station from kitchen to new water
+16. Relocate and replace irrigation control station from kitchen to new water
     heater cubicle.
 
 ### Bedroom #2 Cabinets and Fixtures
