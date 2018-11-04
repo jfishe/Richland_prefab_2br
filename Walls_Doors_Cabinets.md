@@ -144,7 +144,8 @@ counter, backsplash and cabinet selections.
 9. Spice drawers adjacent to the dishwasher are desired.
 10. Dovetail drawer fronts are desired.
 11. Installation cutout drawings are available for the dishwasher, stove and
-    refrigerator.
+    refrigerator. Size refrigerator cubicle for standard 36 inch; actual
+    refrigerator is smaller.
 12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
 13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one.
