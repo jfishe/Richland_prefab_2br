@@ -3,7 +3,10 @@ title: Remodel Plan
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Richland, WA, 2 bedroom Prefab Remodel starting from the original floor plans, which are available from [@columbiaabc]. The dimensions have been updated to match the actual house.
+summary:
+  Richland, WA, 1 bedroom Prefab Remodel starting from the original floor
+  plans, which are available from [@columbiaabc]. The dimensions have been
+  updated to match the actual house.
 link-citations: true
 header-includes:
   - |
@@ -92,17 +95,17 @@ and Edge have been tested).
        http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html 
        You may also switch between aerial view and virtual visit with the space bar -->
   <!-- For browser compatibility, see http://caniuse.com/webgl -->
-  <button onclick="viewHomeInOverlay(inputPlan, inputSettings)">View home</button></p>
+  <p><button onclick="viewHomeInOverlay(inputPlan, inputSettings)">View home</button></p>
 </div>
 <!-- markdownlint-enable MD013 MD033 -->
 
-## Abbreviations
+# Abbreviations
 
 BR#x
 
 :   Bedroom #x, where x is 1 or 2 (e.g., Bedroom #1)
 
-## Errata
+# Errata
 
 - The `Sweet Home 3D viewer` plugin does not show the horizontal KALLAX shelf
   in Bedroom #2 correctly; rather it renders the shelf vertically, instead of
@@ -111,11 +114,25 @@ BR#x
 - The corner cabinet counter top does not display correctly. It should be
   quartz, like the rest of the counter.
 
-!INCLUDE "Electrical.md"
+# Phase 1 Remodel
 
-!INCLUDE "Walls_Doors_Cabinets.md"
+The following scope covers Phase 1. [Phase 2](#phase-2-remodel) is included
+below for information but should not be included in estimates at this time.
 
-!INCLUDE "THIRD-PARTY-NOTICES.md"
+!INCLUDE "tmp/Electrical.md", 1
+
+!INCLUDE "tmp/Walls_Doors_Cabinets.md", 1
+
+# Phase 2 Remodel
+
+The following scope covers current plans for Phase 2, which is included for
+information/comments where it may impact [Phase 1](#phase-1-remodel).
+
+!INCLUDE "tmp/Bathroom.md", 1
+
+!INCLUDE "tmp/Doors_Phase2.md", 1
+
+!INCLUDE "tmp/THIRD-PARTY-NOTICES.md"
 
 # Sweet Home 3D Model and Dimensional CAD Drawings
 
