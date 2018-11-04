@@ -57,12 +57,10 @@ protect heat exchanger.
     Currently WW2 era plywood.
 16. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
 
-### Bathroom
-
 Except for replacing bathroom door with pocket door and removing the raceway,
-bathroom changes are Phase 2.
+bathroom changes are [Phase 2](#phase-2-remodel).
 
-### Water Heater
+### Water Heater Relocation
 
 1. Current location is the attic. Remove existing piping as needed and plumb
    new location.
@@ -82,7 +80,7 @@ bathroom changes are Phase 2.
 8. Cubicle and door should be large enough to allow easy removal of the water heater.
 9. Water heater access panels, drain, etc. should face the door.
 
-### Crawl Space
+### Crawl Space Plumbing
 
 1. Replace heat tape and insulate pipes as needed. Add additional heat tape to
    unprotected sections if any. Heat tape in crawl space is old, so replace
@@ -111,7 +109,7 @@ counter, backsplash and cabinet selections.
 
 ## Cabinets and Fixtures
 
-### Kitchen
+### Kitchen Cabinets and Fixtures
 
 1. For the kitchen counter, we like Latte Quartz from _SBN Marble Granite
    & Tile, Inc._.

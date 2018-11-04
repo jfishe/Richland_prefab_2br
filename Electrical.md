@@ -3,7 +3,9 @@ title: Electrical Upgrade
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary: Proposed Phase 1 changes to wiring, lighting, outlets, switches and electrical supply.
+summary:
+  Proposed Phase 1 changes to wiring, lighting, outlets, switches and
+  electrical supply.
 header-includes:
   - |
     ```{=html}
@@ -74,11 +76,12 @@ header-includes:
 9. Replace light switch with duplex for ceiling light and fan. Note light
    switch should support dimmer.
 
-## Bathroom
+## Bathroom Electrical
 
-Bathroom remodel is Phase 2. For Phase 1 power existing connections, which are already grounded.
+Bathroom remodel is Phase 2. For Phase 1 power existing connections, which are
+already grounded.
 
-## Kitchen
+## Kitchen Electrical
 
 1. How should ceiling lights be placed in kitchen? Current location may not be
    ideal for open concept floor plan.
@@ -128,7 +131,7 @@ Bathroom remodel is Phase 2. For Phase 1 power existing connections, which are a
 4. I'm happy with their current locations. Let me know if we're required to
    have more.
 
-## Water Heater
+## Water Heater Electrical
 
 1. Move water heater from attic to outside.
 2. Add power for the water heater and heat tape.
@@ -139,10 +142,11 @@ Bathroom remodel is Phase 2. For Phase 1 power existing connections, which are a
 5. Re-run irrigation valve wires from valve box to cubicle. It is not necessary
    to excavate the existing wires from the front garden.
 
-## Crawl Space
+## Crawl Space Electrical
 
 1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should
    be near crawl space entrance.
 2. Replace heat tape in crawl space.
-3. [Walls, Doors and Cabinets and Fixtures](#Walls-Doors-Cabinets) is
-   addressing pipe and floor insulation.
+3. [Crawl Space Plumbing](#crawl-space-plumbing) is addressing pipe and floor
+   insulation.
+
