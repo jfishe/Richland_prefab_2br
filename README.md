@@ -35,19 +35,27 @@ to allow larger default font sizes.
 [`Richland_Prefab_2BR.mdpp`](Richland_Prefab_2BR.mdpp) contains an overview of
 the project and defines the content for the PDF and HTML5 versions.
 
-## Electrical
+## Electrical Phase 1
 
 Lighting, wiring, outlets and irrigation controls are discussed below.
 
-- [Electrical Upgrade](Electrical.md)
+[Electrical Upgrade](Electrical.md)
 
-## Walls, Doors and Cabinets and Fixtures
+## Walls, Doors and Cabinets and Fixtures Phase 1
 
 Plumbing, flooring, walls, cabinets (kitchen and bath) and fixtures, such as
 faucets and shower head, are discussed below.
 
-- [Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md)
+[Walls, Doors and Cabinets and Fixtures](Walls_Doors_Cabinets.md)
+
+## Bathroom Phase 2
+
+[Bathroom](Bathroom.md)
+
+## Doors Phase 2
+
+[Doors](Doors_Phase2.md)
 
 ## Third Party Notices
 
-- [Third Party Notices](THIRD-PARTY-NOTICES.md)
+[Third Party Notices](THIRD-PARTY-NOTICES.md)
