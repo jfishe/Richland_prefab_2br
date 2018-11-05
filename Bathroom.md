@@ -50,7 +50,7 @@ counter, backsplash and cabinet selections.
 5. Add quadraplex outlet on opposite wall to power items on shelves: two
    toothbrushes, Braun shaver and hot curler box.
 
-### Bathroom Cabinets and Fixtures Phase 2
+## Bathroom Cabinets and Fixtures Phase 2
 
 1. Remove old vanity and mirror. Relocate toilet and vanity to wall adjacent to
    window. May want to swap new vanity and toilet location for more clearance.
