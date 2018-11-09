@@ -7,7 +7,8 @@
 # In order to use this makefile, you need some tools:
 # - GNU make
 # - Pandoc >= 2.2
-# - XeLaTeX, including extsizes macros if make large is used.
+# - XeLaTeX
+#   - KOMA-Script
 # - Python >= 3.6
 #   - panflute
 #   - MarkdownPP
@@ -30,7 +31,7 @@ output := print$(large)
 
 # Select default fontsize and documentclass for XeLaTeX.
 fontsize := 12pt
-documentclass := article
+documentclass := scrartcl
 
 # All markdown files in $(source) are considered sources
 
@@ -109,7 +110,7 @@ draft:
 .PHONY : large
 ## Generate PDF with larger fonts for accessibility.
 large:
-	$(MAKE) pdf large:=large fontsize:=17pt documentclass:=extarticle
+	$(MAKE) pdf large:=large fontsize:=17pt
 
 .PHONY : tex
 ## Generate intermediate LaTeX for reviewing pdf recipe.
