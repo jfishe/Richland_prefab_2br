@@ -108,8 +108,12 @@ draft:
 
 .PHONY : large
 ## Generate PDF with larger fonts for accessibility.
-large :
+large:
 	$(MAKE) pdf large:=large fontsize:=17pt documentclass:=extarticle
+
+.PHONY : tex
+## Generate intermediate LaTeX for reviewing pdf recipe.
+tex: $(output)/Richland_Prefab_2BR.tex | $(output)/
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
@@ -129,6 +133,24 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
+# Recipe for converting a Markdown file into LaTeX using Pandoc {{{
+$(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
+	pandoc \
+		--variable fontsize=$(fontsize) \
+		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
+		--variable papersize=letter \
+		--variable links-as-notes \
+		--variable colorlinks \
+		--variable documentclass=$(documentclass) \
+		--filter link_filter.py \
+		--lua-filter date.lua \
+		--table-of-contents \
+		--number-sections \
+		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
+		--template="pandoc.tex" \
+		--from=markdown  $< \
+		--output $@
+# }}}
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
@@ -162,7 +184,11 @@ $(source)/%.md : $(source)/%.mdpp $(sources)
 	markdown-pp $< --output $@
 
 $(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
-	pandoc $< --atx-headers --to markdown --output $@
+	pandoc \
+	--from=markdown $< \
+	--atx-headers \
+	--to=markdown \
+	--output $@
 
 $(staticoutput)/% : $(CURDIR)/% | $(staticoutput)/
 	cp $< $@
