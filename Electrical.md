@@ -3,8 +3,7 @@ title: Electrical Upgrade
 subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
-summary:
-  Proposed Phase 1 changes to wiring, lighting, outlets, switches and
+summary: Proposed Phase 1 changes to wiring, lighting, outlets, switches and
   electrical supply.
 header-includes:
   - |
@@ -96,10 +95,9 @@ already grounded.
 8. Remove drain for washer and seal drain vent. Drain vents into attic, so
    could be sealed from above. Patching may not be required as the pantry
    cabinet will likely cover the damage.
-9. Check/update refrigerator outlet. Note refrigerator wall is being move
-   closer to front door, so outlet will require re-wriring.
-10. Add outlet for TV on wall outside refrigerator cubicle.
-11. Remove existing stove power and relocate to new location.
+9. Check/update refrigerator outlet. Note refrigerator wall is being moved
+   closer to front door, so outlet will require re-wiring.
+10. Remove existing stove power and relocate to new location.
 
 ## Living Room
 
@@ -149,4 +147,3 @@ already grounded.
 2. Replace heat tape in crawl space.
 3. [Crawl Space Plumbing](#crawl-space-plumbing) is addressing pipe and floor
    insulation.
-
