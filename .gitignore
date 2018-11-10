@@ -105,3 +105,8 @@ tags*
 Remodel_htmldoc/
 *.html
 HTML*/
+*.vim
+
+*.zip
+*.png
+*.xlsx
