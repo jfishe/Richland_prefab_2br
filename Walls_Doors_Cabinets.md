@@ -87,6 +87,8 @@ heater does not need to be relocated.
 1. Raise door jamb close to ceiling.
 2. Replace door with pocket door. Frosted glass or similar synthetic material
    is desired to allow natural light into hall.
+3. If necessary for pocket door installation, replace the cabinets, top and
+   bottom, with a pantry/closet.
 
 ## Floors
 
