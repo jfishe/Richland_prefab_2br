@@ -62,23 +62,13 @@ bathroom changes are [Phase 2](#phase-2-remodel).
 
 ### Water Heater Relocation
 
-1. Current location is the attic. Remove existing piping as needed and plumb
-   new location.
-2. Move water heater from attic to outside; between kitchen and bath windows
-   appears best.
-3. Construct cubicle with insulation and heat tape pipes. May be able to reuse
-   heat tape from attic as it was installed December 2017.
-4. Include drain pan and relief valve drain line(s), similar to attic
-   installation. Drain pan is new, so can probably be re-used. They can exhaust
-   onto lawn. Drain lines should be extendable to allow adding deck or
-   screened porch in the future. Hose fittings would work.
-5. Replace existing drain valve with large bore quarter turn valve.
-   Discharge side should be hose-thread to make drain and flush easier.
-6. Re-locate and replace irrigation control inside water heater cubicle.
-7. Cubicle floor and door should be elevated to allow addition of deck or
-   screened porch in the future.
-8. Cubicle and door should be large enough to allow easy removal of the water heater.
-9. Water heater access panels, drain, etc. should face the door.
+The water heater is behind a truss, which is 7'4" from attic door and the door
+is 12 ft. from the front of the house to the nearest edge of attic door. Dimensions
+are from the exterior of the house. The approximate location has been added to
+[the View Home button](#overview).
+
+Since there is adequate clearance for the hood vent over the stove, the water
+heater does not need to be relocated.
 
 ### Crawl Space Plumbing
 
