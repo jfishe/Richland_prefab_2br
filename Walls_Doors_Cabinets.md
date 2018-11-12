@@ -117,8 +117,18 @@ counter, backsplash and cabinet selections.
    & Tile, Inc._.
 2. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
    <!-- markdownlint-disable MD013 -->
-3. [LÅNGUDDEN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S89157484/ "LÅNGUDDEN")
-   Article Number: 891.574.84 Size 22 x 20-5/8 inches.
+3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N "NORRSJÖN").
+
+   Assembly instructions:
+
+   - [NORRSJÖN lid](https://www.ikea.com/us/en/assembly_instructions/lillviken-lid__AA-1843236-1_pub.pdf)
+   - [LILLVIKEN sink strainer with stopper](https://www.ikea.com/us/en/assembly_instructions/lillviken-sink-strainer-with-stopper__AA-1873221-2_pub.pdf)
+   - [NORRSJÖN single bowl dual mount sink](https://www.ikea.com/us/en/assembly_instructions/norrsjon-single-bowl-dual-mount-sink__AA-1858871-4_pub.pdf)
+
+   Manuals:
+
+   - [NORRSJÖN single bowl dual mount sink](https://www.ikea.com/us/en/manuals/norrsjon-single-bowl-dual-mount-sink__AA-1843134-1_pub.pdf)
+
 4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
    is installed in the existing kitchen sink. Please re-use the faucet.
    <!-- markdownlint-enable MD013 -->
