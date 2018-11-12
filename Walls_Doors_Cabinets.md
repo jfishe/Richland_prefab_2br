@@ -162,14 +162,8 @@ counter, backsplash and cabinet selections.
 12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
 13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one.
-14. The dishwasher drain vent should be located on the counter, behind the
-    dishwasher, rather than running into the sink cabinet.
-15. The dishwasher supply valve should be accessible, which probably means in
-    the sink cabinet. However, it would be nice not to have the dishwasher
-    supply hose in the sink cabinet; presumably it can be piped from the valve
-    to the dishwasher cabinet.
-16. Relocate and replace irrigation control station from kitchen to new water
-    heater cubicle.
+14. Relocate and replace irrigation control, outside, near the crawl space
+    access. It should plug into the crawl space heat tape outlet.
 
 ### Bedroom #2 Cabinets and Fixtures
 
