@@ -129,21 +129,19 @@ already grounded.
 4. I'm happy with their current locations. Let me know if we're required to
    have more.
 
-## Water Heater Electrical
+## Irrigation Electrical
 
-1. Move water heater from attic to outside.
-2. Add power for the water heater and heat tape.
-3. Attic heat tape is new and may be re-used.
-4. Irrigation control will be located in the water heater cubicle. Add
-   electrical supply at new location. It should be un-pluggable or provide a
-   shutoff switch for winter. An associated circuit breaker would work.
-5. Re-run irrigation valve wires from valve box to cubicle. It is not necessary
-   to excavate the existing wires from the front garden.
+1. Irrigation control will be re-located outside near the crawl space access.
+   Outlet added for [crawl space heat tape](#crawl-space-electrical) should be
+   near enough to use for irrigation control station, to be supplied by Owner.
+2. Owner will re-run irrigation valve wires. It is not necessary to excavate
+   the existing wires from the front garden.
 
 ## Crawl Space Electrical
 
 1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should
-   be near crawl space entrance.
+   be near crawl space entrance. It will be used by the
+   [irrigation control station](#irrigation-control) during the summer.
 2. Replace heat tape in crawl space.
 3. [Crawl Space Plumbing](#crawl-space-plumbing) is addressing pipe and floor
    insulation.
