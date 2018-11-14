@@ -141,7 +141,7 @@ already grounded.
 
 1. Add duplex or larger outlet, as needed, to supply heat tape. Outlet should
    be near crawl space entrance. It will be used by the
-   [irrigation control station](#irrigation-control) during the summer.
+   [irrigation control station](#irrigation-electrical) during the summer.
 2. Replace heat tape in crawl space.
 3. [Crawl Space Plumbing](#crawl-space-plumbing) is addressing pipe and floor
    insulation.
