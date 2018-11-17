@@ -119,6 +119,14 @@ counter, backsplash and cabinet selections.
    <!-- markdownlint-disable MD013 -->
 3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N "NORRSJÖN").
 
+   >  TODO:  <17-11-18, JD Fisher> > Decide whether to under-mount.
+
+   The sink includes fittings necessary for top mounting but may also be
+   under-mounted. The sink also includes the drain fittings but does not
+   include pipe and fittings needed to connect the drain line. The existing
+   piping is setup for two sink drains and a dishwasher drain; the new sink has
+   only one.
+
    Assembly instructions:
 
    - [NORRSJÖN lid](https://www.ikea.com/us/en/assembly_instructions/lillviken-lid__AA-1843236-1_pub.pdf)
