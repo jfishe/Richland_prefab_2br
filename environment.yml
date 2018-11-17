@@ -1,0 +1,15 @@
+# name: C:\Users\jfishe\Anaconda3
+name: Remodel
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python<3.7
+- pandoc>=2.2
+- nodejs
+- pip:
+  - black
+  - MarkdownPP
+  - mypy
+  - panflute
+# prefix: C:\Users\fishe\Anaconda3
