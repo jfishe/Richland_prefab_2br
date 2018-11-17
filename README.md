@@ -30,6 +30,23 @@ to allow larger default font sizes.
 
 [makefile]: Makefile
 
+### Anaconda or Miniconda
+
+The make file relies on several tools, available through a `conda` environment
+specified in [`environment.yml`](environment.yml). To create the necessary
+environment, isolated from system versions, `environment.yml` may be used to
+create a `conda` environment called `Remodel`.
+
+- [Install Anaconda3 or Miniconda3](https://conda.io/docs/). Pandoc and
+  `link_filter.py` were tested using Python 3; they may or may not work in
+  Python 2.7.
+- From a `bash` prompt, enter `conda env create --file environment.yml`.
+- Follow the instructions in the output to `conda activate Remodel`.
+
+  <!-- >  TODO:  <17-11-18, JD Fisher> >
+  > > Add installation instructions for Ubuntu make, XeLaTeX, etc.
+  -->
+
 ## Overview
 
 [`Richland_Prefab_2BR.mdpp`](Richland_Prefab_2BR.mdpp) contains an overview of
