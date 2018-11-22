@@ -48,14 +48,28 @@ protect heat exchanger.
    repairs?
 10. Add stove vent above new stove location. Small rectangular vent pipe to
     minimize cupboard impact desired.
-11. Replace drywall in kitchen.
-12. Remove wire raceway in ceiling between kitchen and living room and between
+
+    We have already purchased Zephyr Breeze II Model AK1200W 30 inch, hood vent.
+
+    > TODO: <21-11-18, JD Fisher>
+    >
+    > > Update electrical to address power for hood vent. I assume within the
+    > > cabinet above the stove.
+
+    - [Exploded View Diagram](http://docs.zephyronline.com/docs/explodedview/AK12.pdf "Exploded View Diagram")
+    - [Hood Spec Sheet](http://docs.zephyronline.com/docs/specs/breeze2_spec.pdf "Hood Spec Sheet")
+    - [Hood User Manual](http://docs.zephyronline.com/docs/manuals/breeze_manual.pdf "Hood User Manual")
+
+11. Two magnetic knife strips are mounted on the existing cabinet. Please mount
+    one each side on the upper cabinets, to either side of the sink.
+12. Replace drywall in kitchen.
+13. Remove wire raceway in ceiling between kitchen and living room and between
     bathroom and hall. Bathroom ceiling remain unfinished in Phase 1.
-13. Fill patch and tape kitchen and living room walls as needed.
-14. In living room and BR#2, tape, mud and finish ceiling. Semi-smooth finish.
-15. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
+14. Fill patch and tape kitchen and living room walls as needed.
+15. In living room and BR#2, tape, mud and finish ceiling. Semi-smooth finish.
+16. Do we need to cover kitchen, living room and BR#2 ceiling with drywall?
     Currently WW2 era plywood.
-16. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
+17. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
 
 Except for replacing bathroom door with pocket door and removing the raceway,
 bathroom changes are [Phase 2](#phase-2-remodel).
@@ -119,7 +133,8 @@ counter, backsplash and cabinet selections.
    <!-- markdownlint-disable MD013 -->
 3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N "NORRSJÖN").
 
-   >  TODO:  <17-11-18, JD Fisher> > Decide whether to under-mount.
+   > TODO: <17-11-18, JD Fisher>
+   > > Decide whether to under-mount.
 
    The sink includes fittings necessary for top mounting but may also be
    under-mounted. The sink also includes the drain fittings but does not
@@ -151,9 +166,9 @@ counter, backsplash and cabinet selections.
 
    [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
 
-6. Add appliance garage near prep. area for 5-qt Kitchen-Aid mixer, blender and
-   food processor. Garage should have fold away door, so that counter space is
-   accessible when the garage is open.
+6. Add appliance garage near preparation area for 5-qt Kitchen-Aid mixer,
+   blender and food processor. Garage should have fold away door, so that
+   counter space is accessible when the garage is open.
 7. Lower corner cupboard, near sink, should have a lazy-susan or pull out
    shelving so that maximum space can be accessed.
 8. Double lower cupboards should have pull out shelves, adjustable height if
@@ -166,6 +181,12 @@ counter, backsplash and cabinet selections.
 
     Size refrigerator cubicle for standard 36 inch; actual refrigerator is
     smaller.
+
+    > TODO: <21-11-18, John D. Fisher>
+    >
+    > > Decide how to conceal the empty space. Work with Huntwood to design
+    > > a door that could be removed if we end up with a larger refrigerator
+    > > later.
 
 12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
 13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
