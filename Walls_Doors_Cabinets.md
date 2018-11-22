@@ -139,15 +139,16 @@ counter, backsplash and cabinet selections.
    <!-- markdownlint-disable MD013 -->
 3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N "NORRSJÖN").
 
-   > TODO: <17-11-18, JD Fisher>
-   >
-   > > Decide whether to under-mount.
+   Please return to owner, the assembly tools provided with the NORRSJÖN.
 
-   The sink includes fittings necessary for top mounting but may also be
-   under-mounted. The sink also includes the drain fittings but does not
-   include pipe and fittings needed to connect the drain line. The existing
-   piping is setup for two sink drains and a dishwasher drain; the new sink has
-   only one.
+   The sink includes fittings necessary for top mounting. Top mounting is
+   needed to be compatible with drawer height in the sink cabinet. The drawers
+   will include horse-shoe shaped shelves to accommodate plumbing.
+
+   Coordinate with cabinet maker and plumber. The sink also includes the drain
+   fittings but does not include pipe and fittings needed to connect the drain
+   line. The existing piping is setup for two sink drains and a dishwasher
+   drain; the new sink has only one.
 
    Assembly instructions:
 
@@ -161,6 +162,8 @@ counter, backsplash and cabinet selections.
 
 4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
    is installed in the existing kitchen sink. Please re-use the faucet.
+
+   Please return to owner, the assembly tools provided with the VIMMERN.
    <!-- markdownlint-enable MD013 -->
 5. Add faucet and drain for stove. Drain should be capped for future use by a
    steam injecting oven. Faucet should have a pull-out nozzle that reaches
