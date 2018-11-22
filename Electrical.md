@@ -84,9 +84,19 @@ already grounded.
 
 1. How should ceiling lights be placed in kitchen? Current location may not be
    ideal for open concept floor plan.
+   <!--  >  TODO:  <21-11-18, John D. Fisher>
+      > > Issue #26 -->
 2. Check ceiling light gang boxes. They're surface mounted, galvanized steel
    with wire clamps.
-3. The hood vent has task lighting. We already have a hood vent.
+3. The hood vent has task lighting. We have already purchased a Zephyr Breeze
+   II Model AK1200W. Refer to the [Walls](#walls) section for details.
+
+   Provide an electrical connection for the stove hood vent. See
+   <!-- markdownlint-disable MD033 -->
+   <a href="#zephyr-breeze">Walls item \ref{zephyr-breeze} for the Hood User Manual
+   </a> for details.
+   <!-- markdownlint-enable MD033 -->
+
 4. Add task lighting to right of sink for preparation area. Is under-cabinet
    the best choice?
 5. Add switch near preparation area for task lighting.
