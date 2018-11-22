@@ -46,19 +46,25 @@ protect heat exchanger.
 9. Remove and seal current stove exhaust vent. Repair roof at vent location or
    should we retain the roof exhaust as an attic vent and minimize roof
    repairs?
+
+    <!-- markdownlint-disable MD033 -->
+
+    <a name="zephyr-breeze"></a>
+
+    <!-- markdownlint-enable MD033 -->
+
 10. Add stove vent above new stove location. Small rectangular vent pipe to
-    minimize cupboard impact desired.
+    minimize cupboard impact desired. \label{zephyr-breeze}
 
     We have already purchased Zephyr Breeze II Model AK1200W 30 inch, hood vent.
 
-    > TODO: <21-11-18, JD Fisher>
-    >
-    > > Update electrical to address power for hood vent. I assume within the
-    > > cabinet above the stove.
+    <!-- markdownlint-disable MD013 -->
 
     - [Exploded View Diagram](http://docs.zephyronline.com/docs/explodedview/AK12.pdf "Exploded View Diagram")
     - [Hood Spec Sheet](http://docs.zephyronline.com/docs/specs/breeze2_spec.pdf "Hood Spec Sheet")
     - [Hood User Manual](http://docs.zephyronline.com/docs/manuals/breeze_manual.pdf "Hood User Manual")
+
+    <!-- markdownlint-enable MD013 -->
 
 11. Two magnetic knife strips are mounted on the existing cabinet. Please mount
     one each side on the upper cabinets, to either side of the sink.
@@ -134,6 +140,7 @@ counter, backsplash and cabinet selections.
 3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N "NORRSJÖN").
 
    > TODO: <17-11-18, JD Fisher>
+   >
    > > Decide whether to under-mount.
 
    The sink includes fittings necessary for top mounting but may also be
