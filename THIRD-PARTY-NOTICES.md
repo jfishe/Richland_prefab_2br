@@ -21,8 +21,7 @@ header-includes:
 - The [date lua filter](https://github.com/jfishe/Richland_prefab_2br/blob/master/date.lua), to add today's date to the pdf and html
   output, is taken from [pandoc lua filters][date_lua]. The filter is modified
   to print UTC date/time.
-  <!-- TODO:  <30-09-18, jfishe>
-  Use CSS media per [I totally forgot about print style sheets](https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6 "Manuel Matuzovic")
+  <!-- TODO:  <30-09-18, jfishe> > Use CSS media per [I totally forgot about print style sheets](https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6 "Manuel Matuzovic")
   -->
 - The style sheet `print.css` is taken from the recommendations of [CSS Design: Going to Print by Eric Meyer May 10, 2002](https://alistapart.com/article/goingtoprint).
   - Incorporate Phil Archer's [Automatic Heading Numbers with CSS](https://philarcher.org/diary/2013/headingnumbers/) from [numberheadings.css](http://philarcher.org/css/numberheadings.css). [License Creative Commons v3.0](https://creativecommons.org/licenses/by/3.0/)

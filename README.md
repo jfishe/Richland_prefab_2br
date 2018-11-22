@@ -43,8 +43,7 @@ create a `conda` environment called `Remodel`.
 - From a `bash` prompt, enter `conda env create --file environment.yml`.
 - Follow the instructions in the output to `conda activate Remodel`.
 
-  <!-- >  TODO:  <17-11-18, JD Fisher> >
-  > > Add installation instructions for Ubuntu make, XeLaTeX, etc.
+  <!-- >  TODO:  <17-11-18, JD Fisher> > Add installation instructions for Ubuntu make, XeLaTeX, etc.
   -->
 
 ## Overview

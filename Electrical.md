@@ -84,8 +84,7 @@ already grounded.
 
 1. How should ceiling lights be placed in kitchen? Current location may not be
    ideal for open concept floor plan.
-   <!--  >  TODO:  <21-11-18, John D. Fisher>
-      > > Issue #26 -->
+   <!--  >  TODO:  <21-11-18, John D. Fisher> > Issue #26 kitchen ceiling lights-->
 2. Check ceiling light gang boxes. They're surface mounted, galvanized steel
    with wire clamps.
 3. The hood vent has task lighting. We have already purchased a Zephyr Breeze
