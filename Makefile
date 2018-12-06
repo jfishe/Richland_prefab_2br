@@ -29,7 +29,7 @@ staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
 
 output := print$(large)
 
-# Select default fontsize and documentclass for XeLaTeX.
+# Select default fontsize for XeLaTeX.
 fontsize := 12pt
 
 # All markdown files in $(source) are considered sources
