@@ -120,7 +120,6 @@ tex: $(output)/Richland_Prefab_2BR.tex | $(output)/
 $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
 	pandoc \
 		--variable fontsize=$(fontsize) \
-		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 		--variable papersize=letter \
 		--variable links-as-notes \
 		--variable colorlinks \
@@ -138,7 +137,6 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 $(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
 	pandoc \
 		--variable fontsize=$(fontsize) \
-		--variable geometry:"top=0.5in, bottom=0.5in, left=0.5in, right=0.5in" \
 		--variable papersize=letter \
 		--variable links-as-notes \
 		--variable colorlinks \
