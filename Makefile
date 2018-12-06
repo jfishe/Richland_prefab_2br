@@ -31,7 +31,6 @@ output := print$(large)
 
 # Select default fontsize and documentclass for XeLaTeX.
 fontsize := 12pt
-documentclass := scrartcl
 
 # All markdown files in $(source) are considered sources
 
@@ -123,7 +122,6 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--variable papersize=letter \
 		--variable links-as-notes \
 		--variable colorlinks \
-		--variable documentclass=$(documentclass) \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
@@ -140,7 +138,6 @@ $(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--variable papersize=letter \
 		--variable links-as-notes \
 		--variable colorlinks \
-		--variable documentclass=$(documentclass) \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \

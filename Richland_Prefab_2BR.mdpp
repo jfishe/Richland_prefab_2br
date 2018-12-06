@@ -69,9 +69,10 @@ header-includes:
       </style>
       <link rel="stylesheet" type="text/css" media="print" href="print.css" />
     ```
+documentclass: scrartcl
 classoption:
   - |
-       DIV=calc
+       DIV=classic
 ---
 
 # Overview
