@@ -170,7 +170,8 @@ counter, backsplash and cabinet selections.
    front of stove for filling large pressure canner (13 inch height).
    Only cold water plumbing is needed.
 
-   <!--  TODO:  <02-11-18, John D. Fisher> > Find cheaper alternative. See Issue #4.
+   <!--  TODO:  <02-11-18, John D. Fisher> > Find cheaper alternative. See
+   Issue #4.
    -->
 
    [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
@@ -183,7 +184,8 @@ counter, backsplash and cabinet selections.
 8. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-9. Spice drawers adjacent to the dishwasher are desired.
+9. Spice drawers adjacent to the stove are desired: e.g., one to right of stove
+   and one above the counter, also to the right of the stove/hood vent.
 10. Dovetail drawer fronts are desired.
 11. Installation cutout drawings are available for the dishwasher, stove and
     refrigerator.
@@ -191,13 +193,18 @@ counter, backsplash and cabinet selections.
     Size refrigerator cubicle for standard 36 inch; actual refrigerator is
     smaller.
 
-    > TODO: <21-11-18, John D. Fisher> Decide how to conceal the empty space. Work with Huntwood to design a door that could be removed if we end up with a larger refrigerator later.
+    > TODO: <21-11-18, John D. Fisher> Decide how to conceal the empty space.
+    > Work with Huntwood to design a door that could be removed if we end up
+    > with a larger refrigerator later.
 
 12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
 13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
-    well. Also, the drain guard should be removable: IKEA has a threaded one.
+    well. Also, the drain guard should be removable: IKEA has a threaded one,
+    which is included with the NORRSJÖN Sink, already purchased.
 14. Relocate and replace irrigation control, outside, near the crawl space
     access. It should plug into the crawl space heat tape outlet.
+15. Kitchen cabinet doors should be solid MDF, with Quarter Sawn, White Oak,
+    Spice Satin finish.
 
 ### Bedroom #2 Cabinets and Fixtures
 
