@@ -25,8 +25,8 @@ required to generate the javascript viewer. See
 [Third Party Notices](#third-party-notices) for information about downloading
 the plugin. Refer to the [`Makefile`][makefile] for build software.
 
-The pdf defaults to `documentclass` article but can be changed to `extarticle`
-to allow larger default font sizes.
+The pdf defaults to KOMA-Script scrartcl, specified in
+`Richland_Prefab_2BR.mdpp` YAML meta-data.
 
 [makefile]: Makefile
 
