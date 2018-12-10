@@ -136,8 +136,7 @@ counter, backsplash and cabinet selections.
 1. For the kitchen counter, we like Latte Quartz from _SBN Marble Granite
    & Tile, Inc._.
 2. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
-   <!-- markdownlint-disable MD013 -->
-3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N "NORRSJÖN").
+3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N).
 
    Please return to owner, the assembly tools provided with the NORRSJÖN.
 
@@ -160,11 +159,11 @@ counter, backsplash and cabinet selections.
 
    - [NORRSJÖN single bowl dual mount sink](https://www.ikea.com/us/en/manuals/norrsjon-single-bowl-dual-mount-sink__AA-1843134-1_pub.pdf)
 
-4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/ "VIMMERN")
+4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/)
    is installed in the existing kitchen sink. Please re-use the faucet.
 
    Please return to owner, the assembly tools provided with the VIMMERN.
-   <!-- markdownlint-enable MD013 -->
+
 5. Add faucet and drain for stove. Drain should be capped for future use by a
    steam injecting oven. Faucet should have a pull-out nozzle that reaches
    front of stove for filling large pressure canner (13 inch height).
@@ -179,13 +178,12 @@ counter, backsplash and cabinet selections.
 6. Add appliance garage near preparation area for 5-qt Kitchen-Aid mixer,
    blender and food processor. Garage should have fold away door, so that
    counter space is accessible when the garage is open.
-7. Lower corner cupboard, near sink, should have a lazy-susan or pull out
+7. Lower and upper corner cupboards should have super-susan (no pole)
    shelving so that maximum space can be accessed.
 8. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-9. Spice drawers adjacent to the stove are desired: e.g., one to right of stove
-   and one above the counter, also to the right of the stove/hood vent.
+9. A lower spice drawer should be located between the sink and stove.
 10. Dovetail drawer fronts are desired.
 11. Installation cutout drawings are available for the dishwasher, stove and
     refrigerator.
