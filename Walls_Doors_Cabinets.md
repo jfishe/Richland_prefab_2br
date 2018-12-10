@@ -195,6 +195,14 @@ counter, backsplash and cabinet selections.
     > Work with Huntwood to design a door that could be removed if we end up
     > with a larger refrigerator later.
 
+    Dishwasher:
+
+    [Dishwasher Installation Instructions](https://media3.bosch-home.com/Documents/9001363408_A.pdf)
+
+    Range:
+
+    [Range Dimension Guide](http://www.specsserver.com/CACHE/FRCBOGPCHDLD.PDF)
+
 12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
 13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one,
