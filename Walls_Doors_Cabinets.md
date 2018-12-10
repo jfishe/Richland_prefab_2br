@@ -49,7 +49,7 @@ protect heat exchanger.
 
     <!-- markdownlint-disable MD033 -->
 
-    <a name="zephyr-breeze"></a>
+   <a name="zephyr-breeze"></a>
 
     <!-- markdownlint-enable MD033 -->
 
@@ -175,25 +175,22 @@ counter, backsplash and cabinet selections.
 
    [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
 
-6. Add appliance garage near preparation area for 5-qt Kitchen-Aid mixer,
-   blender and food processor. Garage should have fold away door, so that
-   counter space is accessible when the garage is open.
-7. Lower and upper corner cupboards should have super-susan (no pole)
+6. Lower and upper corner cupboards should have super-susan (no pole)
    shelving so that maximum space can be accessed.
-8. Double lower cupboards should have pull out shelves, adjustable height if
+7. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-9. A lower spice drawer should be located between the sink and stove.
-10. Dovetail drawer fronts are desired.
-11. Installation cutout drawings are available for the dishwasher, stove and
+8. A lower spice drawer should be located between the sink and stove.
+9. Dovetail drawer fronts are desired.
+10. Installation cutout drawings are available for the dishwasher, stove and
     refrigerator.
 
     Size refrigerator cubicle for standard 36 inch; actual refrigerator is
     smaller.
 
     > TODO: <21-11-18, John D. Fisher> Decide how to conceal the empty space.
-    > Work with Huntwood to design a door that could be removed if we end up
-    > with a larger refrigerator later.
+    > Work with cabinet maker to design a door that could be removed if we end
+    > up with a larger refrigerator later.
 
     Dishwasher:
 
@@ -203,13 +200,13 @@ counter, backsplash and cabinet selections.
 
     [Range Dimension Guide](http://www.specsserver.com/CACHE/FRCBOGPCHDLD.PDF)
 
-12. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-13. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
+11. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
+12. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
     well. Also, the drain guard should be removable: IKEA has a threaded one,
     which is included with the NORRSJÖN Sink, already purchased.
-14. Relocate and replace irrigation control, outside, near the crawl space
+13. Relocate and replace irrigation control, outside, near the crawl space
     access. It should plug into the crawl space heat tape outlet.
-15. Kitchen cabinet doors should be solid MDF, with Quarter Sawn, White Oak,
+14. Kitchen cabinet doors should be solid MDF, with Quarter Sawn, White Oak,
     Spice Satin finish.
 
 ### Bedroom #2 Cabinets and Fixtures
