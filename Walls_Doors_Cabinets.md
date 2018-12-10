@@ -134,7 +134,7 @@ counter, backsplash and cabinet selections.
 ### Kitchen Cabinets and Fixtures
 
 1. For the kitchen counter, we like Latte Quartz from _SBN Marble Granite
-   & Tile, Inc._.
+   & Tile, Inc._
 2. Relocate washer water supply to refrigerator cubicle. Remove washer drain.
 3. We have purchased the [NORRSJÖN Sink, stainless steel](https://www.ikea.com/us/en/catalog/products/S49157914/?query=NORRSJ%C3%96N).
 
@@ -171,7 +171,7 @@ counter, backsplash and cabinet selections.
 
    [Hansgrohe 04057000 Talis S Wall Mount Potfiller, Chrome](https://www.amazon.com/dp/B001TV8QNW/ref=sspa_dk_detail_3?pd_rd_i=B001TV229Q&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a54d13fc-b8a1-4ce8-b285-d77489a09cf6&pf_rd_r=HT8ZADMDNHAFV4KCZP3H&pd_rd_wg=ajZ82&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&pd_rd_w=LZ3HI&pf_rd_i=desktop-dp-sims&pd_rd_r=fc2adbca-a7b0-11e8-ab28-01ad97aa66bb&th=1)
 
-6. Lower and upper corner cupboards should have super-susan (no pole)
+6. Lower and upper corner cupboards should have super susan (no pole)
    shelving so that maximum space can be accessed.
 7. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
