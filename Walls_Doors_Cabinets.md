@@ -196,10 +196,12 @@ counter, backsplash and cabinet selections.
 
     [Range Dimension Guide](http://www.specsserver.com/CACHE/FRCBOGPCHDLD.PDF)
 
-11. Relocate dishwasher and sink per drawing. Update plumbing accordingly.
-12. Minimize sink drain obstruction in cabinet. The IKEA plumbing fittings work
-    well. Also, the drain guard should be removable: IKEA has a threaded one,
-    which is included with the NORRSJÖN Sink, already purchased.
+11. Relocate dishwasher and sink per drawing. Update plumbing accordingly. Add
+    vent through counter top; the sink does not have mounting holes.
+12. Minimize sink drain obstruction in cabinet; pullout depth is 18 inches. The
+    IKEA plumbing fittings work well. Also, the drain guard should be
+    removable: IKEA has a threaded one, which is included with the NORRSJÖN
+    Sink, already purchased.
 13. Relocate and replace irrigation control, outside, near the crawl space
     access. It should plug into the crawl space heat tape outlet.
 14. Kitchen cabinet doors should be solid MDF, with Quarter Sawn, White Oak,
