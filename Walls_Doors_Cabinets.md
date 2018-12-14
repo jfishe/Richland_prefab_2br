@@ -204,8 +204,9 @@ counter, backsplash and cabinet selections.
     Sink, already purchased.
 13. Relocate and replace irrigation control, outside, near the crawl space
     access. It should plug into the crawl space heat tape outlet.
-14. Kitchen cabinet doors should be solid MDF, with Quarter Sawn, White Oak,
-    Spice Satin finish.
+14. Kitchen cabinet doors should be BEECH – Clear & Rustic, DISTRESS PECAN,
+    Hand Wipe Stain. Door panel should be rounded bevel, so it doesn't collect
+    dust.
 
 ### Bedroom #2 Cabinets and Fixtures
 
