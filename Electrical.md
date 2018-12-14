@@ -23,18 +23,18 @@ header-includes:
 3. Relocate cable near breaker box: It currently follows the power line from
    the pole in the neighbors yard. A longer run of coaxial cable is likely
    needed to reach BR#2. Do you do that or do we need Charter?
+
+   > TODO: <14-12-18, John D. Fisher> > Issue #24 Charter support
+
 4. I assume Charter would not be needed to install the cable connection inside,
    but if they're here for run to the house, I assume it makes sense to have
    them finish through the inside.
-5. Will the breaker box contain GFCI circuit breakers? For all lines or
-   just rooms with sinks?
-6. We have cats, so arc-fault interrupt circuit breakers seem like a good idea
-   in case somebody decides to chew on a power cord. Did I use the right
-   terminology?
-7. Much of the wiring is ungrounded. Please replace with grounded and separate
+5. We have cats, so arc-fault interrupt circuit breakers seem like a good idea
+   in case somebody decides to chew on a power cord.
+6. Much of the wiring is ungrounded. Please replace with grounded and separate
    circuits per code. E.g., many of the lighting circuits feed duplex outlets.
-8. What do recommend for storing household dishes and furniture during
-   construction—i.e., from whom should we rent a storage pod?
+7. Surface mounted wiring is acceptable, where necessary, e.g. for exterior
+   walls.
 
 ## Bedrooms
 
@@ -51,28 +51,24 @@ header-includes:
 1. Ground outlets beside bed; outlets are new. Gang boxes may not be up to code
    because the drywall was added over them. They are shallow depth gang boxes.
    I added extenders to bring flush with drywall.
-2. Add duplex outlet near right side of window.
-3. Add duplex outlet ~4 ft from door on wall adjacent to Living Room.
-4. Existing ceiling light location has power in attic but is not connected to
+2. Add duplex outlet ~4 ft from door on wall adjacent to Living Room.
+3. Existing ceiling light location has power in attic but is not connected to
    switch by door. Please correct.
 
 ### Bedroom #2
 
 1. Add duplex outlet on outside wall and another on inside wall
    (adjacent to bathroom), near the doors.
-2. The exterior wall may be deep enough for a normal outlet. The
-   interior walls will likely need to be surface mounted.
-3. Add exhaust fan for clothes drying and smoking room—i.e., high flow and low
-   noise fan. May be able to share roof vent with bathroom, but should avoid
-   back-drafting smoke into bathroom.
-4. Add washer and dryer outlets to wall. (near corner of outside walls).
-5. Add outlet for small chest freezer on corner adjacent to bathroom.
-6. Remove existing outlet surface mounted in corner adjacent to bathroom.
-7. Remove and patch cable outlets near inside corner, adjacent to bathroom. Add
+2. Add exhaust fan for clothes drying and smoking room—i.e., high flow and low
+   noise fan.
+3. Add washer and dryer outlets to wall. (near corner of outside walls).
+4. Add outlet for small chest freezer on corner adjacent to bathroom.
+5. Remove existing outlet surface mounted in corner adjacent to bathroom.
+6. Remove and patch cable outlets near inside corner, adjacent to bathroom. Add
    cable outlet near ceiling on same wall. Run cable from breaker box. The
    cable modem will reside on a shelf near ceiling.
-8. Add duplex outlet near new cable outlet.
-9. Replace light switch with duplex for ceiling light and fan. Note light
+7. Add duplex outlet near new cable outlet.
+8. Replace light switch with duplex for ceiling light and fan. Note light
    switch should support dimmer.
 
 ## Bathroom Electrical
@@ -84,22 +80,31 @@ already grounded.
 
 1. How should ceiling lights be placed in kitchen? Current location may not be
    ideal for open concept floor plan.
-   <!--  >  TODO:  <21-11-18, John D. Fisher> > Issue #26 kitchen ceiling lights-->
+
+   > TODO: <14-12-18, John D. Fisher> > Issue #26 and #24 kitchen ceiling
+   > lights
+
 2. Check ceiling light gang boxes. They're surface mounted, galvanized steel
    with wire clamps.
 3. The hood vent has task lighting. We have already purchased a Zephyr Breeze
    II Model AK1200W. Refer to the [Walls](#walls) section for details.
 
    Provide an electrical connection for the stove hood vent. See
+
    <!-- markdownlint-disable MD033 -->
+
    <a href="#zephyr-breeze">Walls item \ref{zephyr-breeze} for the Hood User Manual
    </a> for details.
+
    <!-- markdownlint-enable MD033 -->
 
-4. Add task lighting to right of sink for preparation area. Is under-cabinet
-   the best choice?
+4. Add task lighting to right of sink for preparation area.
 5. Add switch near preparation area for task lighting.
 6. Add/replace duplex outlets above counter. We have numerous small appliances.
+   - 2x right of sink
+   - 1x left of sink
+   - 1x right of stove
+   - 1x left of stove
 7. Remove dryer outlet and electrical panel. Seal and finish penetrations.
 8. Remove drain for washer and seal drain vent. Drain vents into attic, so
    could be sealed from above. Patching may not be required as the pantry
@@ -117,10 +122,10 @@ already grounded.
    wall. Does code require re-running power instead?
 5. Check/update outlets along walls. There is one near each corner and one
    by the hall doorway. All are normal, in-wall outlets.
-6. Add duplex outlet for wall mounted TV, near middle of wall adjacent to BR#1. Retain
-   existing cable outlet. The TV, DVD player, ink-jet printer and two laptops
-   will share the outlet. The outlet should support addition of a surround
-   sound in the future--i.e., amplifier plus seven speakers.
+6. Add quadraplex outlet for wall mounted TV, near middle of wall adjacent to
+   BR#1. Retain existing cable outlet. The TV, DVD player, ink-jet printer and
+   two laptops will share the outlet. The outlet should support addition of
+   a surround sound in the future--i.e., amplifier plus seven speakers.
 7. Add floor, quadradplex outlet with cover under coffee table. This is for
    laptops (2) when we work from home. The coffee table will transform into a
    desk/dining-table. We have ordered the coffee table:
@@ -130,12 +135,10 @@ already grounded.
 
 1. Check/update outside outlets. The gang boxes may not be correct for
    outdoor use.
-2. Do we need to increase the amperage for shop tools, like a table saw? I
-   don't plan to run multiple tools at once. Existing circuits have not been a
-   problem.
-3. Change outside outlets to grounded circuits that are not shared with the
-   interior. They are currently 3-wire, but the ground is not connected.
-4. I'm happy with their current locations. Let me know if we're required to
+2. Change outside outlets to grounded circuits that are not shared with the
+   interior. They are currently 3-wire, but the ground is not connected and the
+   wire is routed to one of the outlets in BR#1.
+3. I'm happy with their current locations. Let me know if we're required to
    have more.
 
 ## Irrigation Electrical
@@ -152,5 +155,3 @@ already grounded.
    be near crawl space entrance. It will be used by the
    [irrigation control station](#irrigation-electrical) during the summer.
 2. Replace heat tape in crawl space.
-3. [Crawl Space Plumbing](#crawl-space-plumbing) is addressing pipe and floor
-   insulation.
