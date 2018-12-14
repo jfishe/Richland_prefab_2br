@@ -31,8 +31,8 @@ protect heat exchanger.
 
    <!-- markdownlint-disable MD013 -->
 
-   [Florida Tile FTI33301BI9X9 ORNAMENT COOL](http://www.floridatile.com/products/level10 "Florida Tile Level 10")
-
+   [American Oleon Visual Impressions Beige V111 – Quadrangle](https://americanolean.com/series.cfm?series=232&Item=3197)
+   is available at Great Floors for `$6.12 / sf`.
    <!-- markdownlint-enable MD013 -->
 
    Edge trim will be needed for the exposed ends in the living room and by the
