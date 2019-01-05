@@ -72,7 +72,7 @@ $include-before$
 $endfor$
 $-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> IF: title
 $if(title)$
-<header>
+<header id="title-block-header">
 <h1 class="title$if(subtitle)$ followed-by-subtitle$endif$">$title$</h1>
 $---------------------------------------------------------------------> subtitle
 $if(subtitle)$
@@ -101,7 +101,7 @@ $if(toc)$
 <hr>
 <nav id="$idprefix$TOC">
 <h2 class="toc-title">$if(toc-title)$$toc-title$$else$Contents$endif$</h2>
-$toc$
+$table-of-contents$
 </nav>
 <hr>
 $endif$
