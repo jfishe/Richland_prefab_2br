@@ -2,14 +2,11 @@ name: pandoc
 channels:
 - defaults
 - conda-forge
-- pscondaenvs
 dependencies:
 - python>=3.7
 - pandoc>=2.2
-- pscondaenvs
 - nodejs
 - pip:
-  - black
   - editorconfig
   - MarkdownPP
   - panflute
