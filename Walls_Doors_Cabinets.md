@@ -33,6 +33,7 @@ protect heat exchanger.
 
    [American Oleon Visual Impressions Beige V111 – Quadrangle](https://americanolean.com/series.cfm?series=232&Item=3197)
    is available at Great Floors for `$6.12 / sf`.
+
    <!-- markdownlint-enable MD013 -->
 
    Edge trim will be needed for the exposed ends in the living room and by the
@@ -176,37 +177,45 @@ counter, backsplash and cabinet selections.
 7. Double lower cupboards should have pull out shelves, adjustable height if
    practical. Sink cupboard should have pull out shelves that work around the
    plumbing.
-8. A lower spice drawer should be located between the sink and stove.
-9. Dovetail drawer fronts are desired.
-10. Installation cutout drawings are available for the dishwasher, stove and
-    refrigerator.
+8. Dovetail drawer fronts are desired.
+9. Installation cutout drawings are available for the dishwasher, stove and
+   refrigerator.
 
-    Size refrigerator cubicle for standard 36 inch; actual refrigerator is
-    smaller.
+   Size refrigerator cubicle for standard 36 inch; actual refrigerator is
+   smaller.
 
-    > TODO: <21-11-18, John D. Fisher> Decide how to conceal the empty space.
-    > Work with cabinet maker to design a door that could be removed if we end
-    > up with a larger refrigerator later.
+   > TODO: <21-11-18, John D. Fisher> Decide how to conceal the empty space.
+   > Work with cabinet maker to design a door that could be removed if we end
+   > up with a larger refrigerator later.
 
-    Dishwasher:
+   Dishwasher:
 
-    [Dishwasher Installation Instructions](https://media3.bosch-home.com/Documents/9001363408_A.pdf)
+   [Dishwasher Installation Instructions](https://media3.bosch-home.com/Documents/9001363408_A.pdf)
 
-    Range:
+   Range:
 
-    [Range Dimension Guide](http://www.specsserver.com/CACHE/FRCBOGPCHDLD.PDF)
-
-11. Relocate dishwasher and sink per drawing. Update plumbing accordingly. Add
+   [Range Dimension Guide](http://www.specsserver.com/CACHE/FRCBOGPCHDLD.PDF)
+10. Relocate dishwasher and sink per drawing. Update plumbing accordingly. Add
     vent through counter top; the sink does not have mounting holes.
-12. Minimize sink drain obstruction in cabinet; pullout depth is 18 inches. The
+11. Minimize sink drain obstruction in cabinet; pullout depth is 18 inches. The
     IKEA plumbing fittings work well. Also, the drain guard should be
     removable: IKEA has a threaded one, which is included with the NORRSJÖN
     Sink, already purchased.
-13. Relocate and replace irrigation control, outside, near the crawl space
+12. Relocate and replace irrigation control, outside, near the crawl space
     access. It should plug into the crawl space heat tape outlet.
-14. Kitchen cabinet doors should be BEECH – Clear & Rustic, DISTRESS PECAN,
+13. Kitchen cabinet doors should be BEECH – Clear & Rustic, Natural Finish
     Hand Wipe Stain. Door panel should be rounded bevel, so it doesn't collect
     dust.
+14. Rev-a-Shelf Items:
+
+    2 x [Cut-To-Size Insert Peg System for Drawers](https://www.rev-a-shelf.com/p-331-cut-to-size-insert-peg-system-for-drawers.aspx?SectionFilterID=17)
+    4DPS-3921 Includes 16 pegs each.
+
+    1 x [Accessories Peg Board Stainless Steel Lid Organizer for Drawers](https://www.rev-a-shelf.com/p-144-accessories-peg-board-stainless-steel-lid-organizer-for-drawers.aspx)
+    5DCD-1-CR
+
+    2 x [Accessories Peg Board Stainless Steel Pot/Pan Organizer for Drawers](https://www.rev-a-shelf.com/p-145-accessories-peg-board-stainless-steel-pot-pan-organizer-for-drawers.aspx)
+    5DLD-1-CR
 
 ### Bedroom #2 Cabinets and Fixtures
 
