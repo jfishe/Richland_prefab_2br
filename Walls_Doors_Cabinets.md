@@ -106,8 +106,8 @@ heater does not need to be relocated.
 ### Bathroom Door
 
 1. Raise door jamb close to ceiling.
-2. Replace door with pocket door. Frosted glass or similar synthetic material
-   is desired to allow natural light into hall.
+2. Replace door with pocket door. Similar to
+   [Simpson Door Company 8020 PRIMED FLAT PANEL](https://www.simpsondoor.com/find-a-door/?view=detail&doorType=&BaseSpecificationID=542#DoorDetail)
 3. If necessary for pocket door installation, replace the cabinets, top and
    bottom, with a pantry/closet.
 
