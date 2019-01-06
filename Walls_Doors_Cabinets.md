@@ -203,9 +203,9 @@ counter, backsplash and cabinet selections.
     Sink, already purchased.
 12. Relocate and replace irrigation control, outside, near the crawl space
     access. It should plug into the crawl space heat tape outlet.
-13. Kitchen cabinet doors should be BEECH – Clear & Rustic, Natural Finish
-    Hand Wipe Stain. Door panel should be rounded bevel, so it doesn't collect
-    dust.
+13. Kitchen cabinet doors should be Tahoe door, BEECH – Clear & Rustic, Natural
+    Finish Hand Wipe Stain. Door panel should be rounded bevel, so it doesn't
+    collect dust.
 14. Rev-a-Shelf Items:
 
     2 x [Cut-To-Size Insert Peg System for Drawers](https://www.rev-a-shelf.com/p-331-cut-to-size-insert-peg-system-for-drawers.aspx?SectionFilterID=17)
@@ -216,6 +216,11 @@ counter, backsplash and cabinet selections.
 
     2 x [Accessories Peg Board Stainless Steel Pot/Pan Organizer for Drawers](https://www.rev-a-shelf.com/p-145-accessories-peg-board-stainless-steel-pot-pan-organizer-for-drawers.aspx)
     5DLD-1-CR
+15. Drawer and Cabinet pulls:
+
+    [AME-BP29355ORB](https://www.thehardwarehut.com/catalog-product.php?p_ref=268387)
+    Amerock Candler 3-3/4" (96mm) c.c. Cabinet Pull (Oil Rubbed Bronze)
+    5.99 ea.
 
 ### Bedroom #2 Cabinets and Fixtures
 
