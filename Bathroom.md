@@ -66,7 +66,7 @@ counter, backsplash and cabinet selections.
 5. Add hand towel rack on side of or adjacent to vanity.
    <!-- markdownlint-disable MD013 -->
 6. New mirror cabinet: [GODMORGON Mirror cabinet with 2 doors](https://www.ikea.com/us/en/catalog/products/10218999/ "GODMORGON")
-   Article Number: 102.189.99 Size: 23-5/8 x 5-1/2 x 37-3/4 inches.
+   Article Number: 102.189.99 Size: 23-5/8 x 5-1/2 x 37-3/4 inches. Already purchased.
 7. New sink faucet: [DALSKÄR Bath faucet with strainer, chrome plated](https://www.ikea.com/us/en/catalog/products/20281297/ "DALSKÄR")
    Article Number: 202.812.97 Height: 7-1/8 inches.
 8. New sink: IKEA
