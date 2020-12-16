@@ -6,6 +6,7 @@ dependencies:
 - python>=3.7
 - pandoc>=2.2
 - nodejs
+- pip
 - pip:
   - editorconfig
   - MarkdownPP
