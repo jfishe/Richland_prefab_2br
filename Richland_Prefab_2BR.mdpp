@@ -75,6 +75,7 @@ classoption:
        DIV=classic
 ---
 
+<!-- markdownlint-disable MD025 -->
 # Overview
 
 The [home page for the remodel](https://remodel_richland.droppages.com/) shows
@@ -120,21 +121,18 @@ BR#x
 
 # Phase 1 Remodel
 
-The following scope covers Phase 1. [Phase 2](#phase-2-remodel) is included
-below for information but should not be included in estimates at this time.
+The following scope covers the completed Phase 1, included for information.
 
-!INCLUDE "tmp/Electrical.md", 1
+Estimates should address [Phase 2](#phase-2-remodel) only.
 
-!INCLUDE "tmp/Walls_Doors_Cabinets.md", 1
+[Phase 1 Details](Phase1.md)
 
 # Phase 2 Remodel
 
-The following scope covers current plans for Phase 2, which is included for
-information/comments where it may impact [Phase 1](#phase-1-remodel).
+The following scope covers current plans for Phase 2. Estimates should address
+only.
 
 !INCLUDE "tmp/Bathroom.md", 1
-
-!INCLUDE "tmp/Doors_Phase2.md", 1
 
 !INCLUDE "tmp/THIRD-PARTY-NOTICES.md"
 
@@ -158,5 +156,3 @@ dimensions are close to actual, but there may be discrepancies.
 # License
 
 [Software License and Copyright](https://github.com/jfishe/Richland_prefab_2br/LICENSE "LICENSE")
-
-# References

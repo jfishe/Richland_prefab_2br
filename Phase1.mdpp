@@ -1,0 +1,12 @@
+---
+title: Remodel Plan
+subtitle: Phase 1 Details
+author: John D. Fisher
+email: jdfenw@gmail.com
+link-citations: true
+---
+
+!INCLUDE "tmp/Electrical.md", 1
+
+!INCLUDE "tmp/Walls_Doors_Cabinets.md", 1
+

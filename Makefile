@@ -99,7 +99,7 @@ pdf: $(output)/Richland_Prefab_2BR.pdf | $(output)/
 
 .PHONY : html
 ## Geneate HTML with CSS, JavaScript and SweetHome3D plan on website.
-html: $(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html | $(htmloutput)/
+html: $(htmloutput)/index.html $(htmloutput)/Phase1.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html | $(htmloutput)/
 
 .PHONY : draft
 ## Generate draft html output in webpage/_drafts
@@ -178,6 +178,8 @@ $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip | $(staticoutput)/
 
 $(source)/%.md : $(source)/%.mdpp $(sources)
 	markdown-pp $< --output $@
+
+$(source)/Phase1.mdpp : $(source)/Electrical.md $(source)/Walls_Doors_Cabinets.md
 
 $(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
 	pandoc \
