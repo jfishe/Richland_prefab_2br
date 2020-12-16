@@ -158,7 +158,7 @@ $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput
 $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua | $(htmloutput)/
 	pandoc \
 		--standalone \
-		--base-header-level=2 \
+		--shift-heading-level-by=1 \
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
