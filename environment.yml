@@ -3,7 +3,7 @@ channels:
 - defaults
 - conda-forge
 dependencies:
-- python[version='<3.9']
+- python[version='<3.10']
 - pandoc
 - nodejs
 - pip
