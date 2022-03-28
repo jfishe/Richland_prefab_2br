@@ -92,7 +92,8 @@ header-includes:
       - [Ecostat S Thermostatic Trim with Volume Control](https://www.hansgrohe-usa.com/articledetail-ecostat-thermostatic-trim-s-with-volume-control-and-diverter-04231000)
       - [PuraVida Thermostatic Trim with Volume Control](https://www.hansgrohe-usa.com/articledetail-puravida-thermostatic-trim-with-volume-control-and-diverter-15771001)
       <!-- markdownlint-enable MD013 -->
-8. Toilet:
-   1. Replace with toilet/bidet.
-   2. Plumb hot water for bidet.
-      <!-- markdownlint-enable MD013 -->
+8. Toilet
+
+   1. [Havenstone 1-piece 1.1/1.6 GPF Dual Flush Elongated Toilet in White Seat Included](https://www.homedepot.com/p/Glacier-Bay-Havenstone-1-piece-1-1-1-6-GPF-Dual-Flush-Elongated-Toilet-in-White-Seat-Included-GBTO203/317905474 "Glacier Bay Havenstone Toilet")
+      Internet #317905474 Model #GBTO203 Store SKU #1006711441
+   3. Retain tee-valve and spray hose.
