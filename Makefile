@@ -184,7 +184,7 @@ $(source)/Phase1.mdpp : $(source)/Electrical.md $(source)/Walls_Doors_Cabinets.m
 $(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
 	pandoc \
 	--from=markdown $< \
-	--atx-headers \
+	--markdown-headings=atx \
 	--to=markdown \
 	--output $@
 
