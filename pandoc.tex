@@ -10,6 +10,9 @@ $for(classoption)$
   $classoption$$sep$,
 $endfor$
 ]{$documentclass$}
+$if(subtitle)$
+\setkomafont{disposition}{\normalfont\bfseries}
+$endif$
 $if(beamerarticle)$
 \usepackage{beamerarticle} % needs to be loaded first
 $endif$
