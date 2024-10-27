@@ -1,13 +1,13 @@
-name: pandoc
+name: Richland_prefab_2br
 channels:
 - defaults
 - conda-forge
 dependencies:
-- python[version='<3.10']
+- editorconfig
 - pandoc
-- nodejs
-- pip
-- pip:
-  - editorconfig
-  - MarkdownPP
-  - panflute
+- panflute
+- python # [version='<3.10']
+# - pip
+# - pip:
+#   - MarkdownPP
+# uv pip install --requirement requirements.txt
