@@ -79,14 +79,14 @@ protect heat exchanger.
 17. Do we need to drywall BR#2 walls? Currently WW2 era plywood.
 
 Except for replacing bathroom door with pocket door and removing the raceway,
-bathroom changes are [Phase 2](#phase-2-remodel).
+bathroom changes are [Phase 2][richland-prefab-2br].
 
 ### Water Heater Relocation
 
 The water heater is behind a truss, which is 7'4" from attic door and the door
 is 12 ft. from the front of the house to the nearest edge of attic door. Dimensions
 are from the exterior of the house. The approximate location has been added to
-[the View Home button](#overview).
+[the View Home button][richland-prefab-2br].
 
 Since there is adequate clearance for the hood vent over the stove, the water
 heater does not need to be relocated.
@@ -120,7 +120,7 @@ Remove tile floor:
 - Bedroom #2
 
 Do not remove floor in Bathroom, which is deferred to
-[Phase 2](#phase-2-remodel).
+[Phase 2][richland-prefab-2br].
 
 Add water-resistant flooring similar to BR#1 bamboo to living room and kitchen.
 Bamboo flooring is acceptable for living room and hall. Include insulating
@@ -230,3 +230,5 @@ counter, backsplash and cabinet selections.
 4. Add washer water supply and drain.
 5. Installation drawings for washer and dryer are available showing recommended
    water supply, drain and dryer vent locations.
+
+[richland-prefab-2br]: Richland_Prefab_2BR.md

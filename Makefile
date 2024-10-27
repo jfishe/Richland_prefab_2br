@@ -95,7 +95,7 @@ all: pdf html
 
 .PHONY : pdf
 ## Generate PDF from the Markdown source files
-pdf: $(output)/Richland_Prefab_2BR.pdf | $(output)/
+pdf: $(output)/Richland_Prefab_2BR.pdf $(output)/Phase1.pdf | $(output)/
 
 .PHONY : html
 ## Geneate HTML with CSS, JavaScript and SweetHome3D plan on website.
@@ -113,11 +113,12 @@ large:
 
 .PHONY : tex
 ## Generate intermediate LaTeX for reviewing pdf recipe.
-tex: $(output)/Richland_Prefab_2BR.tex | $(output)/
+tex: $(output)/Richland_Prefab_2BR.tex $(output)/Phase1.tex | $(output)/
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
 $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
 	pandoc \
+		--citeproc \
 		--variable fontsize=$(fontsize) \
 		--variable papersize=letter \
 		--variable links-as-notes \
@@ -134,6 +135,7 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 # Recipe for converting a Markdown file into LaTeX using Pandoc {{{
 $(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
 	pandoc \
+		--citeproc \
 		--variable fontsize=$(fontsize) \
 		--variable papersize=letter \
 		--variable links-as-notes \
@@ -158,6 +160,7 @@ $(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput
 $(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua | $(htmloutput)/
 	pandoc \
 		--standalone \
+		--citeproc \
 		--shift-heading-level-by=1 \
 		--filter link_filter.py \
 		--lua-filter date.lua \
@@ -214,7 +217,7 @@ clean:
 	rm -rf $(source)/tmp
 
 ## Remove all output: clean cleanhtml cleanhome cleanpdf cleandraft cleanlarge.
-cleanall: clean cleanhtml cleanhome cleanpdf cleandraft cleanlarge
+cleanall: clean cleandraft cleanhtml cleanhome cleanpdf cleanlarge
 
 ## Remove HTML output.
 cleanhtml :
