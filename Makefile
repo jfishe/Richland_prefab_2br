@@ -116,7 +116,7 @@ large:
 tex: $(output)/Richland_Prefab_2BR.tex $(output)/Phase1.tex | $(output)/
 
 # Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
+$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl link_filter.py date.lua | $(output)/
 	pandoc \
 		--citeproc \
 		--variable fontsize=$(fontsize) \
@@ -128,12 +128,11 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--table-of-contents \
 		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
-		--template="pandoc.tex" \
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
 # Recipe for converting a Markdown file into LaTeX using Pandoc {{{
-$(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_filter.py date.lua | $(output)/
+$(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl link_filter.py date.lua | $(output)/
 	pandoc \
 		--citeproc \
 		--variable fontsize=$(fontsize) \
@@ -145,7 +144,6 @@ $(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.tex link_fi
 		--table-of-contents \
 		--number-sections \
 		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
-		--template="pandoc.tex" \
 		--from=markdown  $< \
 		--output $@
 # }}}

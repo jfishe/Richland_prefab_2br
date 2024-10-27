@@ -3,7 +3,15 @@ title: Remodel Plan
 subtitle: Phase 1 Details
 author: John D. Fisher
 email: jdfenw@gmail.com
+abstract:
+  Richland, WA, 1 bedroom Prefab Remodel starting from the original floor
+  plans, which are available from [@columbiaabc]. The dimensions have been
+  updated to match the actual house.
 link-citations: true
+documentclass: scrartcl
+classoption:
+  - |
+       DIV=classic
 ---
 
 # Phase 1 Remodel

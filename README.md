@@ -21,18 +21,18 @@ software required to view/edit the Home Plan and CAD drawings.
 
 ### Build PDF and HTML5
 
-The [`Makefile`][makefile] builds printable PDF's and local HTML5 files with
-a javascript viewer of the Sweet Home 3D plan. A Sweet Home 3D plugin is
-required to generate the javascript viewer. See
+The [`Makefile`][makefile] builds a printable PDF and local HTML5 files with
+a JavaScript viewer of the Sweet Home 3d plan. A Sweet Home 3d plugin is
+required to generate the JavaScript viewer. See
 [Third Party Notices](#third-party-notices) for information about downloading
 the plugin. Refer to the [`Makefile`][makefile] for build software.
 
-The pdf defaults to KOMA-Script scrartcl, specified in
-`Richland_Prefab_2BR.mdpp` YAML meta-data.
+The PDF defaults to `KOMA-Script` `scrartcl`, specified in
+`Richland_Prefab_2BR.mdpp` `YAML` meta-data.
 
 The [`Makefile`][makefile] expects a symbolic link in the local directory to
 a Dropbox folder for `remodel_richland.droppages.com`. Update `remodel`
-variable in the Makefile to change the location.
+variable in the `Makefile` to change the location.
 `htmloutput, staticoutput, templates` and `staticobjects` may also need
 adjusting if your static web page server has a different folder layout than
 `droppages.com`.

@@ -8,6 +8,10 @@ abstract:
   plans, which are available from [@columbiaabc]. The dimensions have been
   updated to match the actual house.
 link-citations: true
+documentclass: scrartcl
+classoption:
+  - |
+       DIV=classic
 header-includes:
   - |
     ```{=html}
@@ -69,10 +73,6 @@ header-includes:
       </style>
       <link rel="stylesheet" type="text/css" media="print" href="print.css" />
     ```
-documentclass: scrartcl
-classoption:
-  - |
-       DIV=classic
 ---
 
 <!-- markdownlint-disable MD025 -->
