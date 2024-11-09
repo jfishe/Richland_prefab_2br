@@ -6,60 +6,61 @@
 #
 # In order to use this makefile, you need some tools:
 # - GNU make
-# - Pandoc >= 2.2
+# - Pandoc >= 3.5
 # - XeLaTeX
 #   - KOMA-Script
-# - Python >= 3.6
+# - Python >= 3.9
 #   - panflute
 #   - MarkdownPP
 
+.SUFFIXES :
+
 # Variables {{{
-# Directory containing source (Markdown) files
-
+# Directory containing source files
 source := $(CURDIR)
-
-# Miscellaneous files to copy or process into HTML5 directory.
-
-staticfiles := pandoc.css Home_Plan.zip print.css
-staticfiles := $(foreach var, $(staticfiles), $(source)/$(var))
-# $(info staticfiles is $(staticfiles))
-
-# Directory containing pdf files
-# make large overides location, etc.
-
-output := print$(large)
 
 # Select default fontsize for XeLaTeX.
 fontsize := 12pt
 
-# All markdown files in $(source) are considered sources
+# Pandoc peripheral files for conversion.
+pandoc_pdf := biblio.bib ieee-with-url.csl link_filter.py date.lua
+pandoc_html := $(pandoc_pdf) pandoc.html5
 
-sources := $(wildcard $(source)/*.md)
-sources := $(subst $(source),$(source)/tmp,$(sources))
-# $(info sources is $(sources))
+# Output paths.
+remodel := docs
+htmloutput := $(remodel)
+staticoutput := $(remodel)
+templates := $(remodel)
+# Directory containing pdf files
+# make large overides location, etc.
+pdfoutput := print$(large)
 
-# Directory containing HTML5 files
-#
-# For files in /Content droppages.com strips the extension and relocates
-# to the root directory.
-# For files in /Public, droppages.com copies files and folders as-is to root.
-# href and script src relative URL's should assume root.
-# make draft overides location.
+# Static files to copy or process into docs directory.
+staticfiles := $(wildcard $(source)/*.css)
+staticfiles += $(wildcard $(source)/*.zip)
+staticfiles += $(wildcard $(source)/*.html)
 
-remodel := remodel_richland.droppages.com
-htmloutput := $(remodel)/Content$(drafts)
-staticoutput := $(remodel)/Public$(drafts)
-templates := $(remodel)/Templates$(drafts)
 staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
+$(info staticobjects is $(staticobjects))
 
-# drafts := $(subst $(remodel),$(remodel)/_drafts,$(htmloutput)/index.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html)
-# Convert the list of source files into a list of output files (PDF in
-# directory print/).
-# $(info staticobjects is $(staticobjects))
+# All MarkdownPP files in $(source)
+# Assume  Markdown files are pre-requisites for MarkdownPP files.
+# Otherwise, specify MarkdownPP dependencies (!INCLUDE directives)
+markdownpp := $(wildcard $(source)/*.mdpp)
+markdown := $(wildcard $(source)/*.md)
+markdown := $(subst $(source),$(source)/tmp,$(markdown))
+$(info markdown is $(markdown))
 
+# Map MarkdownPP files to html and pdf targets.
+htmloutputs := $(subst .mdpp,.html,$(markdownpp))
+htmloutputs := $(subst $(source),$(htmloutput),$(htmloutputs))
+pdfoutputs := $(subst .mdpp,.pdf,$(markdownpp))
+pdfoutputs := $(subst $(source),$(pdfoutput),$(pdfoutputs))
+$(info pdfoutputs is $(pdfoutputs))
+texoutputs := $(subst .pdf,.tex,$(pdfoutputs))
+$(info pdfoutputs is $(pdfoutputs))
 # End Variables }}}
 
-# Rules {{{
 # Help {{{
 .DEFAULT_GOAL := help
 .PHONY : help
@@ -89,22 +90,19 @@ help:
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
 # End Help }}}
+
+# Explicit Rules {{{
 .PHONY : all
 ## Generate HTML5 and PDF from the Markdown source files
 all: pdf html
 
 .PHONY : pdf
 ## Generate PDF from the Markdown source files
-pdf: $(output)/Richland_Prefab_2BR.pdf $(output)/Phase1.pdf | $(output)/
+pdf: $(pdfoutput)/Richland_Prefab_2BR.pdf $(pdfoutput)/Phase1.pdf | $(pdfoutput)/
 
 .PHONY : html
 ## Geneate HTML with CSS, JavaScript and SweetHome3D plan on website.
-html: $(htmloutput)/index.html $(htmloutput)/Phase1.html $(staticobjects) $(htmloutput)/README.txt $(templates)/base.html | $(htmloutput)/
-
-.PHONY : draft
-## Generate draft html output in webpage/_drafts
-draft:
-	$(MAKE) html drafts:=/_drafts
+html: $(htmloutputs) $(staticobjects) | $(htmloutput)/
 
 .PHONY : large
 ## Generate PDF with larger fonts for accessibility.
@@ -113,10 +111,11 @@ large:
 
 .PHONY : tex
 ## Generate intermediate LaTeX for reviewing pdf recipe.
-tex: $(output)/Richland_Prefab_2BR.tex $(output)/Phase1.tex | $(output)/
+tex: $(texoutputs) | $(pdfoutput)/
+# }}}
 
-# Recipe for converting a Markdown file into PDF using Pandoc {{{
-$(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl link_filter.py date.lua | $(output)/
+# Recipe for converting a Markdown file to pdf or LaTeX using Pandoc {{{
+$(pdfoutput)/%.pdf $(pdfoutput)/%.tex : $(source)/%.md $(pandoc_pdf) | $(pdfoutput)/
 	pandoc \
 		--citeproc \
 		--variable fontsize=$(fontsize) \
@@ -131,31 +130,11 @@ $(output)/%.pdf : $(source)/%.md biblio.bib ieee-with-url.csl link_filter.py dat
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
-# Recipe for converting a Markdown file into LaTeX using Pandoc {{{
-$(output)/%.tex : $(source)/%.md biblio.bib ieee-with-url.csl link_filter.py date.lua | $(output)/
-	pandoc \
-		--citeproc \
-		--variable fontsize=$(fontsize) \
-		--variable papersize=letter \
-		--variable links-as-notes \
-		--variable colorlinks \
-		--filter link_filter.py \
-		--lua-filter date.lua \
-		--table-of-contents \
-		--number-sections \
-		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
-		--from=markdown  $< \
-		--output $@
-# }}}
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-.INTERMEDIATE : $(htmloutput)/Richland_Prefab_2BR.html
-$(htmloutput)/index.html : $(htmloutput)/Richland_Prefab_2BR.html | $(htmloutput)/
-	cp $< $@
-
 .SECONDARY : $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md biblio.bib ieee-with-url.csl pandoc.html5 link_filter.py date.lua | $(htmloutput)/
+$(htmloutput)/%.html : $(source)/%.md $(pandoc_html) | $(htmloutput)/
 	pandoc \
 		--standalone \
 		--citeproc \
@@ -175,12 +154,6 @@ $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip | $(staticoutput)/
 	$(MAKE) cleanhome
 	unzip Home_Plan.zip lib/* Home_Plan.zip -d $(staticoutput)
 	touch $(staticoutput)/Home_Plan.zip
-# }}}
-
-$(source)/%.md : $(source)/%.mdpp $(sources)
-	markdown-pp $< --output $@
-
-$(source)/Phase1.mdpp : $(source)/Electrical.md $(source)/Walls_Doors_Cabinets.md
 
 $(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
 	pandoc \
@@ -188,6 +161,9 @@ $(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
 	--markdown-headings=atx \
 	--to=markdown \
 	--output $@
+
+%.md : %.mdpp $(markdown)
+	markdown-pp $< --output $@
 
 $(staticoutput)/% : $(CURDIR)/% | $(staticoutput)/
 	cp $< $@
@@ -200,28 +176,18 @@ $(htmloutput)/% : $(CURDIR)/% | $(htmloutput)/
 # }}}
 
 # Order out rule to create directories if needed {{{
-
-.INTERMEDIATE : $(source)/tmp/
-$(output)/ $(staticoutput)/ $(htmloutput)/ $(templates)/ $(source)/tmp/ :
+$(pdfoutput)/ $(htmloutput)/ $(source)/tmp/ :
 	mkdir -p  $@
 # }}}
 
 # Recipe for clean {{{
-.PHONY : clean cleanall cleanhtml cleanhome cleanpdf cleandraft cleanlarge
-## Remove build cruft: cleanpy cleantmp
-clean:
-	rm -rf tex2pdf.[0-9]*
-	rm -rf __pycache__
-	rm -rf $(source)/tmp
-
-## Remove all output: clean cleanhtml cleanhome cleanpdf cleandraft cleanlarge.
-cleanall: clean cleandraft cleanhtml cleanhome cleanpdf cleanlarge
+.PHONY : clean cleanall cleanhtml cleanhome cleanpdf cleanlarge
+## Remove all output: cleanhtml cleanhome cleanpdf cleanlarge.
+clean: cleanhtml cleanhome cleanpdf cleanlarge cleantmp
 
 ## Remove HTML output.
 cleanhtml :
-	rm -f $(htmloutput)/*
-	rm -f $(staticoutput)/*.css
-	rm -f $(templates)/*
+	rm -rf $(htmloutput)
 
 ## Remove SweetHome 3D Home Plan from output.
 cleanhome :
@@ -230,25 +196,13 @@ cleanhome :
 
 ## Remove pdf output.
 cleanpdf :
-	rm -rf $(output)
-
-## Remove draft
-cleandraft :
-	rm -rf $(htmloutput)/_drafts
-	rm -rf $(staticoutput)/_drafts
-	rm -rf $(templates)/_drafts
+	rm -rf $(pdfoutput)
 
 ## Remove large pdf output.
 cleanlarge :
-	rm -rf $(output)large
-# }}}
+	rm -rf $(pdfoutput)large
 
-# Recipe for web-browser {{{
-.PHONY : browse
-## Open default web browser to website.
-browse:
-	"$$BROWSER" https://$(remodel)
-# browse:
-# 	cd HTML5 && (python -m http.server &) && "$$BROWSER" http://localhost:8000/README.html
+## Remove large intermediate tmp directory.
+cleantmp :
+	rm -rf $(source)/tmp/
 # }}}
-# End Rules }}}
