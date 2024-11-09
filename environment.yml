@@ -6,6 +6,7 @@ dependencies:
 - editorconfig
 - pandoc[version='>=3.5']
 - panflute
+- pre-commit
 - python [version='>=3.9']
 # - pip
 # - pip:
