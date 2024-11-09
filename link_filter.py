@@ -20,7 +20,7 @@ def action(elem, doc):
     #                    ('html', '.html'),
     #                    ('latex', '.pdf')]
     #                  )
-    docformats = dict([("html5", ""), ("html", ".html"), ("latex", ".pdf")])
+    docformats = dict([("html5", ".html"), ("html", ".html"), ("latex", ".pdf")])
     extensions = ".md"
     # extensions = ('.sh3d', '.md')
     if isinstance(elem, pf.Link) and elem.url.endswith(extensions):
