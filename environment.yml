@@ -4,9 +4,9 @@ channels:
 - conda-forge
 dependencies:
 - editorconfig
-- pandoc
+- pandoc[version='>=3.5']
 - panflute
-- python # [version='<3.10']
+- python [version='>=3.9']
 # - pip
 # - pip:
 #   - MarkdownPP
