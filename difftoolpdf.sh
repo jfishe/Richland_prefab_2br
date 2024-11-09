@@ -7,7 +7,7 @@
 # Usage: difftoolpdf.sh <old> [<new>]
 # Old and new can be any commit reference recognized by git checkout.
 # E.g., difftoolpdf.sh v1.0 v1.1
-# If <new> is ommitted, use the current branch & commit.
+# If <new> is omitted, use the current branch & commit.
 
 # the directory of the script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

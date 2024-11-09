@@ -1,3 +1,7 @@
+docs/
+tmp/
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -102,11 +106,4 @@ _viminfo
 backups/
 tags*
 .netrwhist
-Remodel_htmldoc/
-*.html
-HTML*/
 *.vim
-
-*.zip
-*.png
-*.xlsx

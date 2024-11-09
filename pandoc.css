@@ -347,6 +347,9 @@ p.subtitle{
     margin-bottom:16px;
     padding-bottom:.3em
 }
+div.abstract-title{
+    text-align:center
+}
 div.line-block{
     white-space:pre-line
 }

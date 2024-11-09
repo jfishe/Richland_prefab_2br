@@ -98,7 +98,7 @@ heater does not need to be relocated.
    with new. Let me know if the lifetime is less than 5 years.
 2. Do we need to replace the cast-iron drain? I assume ABS is recommended for
    the drains. Please advise.
-3. I assume PEX is the best choice for supply plumbing. Please don't re-use existing
+3. I assume PEX is the best choice for supply plumbing. Please don't reuse existing
    copper pipe.
 
 ## Doors
@@ -160,7 +160,7 @@ counter, backsplash and cabinet selections.
    - [NORRSJÖN single bowl dual mount sink](https://www.ikea.com/us/en/manuals/norrsjon-single-bowl-dual-mount-sink__AA-1843134-1_pub.pdf)
 
 4. [VIMMERN Kitchen faucet with handspray, stainless steel color](https://www.ikea.com/us/en/catalog/products/10305289/)
-   is installed in the existing kitchen sink. Please re-use the faucet.
+   is installed in the existing kitchen sink. Please reuse the faucet.
 
    Please return to owner, the assembly tools provided with the VIMMERN.
 

@@ -1,130 +1,92 @@
-$--| GitHub HTML5 Pandoc Template" v2.2 | 2018/02/28 | pandoc v2.2.1
+$--| GitHub HTML5 Pandoc Template" | 2024/11/09 | pandoc v3.5
+$--| pandoc --print-default-template=html5
 <!DOCTYPE html>
-$-------------------------------------------------------------------------> lang
 <html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
 <head>
-$--=============================================================================
-$--                                METADATA
-$--=============================================================================
-  <meta charset="$if(charset)$$charset$$else$utf-8$endif$" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-$-----------------------------------------------------------------------> author
 $for(author-meta)$
   <meta name="author" content="$author-meta$" />
 $endfor$
-$-------------------------------------------------------------------------> date
 $if(date-meta)$
   <meta name="dcterms.date" content="$date-meta$" />
 $endif$
-$---------------------------------------------------------------------> keywords
-$if(keywords)$
-  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
-$endif$
-$------------------------------------------------------------------> description
+$--| add to default-template:
 $if(description)$
   <meta name="description" content="$description$">
 $endif$
-$------------------------------------------------------------------------> title
+$--| end add to default-template.
+$if(keywords)$
+  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+$endif$
+$if(description-meta)$
+  <meta name="description" content="$description-meta$" />
+$endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
-$--===========================================================================
-$--                            CSS STYLESHEETS
-$--===========================================================================
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-$-------------------------------------------------------------------------------
-$if(quotes)$
-      q { quotes: "“" "”" "‘" "’"; }
-$endif$
+  <style>
+    $styles.html()$
   </style>
-$-------------------------------------------------------------> highlighting-css
-$if(highlighting-css)$
-  <style type="text/css">
-$highlighting-css$
-  </style>
-$endif$
-$--------------------------------------------------------------------------> css
 $for(css)$
   <link rel="stylesheet" href="$css$" />
 $endfor$
-$-------------------------------------------------------------------------> math
-$if(math)$
-  $math$
-$endif$
-$-------------------------------------------------------------------------------
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-$--------------------------------------------------------------> header-includes
 $for(header-includes)$
   $header-includes$
 $endfor$
-$-------------------------------------------------------------------------------
+$if(math)$
+  $math$
+$endif$
 </head>
 <body>
-<article class="markdown-body">
-$---------------------------------------------------------------> include-before
 $for(include-before)$
 $include-before$
 $endfor$
-$-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> IF: title
 $if(title)$
 <header id="title-block-header">
+$--| add to default-template:
+<!-- <h1 class="title">$title$</h1> -->
 <h1 class="title$if(subtitle)$ followed-by-subtitle$endif$">$title$</h1>
-$---------------------------------------------------------------------> subtitle
+$--| end add to default-template.
 $if(subtitle)$
 <p class="subtitle">$subtitle$</p>
 $endif$
-$-----------------------------------------------------------------------> author
 $for(author)$
 <p class="author">$author$</p>
 $endfor$
-$-------------------------------------------------------------------------> date
 $if(date)$
 <p class="date">$date$</p>
 $endif$
-$----------------------------------------------------------------------> summary
-$if(summary)$
-<div class="summary">
-$summary$
+$if(abstract)$
+<div class="abstract">
+<div class="abstract-title">$abstract-title$</div>
+$abstract$
 </div>
 $endif$
-$-------------------------------------------------------------------------------
 </header>
 $endif$
-$--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END IF: title
-$--------------------------------------------------------------------------> toc
 $if(toc)$
-<hr>
-<nav id="$idprefix$TOC">
-<h2 class="toc-title">$if(toc-title)$$toc-title$$else$Contents$endif$</h2>
+<nav id="$idprefix$TOC" role="doc-toc">
+$if(toc-title)$
+<h2 id="$idprefix$toc-title">$toc-title$</h2>
+$endif$
 $table-of-contents$
 </nav>
-<hr>
 $endif$
-$-------------------------------------------------------------------------> body
 $body$
-$----------------------------------------------------------------> include-after
 $for(include-after)$
 $include-after$
 $endfor$
-$-------------------------------------------------------------------------------
-</article>
 </body>
 </html>
 <!--
 ==============================================================================
-           "GitHub HTML5 Pandoc Template" v2.2 — by John D. Fisher
+           "GitHub HTML5 Pandoc Template" v3.5 — by John D. Fisher
 ==============================================================================
-Copyright © John D. Fisher, 2018, MIT License (MIT). Project's home:
+Copyright © John D. Fisher, 2024, MIT License (MIT). Project's home:
 
 - https://github.com/jfishe/pandoc_settings
 
-The CSS from the original template has been removed to support using a modified
-version of https://gist.github.com/killercup/5917178.
+The CSS is a modified version of https://gist.github.com/killercup/5917178.
 
 ==============================================================================
            "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone
@@ -150,7 +112,7 @@ Copyright (c) 2017 GitHub Inc.
 
 "GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
 under the MIT License (MIT); it contains readaptations of substantial portions
-of the following third party softwares:
+of the following third party software:
 
 (1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
 (2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).

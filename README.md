@@ -63,7 +63,7 @@ mark changes.
 
     Old and new can be any commit reference recognized by git checkout.
     E.g., difftoolpdf.sh v1.0 v1.1
-    If <new> is ommitted, use the current branch & commit.
+    If <new> is omitted, use the current branch & commit.
 
 Recommend tagging the commit that is shared with the contractor, e.g.,
 `git tag v1.0`. Append the commit ID if the tag isn't for the current commit.
@@ -84,6 +84,9 @@ create a `conda` environment called `Remodel`.
   <!-- >  TODO:  <17-11-18, JD Fisher>
   > Add installation instructions for Ubuntu make, XeLaTeX, etc.
   -->
+%% TODO:  <09-11-24, JD Fisher> %%
+%% Convert pandoc.css to use: %%
+%% pandoc --print-default-data-file=templates/styles.html %%
 
 ## Overview
 

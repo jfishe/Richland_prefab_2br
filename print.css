@@ -19,49 +19,49 @@ h5:before {counter-increment: h5; content: counter(h2) "." counter(h3) "." count
 h6:before {counter-increment: h6; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "}
 h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.nocount:before, h6.nocount:before {content: ""; counter-increment: none}
 
-#menu { 
-   display: none; 
+#menu {
+   display: none;
 }
-   
-#wrapper, 
-#content { 
-   width: auto; 
-   margin: 0 5%; 
-   padding: 0; 
-   border: 0; 
-   float: none !important; 
-   color: black; 
-   background: transparent none; 
+
+#wrapper,
+#content {
+   width: auto;
+   margin: 0 5%;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
 }
-   
-div#content { 
-   margin-left: 10%; 
-   padding-top: 1em; 
-   border-top: 1px solid #930; 
+
+div#content {
+   margin-left: 10%;
+   padding-top: 1em;
+   border-top: 1px solid #930;
 }
-   
-div#mast { 
-   margin-bottom: -8px; 
+
+div#mast {
+   margin-bottom: -8px;
 }
-   
-div#mast img { 
-   vertical-align: bottom; 
+
+div#mast img {
+   vertical-align: bottom;
 }
-   
-a:link, 
-a:visited { 
-   color: #520; 
-   background: transparent; 
-   font-weight: bold; 
-   text-decoration: underline; 
+
+a:link,
+a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
 }
-   
-#content a:link:after, 
-#content a:visited:after { 
-   content: " (" attr(href) ") "; 
-   font-size: 90%; 
+
+#content a:link:after,
+#content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
 }
-   
-#content a[href^="/"]:after { 
-   content: " (https://remodel_richland.droppages.com" attr(href) ") "; 
+
+#content a[href^="/"]:after {
+   content: " (https://remodel_richland.droppages.com" attr(href) ") ";
 }

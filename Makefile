@@ -12,6 +12,7 @@
 # - Python >= 3.9
 #   - panflute
 #   - MarkdownPP
+#   - ghp-import
 
 .SUFFIXES :
 
@@ -32,7 +33,7 @@ htmloutput := $(remodel)
 staticoutput := $(remodel)
 templates := $(remodel)
 # Directory containing pdf files
-# make large overides location, etc.
+# make large overrides location, etc.
 pdfoutput := print$(large)
 
 # Static files to copy or process into docs directory.
@@ -101,7 +102,7 @@ all: pdf html
 pdf: $(pdfoutput)/Richland_Prefab_2BR.pdf $(pdfoutput)/Phase1.pdf | $(pdfoutput)/
 
 .PHONY : html
-## Geneate HTML with CSS, JavaScript and SweetHome3D plan on website.
+## Generate HTML with CSS, JavaScript and SweetHome3D plan on website.
 html: $(htmloutputs) $(staticobjects) | $(htmloutput)/
 
 .PHONY : large

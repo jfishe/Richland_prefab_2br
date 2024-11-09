@@ -12,6 +12,13 @@ documentclass: scrartcl
 classoption:
   - |
        DIV=classic
+toc-title: Contents
+include-before:
+  - |
+       <article class="markdown-body">
+include-after:
+  - |
+       </article>
 ---
 
 # Phase 1 Remodel
@@ -21,4 +28,3 @@ The following scope covers the completed Phase 1, included for information.
 !INCLUDE "tmp/Electrical.md", 1
 
 !INCLUDE "tmp/Walls_Doors_Cabinets.md", 1
-

@@ -12,6 +12,13 @@ documentclass: scrartcl
 classoption:
   - |
        DIV=classic
+toc-title: Contents
+include-before:
+  - |
+       <article class="markdown-body">
+include-after:
+  - |
+       </article>
 header-includes:
   - |
     ```{=html}
@@ -48,11 +55,11 @@ header-includes:
       <script type="text/javascript">
         const inputPlan = "Home_Plan.zip";
         const inputSettings = {
-             roundsPerMinute:    1,                              /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */ 
+             roundsPerMinute:    1,                              /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */
              widthByHeightRatio: 4/3,                            /* Size ratio of the displayed canvas */
-             navigationPanel: "none",                            /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
-                                                                    attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing */ 
-             aerialViewButtonText: "Aerial view",                /* Text displayed for aerial view radio button, no radio buttons if missing */ 
+             navigationPanel: "none",                            /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key
+                                                                    attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing */
+             aerialViewButtonText: "Aerial view",                /* Text displayed for aerial view radio button, no radio buttons if missing */
              virtualVisitButtonText: "Virtual visit",            /* Text displayed for virtual visit radio button, no radio buttons if missing */
           /* level: "Roof", */                                   /* Uncomment to select the displayed level, default level if missing */
           /* selectableLevels: ["Ground floor", "Roof"], */      /* Uncomment to choose the list of displayed levels, no select component if empty array */
@@ -96,8 +103,8 @@ and Edge have been tested).
 <!-- markdownlint-disable MD013 MD033 -->
 <div>
   <!-- Copy the following button in your page -->
-  <!-- Mouse and keyboard navigation explained at 
-       http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html 
+  <!-- Mouse and keyboard navigation explained at
+       http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
        You may also switch between aerial view and virtual visit with the space bar -->
   <!-- For browser compatibility, see http://caniuse.com/webgl -->
   <p><button onclick="viewHomeInOverlay(inputPlan, inputSettings)">View home</button></p>
