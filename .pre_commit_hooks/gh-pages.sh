@@ -27,8 +27,6 @@ say_done () {
 if test "$(git config --bool ghppages.push || echo false)" = true
 then
   pathhtml=$(git config ghppages.pathhtml || echo "$GIT_WORK_TREE/docs")
-  say 'Generating html.'
-  make html
   say 'Pushing html to gh-pages...'
   ghp-import -n -o -p -f "$pathhtml"
   say_done
