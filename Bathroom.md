@@ -18,41 +18,40 @@ header-includes:
 
 <!-- markdownlint-enable MD025 -->
 
-- Shower cabinet should be clear doors and cultured marble on walls and pan.
-  - Doors should slide with top rail close to ceiling to maximize
-    headroom. Both doors should move to allow access to utility faucet See
-    [Bathroom Cabinets and Fixtures](#bathroom-cabinets-and-fixtures-phase-2)
-    for related details.
-  - We like cultured marble: Orchard Mexican Sand, light mink, country gray and
-    white.
+- Shower valve: similar to shower door hardware, e.g., Genta LX 1-Handle
+  Posi-Temp Valve Trim Kit in Matte Black
+- Sink faucet: match shower valve and size for sink, e.g., Moen Genta Single Handle
+  Single Hole Bathroom Faucet in Matte Black.
+- Shower shelves: 3
+- Shower bench: TBD
+- Tile grout: match tile
+- Shower door:
+  - Out of stock:
+    [Home Depot Delta Custom Shower Door Collection Sliding, 50–60 in x 3/8 in (10mm) Rain Semi Transparent, Mod Slow Close, Lyndall Matte Black](https://www.homedepot.com/p/Delta-Custom-Shower-Door-Collection/315677210?57823-Sliding&57830-50-60-in&57840-3-8-10mm&57836-Rain-Semi-Transparent&57842-Mod-Slow-Close&57852-Lyndall&57858-Matte-Black)
+    - Minimum opening height is 73-1/2 inches
+  - Alternate:
+    [Lowes DreamLine Duet Plus Matte Black 56 in to 60 in x 72 in Semi frameless Bypass Sliding Shower Door](https://www.lowes.com/pd/DreamLine-Duet-Plus-Matte-Black-56-in-to-60-in-x-72-in-Semi-frameless-Bypass-Sliding-Shower-Door/5013398145)
+- Toilet:
+  [Hartridge 1-Piece 1.0/1.6 GPF Dual Flush Elongated Toilet in White](https://www.homedepot.com/p/Glacier-Bay-Hartridge-1-Piece-1-0-1-6-GPF-Dual-Flush-Elongated-Toilet-in-White-GBTO205/317382017)
+  Internet # 317382017 Model # GBTO205
 - Finish and paint bathroom. Sherwin Williams 7002 Downy Enamel, Emerald
-  Interior Acrylic Latex would match the rest of the house well (we're using
-  Eggshell in the other rooms).
+  Interior Acrylic Latex, Eggshell, orange peel style texture.
+  - Paint baseboard.
+- Vanity: see [Bathroom Cabinets and Fixtures Phase 2](#bathroom-cabinets-and-fixtures-phase-2)
 
 ## Bathroom Walls and Floor Phase 2
 
-- Insulate the floor and walls.
-- Replace bathroom walls with drywall or recommend better material. We prefer a
-  smooth surface for easy cleaning.
-- Replace tile floor with TAS Bourbon Street Applewood LOLG1039. Use leftover
-  flooring from Phase 1.
-- Replace window. Current window has draining issues due to freezing and algae
-  accumulation. Options to estimate:
-  - A fixed bottom, vertical sash that drains into the shower.
-  - Sealed privacy window.
-  - Glass brick.
+- Insulate the floor and walls, as needed, especially exterior wall.
+- Replace window with Cascade white vinyl picture window, with low-E glass and
+  argon gas (tempered and obscure glass).
+- Overlay sheetrock outside shower area, walls and ceiling. Orange peel style
+  texture.
 
 ## Bathroom Electrical Phase 2
 
-- Replace exhaust fan with a quiet, high flow model, similar to BR#2. Fan
-  should maximize headroom and use LED lighting.
-- Separate light and fan switch into two switches.
-- Add recessed lights:
-  - Over vanity
-  - Over shower, if needed.
-  - Lights may share one switch.
+- Replace exhaust fan with Panasonic Whisper bath fan.
+- Add ceiling light.
 - Retain duplex outlet, adjacent to vanity for hair dryer, curling iron etc.
-- Add 2x duplex outlets for above toilet shelves.
 
 ## Bathroom Cabinets and Fixtures Phase 2
 
@@ -63,12 +62,11 @@ header-includes:
 3. Retain rack behind toilet.
 4. Retain towel rack near current location.
 5. New sink, already purchased:
-   1. IKEA [ÄNGSJÖN / BACKSJÖN Bathroom vanity with sink & faucet](https://www.ikea.com/us/en/p/aengsjoen-backsjoen-bathroom-vanity-with-sink-faucet-brown-oak-effect-black-marble-effect-s99532009/)
+   1. Plumber should choose matching shower trim and vanity faucet, matte black
+      preferred, i.e., similar to shower [door](#bathroom-phase-2).
+   2. IKEA [ÄNGSJÖN / BACKSJÖN Bathroom vanity with sink & faucet](https://www.ikea.com/us/en/p/aengsjoen-backsjoen-bathroom-vanity-with-sink-faucet-brown-oak-effect-black-marble-effect-s99532009/)
       Article Number: 995.320.09 Size 25 x 21-1/2 x 28-1/4 inches.
-   2. [ALMAÅN Leg](https://www.ikea.com/us/en/p/almaan-leg-stainless-steel-20534916/)
+   3. [ALMAÅN Leg](https://www.ikea.com/us/en/p/almaan-leg-stainless-steel-20534916/)
       Article Number: 205.349.16
-6. Retain handheld shower and filter.
-7. Toilet
-   1. [Hartridge 1-Piece 1.0/1.6 GPF Dual Flush Elongated Toilet in White](https://www.homedepot.com/p/Glacier-Bay-Hartridge-1-Piece-1-0-1-6-GPF-Dual-Flush-Elongated-Toilet-in-White-GBTO205/317382017)
-      Internet # 317382017 Model # GBTO205
-   2. Retain tee-valve and spray hose.
+6. Retain handheld shower and replace filter. New filter provided by owner.
+7. Toilet: Retain tee-valve and spray hose.
