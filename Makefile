@@ -65,6 +65,7 @@ texoutputs := $(subst .pdf,.tex,$(pdfoutputs))
 # Help {{{
 .DEFAULT_GOAL := help
 .PHONY: help
+.SILENT: help
 ## Show the help message
 help:
 	$(HELP_MESSAGE)
@@ -76,7 +77,6 @@ WHITE  := $(shell tput -Txterm setaf 7)
 RESET  := $(shell tput -Txterm sgr0)
 TARGET_MAX_CHAR_NUM=20
 
-.SILENT:
 define HELP_MESSAGE
 echo ''
 echo 'Usage:'
@@ -211,5 +211,6 @@ cleantmp :
 .PHONY: test
 
 test :
-	$(warning Not implemented)
+	$(MAKE)
+	$(MAKE) help
 # }}}
