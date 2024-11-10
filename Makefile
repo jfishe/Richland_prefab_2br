@@ -14,7 +14,7 @@
 #   - MarkdownPP
 #   - ghp-import
 
-.SUFFIXES :
+.SUFFIXES:
 
 # Variables {{{
 # Directory containing source files
@@ -42,7 +42,7 @@ staticfiles += $(wildcard $(source)/*.zip)
 staticfiles += $(wildcard $(source)/*.html)
 
 staticobjects := $(subst $(source),$(staticoutput),$(staticfiles))
-$(info staticobjects is $(staticobjects))
+# $(info staticobjects is $(staticobjects))
 
 # All MarkdownPP files in $(source)
 # Assume  Markdown files are pre-requisites for MarkdownPP files.
@@ -50,67 +50,66 @@ $(info staticobjects is $(staticobjects))
 markdownpp := $(wildcard $(source)/*.mdpp)
 markdown := $(wildcard $(source)/*.md)
 markdown := $(subst $(source),$(source)/tmp,$(markdown))
-$(info markdown is $(markdown))
+# $(info markdown is $(markdown))
 
 # Map MarkdownPP files to html and pdf targets.
 htmloutputs := $(subst .mdpp,.html,$(markdownpp))
 htmloutputs := $(subst $(source),$(htmloutput),$(htmloutputs))
 pdfoutputs := $(subst .mdpp,.pdf,$(markdownpp))
 pdfoutputs := $(subst $(source),$(pdfoutput),$(pdfoutputs))
-$(info pdfoutputs is $(pdfoutputs))
+# $(info pdfoutputs is $(pdfoutputs))
 texoutputs := $(subst .pdf,.tex,$(pdfoutputs))
-$(info pdfoutputs is $(pdfoutputs))
+# $(info pdfoutputs is $(pdfoutputs))
 # End Variables }}}
 
 # Help {{{
 .DEFAULT_GOAL := help
-.PHONY : help
+.PHONY: help
 ## Show the help message
+help:
+	$(HELP_MESSAGE)
+
 # COLORS
 GREEN  := $(shell tput -Txterm setaf 2)
 YELLOW := $(shell tput -Txterm setaf 3)
 WHITE  := $(shell tput -Txterm setaf 7)
 RESET  := $(shell tput -Txterm sgr0)
-
-
 TARGET_MAX_CHAR_NUM=20
-## Show help
-help:
-	@echo ''
-	@echo 'Usage:'
-	@echo '  ${YELLOW}make${RESET} ${GREEN}<target>${RESET}'
-	@echo ''
-	@echo 'Targets:'
-	@awk '/^[a-zA-Z\-_0-9]+:/ { \
-		helpMessage = match(lastLine, /^## (.*)/); \
-		if (helpMessage) { \
-			helpCommand = substr($$1, 0, index($$1, ":")-1); \
-			helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
-			printf "  ${YELLOW}%-$(TARGET_MAX_CHAR_NUM)s${RESET} ${GREEN}%s${RESET}\n", helpCommand, helpMessage; \
-		} \
+
+.SILENT:
+define HELP_MESSAGE
+echo ''
+echo 'Usage:'
+echo '  ${YELLOW}make${RESET} ${GREEN}<target>${RESET}'
+echo ''
+echo 'Targets:'
+awk '/^[a-zA-Z\-_0-9]+:/ { \
+	helpMessage = match(lastLine, /^## (.*)/); \
+	if (helpMessage) { \
+		helpCommand = substr($$1, 0, index($$1, ":")-1); \
+		helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
+		printf "  ${YELLOW}%-$(TARGET_MAX_CHAR_NUM)s${RESET} ${GREEN}%s${RESET}\n", helpCommand, helpMessage; \
 	} \
-	{ lastLine = $$0 }' $(MAKEFILE_LIST)
+} \
+{ lastLine = $$0 }' $(MAKEFILE_LIST)
+endef
 # End Help }}}
 
 # Explicit Rules {{{
-.PHONY : all
+.PHONY: all pdf html large tex
 ## Generate HTML5 and PDF from the Markdown source files
 all: pdf html
 
-.PHONY : pdf
 ## Generate PDF from the Markdown source files
 pdf: $(pdfoutput)/Richland_Prefab_2BR.pdf $(pdfoutput)/Phase1.pdf | $(pdfoutput)/
 
-.PHONY : html
 ## Generate HTML with CSS, JavaScript and SweetHome3D plan on website.
 html: $(htmloutputs) $(staticobjects) | $(htmloutput)/
 
-.PHONY : large
 ## Generate PDF with larger fonts for accessibility.
 large:
 	$(MAKE) pdf large:=large fontsize:=17pt
 
-.PHONY : tex
 ## Generate intermediate LaTeX for reviewing pdf recipe.
 tex: $(texoutputs) | $(pdfoutput)/
 # }}}
@@ -134,7 +133,7 @@ $(pdfoutput)/%.pdf $(pdfoutput)/%.tex : $(source)/%.md $(pandoc_pdf) | $(pdfoutp
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-.SECONDARY : $(staticobjects)
+.SECONDARY: $(staticobjects)
 $(htmloutput)/%.html : $(source)/%.md $(pandoc_html) | $(htmloutput)/
 	pandoc \
 		--standalone \
@@ -182,7 +181,7 @@ $(pdfoutput)/ $(htmloutput)/ $(source)/tmp/ :
 # }}}
 
 # Recipe for clean {{{
-.PHONY : clean cleanall cleanhtml cleanhome cleanpdf cleanlarge
+.PHONY: clean cleanall cleanhtml cleanhome cleanpdf cleanlarge
 ## Remove all output: cleanhtml cleanhome cleanpdf cleanlarge.
 clean: cleanhtml cleanhome cleanpdf cleanlarge cleantmp
 
@@ -206,4 +205,11 @@ cleanlarge :
 ## Remove large intermediate tmp directory.
 cleantmp :
 	rm -rf $(source)/tmp/
+# }}}
+
+# Test recipe {{{
+.PHONY: test
+
+test :
+	$(warning Not implemented)
 # }}}
