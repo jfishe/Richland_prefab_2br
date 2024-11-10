@@ -27,7 +27,8 @@ def action(elem, doc):
         if doc.format in docformats:
             extension = splitext(urlparse(elem.url).path)[1]
             # pf.debug(docformats[doc.format])
-            elem.url = elem.url[: -len(extension)] + docformats[doc.format]
+            if not elem.url.startswith("https://github.com/jfishe/Richland_prefab_2br/blob/master/"):
+                elem.url = elem.url[: -len(extension)] + docformats[doc.format]
             # pf.debug(elem.url)
             return elem
 

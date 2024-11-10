@@ -63,5 +63,5 @@ a:visited {
 }
 
 #content a[href^="/"]:after {
-   content: " (https://remodel_richland.droppages.com" attr(href) ") ";
+   content: " (https://jfishe.github.io/Richland_prefab_2br" attr(href) ") ";
 }

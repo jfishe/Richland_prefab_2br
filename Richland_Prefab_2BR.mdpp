@@ -85,7 +85,7 @@ header-includes:
 <!-- markdownlint-disable MD025 -->
 # Overview
 
-The [home page for the remodel](https://remodel_richland.droppages.com/) shows
+The [home page for the remodel](https://jfishe.github.io/Richland_prefab_2br/) shows
 the layout and general idea of the color choices, materials, fittings and
 furnishings in a format which can be viewed with modern web browsers (Chrome
 and Edge have been tested).
@@ -141,20 +141,18 @@ only.
 
 !INCLUDE "tmp/Bathroom.md", 1
 
-!INCLUDE "tmp/THIRD-PARTY-NOTICES.md"
+# Third Party Notices
+
+[Third Party Notices][third_party_notices].
 
 # Sweet Home 3D Model and Dimensional CAD Drawings
 
-Refer to the [Github project site][Github project site] for dimensional
+Refer to the [Github project site][github_project_site] for dimensional
 `LibreCAD` drawings, which should be readable by most CAD software. These
 drawings show the before and after floor plan.
 
 The `Sweet Home 3D` model is also available at the
-[project site][Github project site].
-
-<!-- markdownlint-disable MD013 -->
-[Github project site]: https://github.com/jfishe/Richland_prefab_2br "jfishe/Richland_prefab_2br"
-<!-- markdownlint-enable MD013 -->
+[project site][github_project_site].
 
 See [Third party notices](#third-party-notices) for the free and open source
 software required to view/edit the Home Plan and the CAD drawings. The
@@ -162,4 +160,8 @@ dimensions are close to actual, but there may be discrepancies.
 
 # License
 
-[Software License and Copyright](https://github.com/jfishe/Richland_prefab_2br/LICENSE "LICENSE")
+[Software License and Copyright][software_license_copyright]
+
+[software_license_copyright]: https://github.com/jfishe/Richland_prefab_2br/blob/master/LICENSE "License"
+[third_party_notices]: https://github.com/jfishe/Richland_prefab_2br/blob/master/THIRD-PARTY-NOTICES.md "Third Party Notices"
+[github_project_site]: https://github.com/jfishe/Richland_prefab_2br "jfishe/Richland_prefab_2br"
