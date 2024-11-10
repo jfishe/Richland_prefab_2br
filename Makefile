@@ -96,7 +96,7 @@ endef
 # End Help }}}
 
 # Explicit Rules {{{
-.PHONY: all pdf html large tex
+.PHONY: all pdf html large tex publish
 ## Generate HTML5 and PDF from the Markdown source files
 all: pdf html
 
@@ -112,6 +112,10 @@ large:
 
 ## Generate intermediate LaTeX for reviewing pdf recipe.
 tex: $(texoutputs) | $(pdfoutput)/
+
+## Publish HTML5 to Github Pages.
+publish: html
+	./gh-pages.sh
 # }}}
 
 # Recipe for converting a Markdown file to pdf or LaTeX using Pandoc {{{

@@ -1,9 +1,5 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
-default_install_hook_types:
-  - pre-commit
-  - pre-push
-
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
@@ -33,13 +29,3 @@ repos:
     - id: checkmake
     # OR Use this hook to use a pre-installed checkmark executable
     # -   id: checkmake-system
-  - repo: local
-    hooks:
-      - id: ghp-import
-        name: Update Github Pages
-        entry: .pre_commit_hooks/gh-pages.sh
-        language: script
-        require_serial: true
-        stages:
-          - pre-push
-        verbose: true
