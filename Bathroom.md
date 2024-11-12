@@ -18,26 +18,30 @@ header-includes:
 
 <!-- markdownlint-enable MD025 -->
 
-- Shower valve: similar to shower door hardware, e.g., Genta LX 1-Handle
+- **Shower valve**: similar to shower door hardware, e.g., Genta LX 1-Handle
   Posi-Temp Valve Trim Kit in Matte Black
-- Sink faucet: match shower valve and size for sink, e.g., Moen Genta Single Handle
-  Single Hole Bathroom Faucet in Matte Black.
-- Shower shelves: 3
-- Shower bench: TBD
-- Tile grout: match tile
-- Shower door:
+- **Sink faucet**: match shower valve and size for sink, e.g., Moen Genta
+  Single Handle Single Hole Bathroom Faucet in Matte Black.
+- **Shower shelves**: 3
+- **Shower bench**: 18" Teak Folding Shower Seat Wall Mounted,Fold Down Shower
+  Bench for Small Shower Space, Home Care Teak Wood Stool for Inside Shower
+- **Shower tile**: floridatile Calcutta Gold 20026DB8/17
+- **Shower pan**: floridatile Calcutta Gold 20023DB8/17
+- **Tile grout**: match tile
+- **Shower door**:
   - Out of stock:
     [Home Depot Delta Custom Shower Door Collection Sliding, 50–60 in x 3/8 in (10mm) Rain Semi Transparent, Mod Slow Close, Lyndall Matte Black](https://www.homedepot.com/p/Delta-Custom-Shower-Door-Collection/315677210?57823-Sliding&57830-50-60-in&57840-3-8-10mm&57836-Rain-Semi-Transparent&57842-Mod-Slow-Close&57852-Lyndall&57858-Matte-Black)
     - Minimum opening height is 73-1/2 inches
   - Alternate:
     [Lowes DreamLine Duet Plus Matte Black 56 in to 60 in x 72 in Semi frameless Bypass Sliding Shower Door](https://www.lowes.com/pd/DreamLine-Duet-Plus-Matte-Black-56-in-to-60-in-x-72-in-Semi-frameless-Bypass-Sliding-Shower-Door/5013398145)
-- Toilet:
+- **Toilet**:
   [Hartridge 1-Piece 1.0/1.6 GPF Dual Flush Elongated Toilet in White](https://www.homedepot.com/p/Glacier-Bay-Hartridge-1-Piece-1-0-1-6-GPF-Dual-Flush-Elongated-Toilet-in-White-GBTO205/317382017)
   Internet # 317382017 Model # GBTO205
 - Finish and paint bathroom. Sherwin Williams 7002 Downy Enamel, Emerald
   Interior Acrylic Latex, Eggshell, orange peel style texture.
   - Paint baseboard.
-- Vanity: see [Bathroom Cabinets and Fixtures Phase 2](#bathroom-cabinets-and-fixtures-phase-2)
+- **Vanity**: see [Bathroom Cabinets and Fixtures Phase 2](#bathroom-cabinets-and-fixtures-phase-2)
+- **Floor**: Shaw Shale 00281
 
 ## Bathroom Walls and Floor Phase 2
 
