@@ -1,13 +1,12 @@
 name: Richland_prefab_2br
 channels:
-- defaults
-- conda-forge
+  - conda-forge
 dependencies:
-- editorconfig
-- pandoc[version='>=3.5']
-- panflute
-- pre-commit
-- python [version='>=3.9']
+  - editorconfig
+  - pandoc[version='>=3.5']
+  - panflute
+  - pre-commit
+  - python [version='>=3.9']
 # - pip
 # - pip:
 #   - MarkdownPP
