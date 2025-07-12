@@ -13,17 +13,18 @@ header-includes:
     ```
 ---
 
-# Doors Phase 2
+- Exterior door Sherwin-Williams 7701 Cavern Clay
+- Exterior trim Sherwin-Williams 9183 Dark Clove
+- Exterior base Sherwin-Williams 9173 Shitake
 
-## Bedroom #1 Door Phase 2
+## Front door
 
-1. Raise door jamb close to ceiling.
-2. Replace door. Frosted glass or similar synthetic material is desired to
-   allow natural light into hall.
+- 36" Thermo Tru S200 fiberglass 2 panel, archtop prehung door
+- [Anderson 300 series](https://www.homedepot.com/p/Andersen-300-Series-36-in-x-80-in-Bronze-Universal-3-4-Light-Mid-View-Aluminum-Storm-Door-with-Black-Handle-Set-95953/325578583),
+  bronze ¾ lite, dual vent storm door complete
+  with hands free, foot operated closer model #95951
 
-## Bedroom #2 Door Phase 2
+## Back door
 
-1. Raise door jamb close to ceiling.
-2. Replace door with barn door. Frosted glass or similar synthetic material is
-   desired to allow natural light into hall.
-3. Add cabinet door for closet.
+- 36" Thero Tru, S6034, fiberglass prehung door
+  with vented ½ light single hung window.

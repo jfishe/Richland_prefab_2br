@@ -141,6 +141,8 @@ only.
 
 !INCLUDE "tmp/Bathroom.md", 1
 
+!INCLUDE "tmp/Doors_Phase2.md", 1
+
 # Third Party Notices
 
 [Third Party Notices][third_party_notices].
