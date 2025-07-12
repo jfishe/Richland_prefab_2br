@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="John D. Fisher" />
+  <title>Remodel Plan</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="pandoc.css" />
+    <!--
+       viewHomeInOverlay.html  version 1.4
+
+       Sweet Home 3D, Copyright (c) 2016-2018 Emmanuel PUYBARET / eTeks <info@eteks.com>
+
+       This program is free software; you can redistribute it and/or modify
+       it under the terms of the GNU General Public License as published by
+       the Free Software Foundation; either version 2 of the License, or
+       (at your option) any later version.
+
+       This program is distributed in the hope that it will be useful,
+       but WITHOUT ANY WARRANTY; without even the implied warranty of
+       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+       GNU General Public License for more details.
+
+       You should have received a copy of the GNU General Public License
+       along with this program; if not, write to the Free Software
+       Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+    -->
+    <script type="text/javascript" src="lib/big.min.js"></script>
+    <script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="lib/jszip.min.js"></script>
+    <script type="text/javascript" src="lib/core.min.js"></script>
+    <script type="text/javascript" src="lib/geom.min.js"></script>
+    <script type="text/javascript" src="lib/stroke.min.js"></script>
+    <script type="text/javascript" src="lib/batik-svgpathparser.min.js"></script>
+    <script type="text/javascript" src="lib/jsXmlSaxParser.min.js"></script>
+    <script type="text/javascript" src="lib/triangulator.min.js"></script>
+    <script type="text/javascript" src="lib/viewmodel.min.js"></script>
+    <script type="text/javascript" src="lib/viewhome.min.js"></script>
+    <script type="text/javascript">
+      const inputPlan = "Home_Plan.zip";
+      const inputSettings = {
+           roundsPerMinute:    1,                              /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */
+           widthByHeightRatio: 4/3,                            /* Size ratio of the displayed canvas */
+           navigationPanel: "none",                            /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key
+                                                                  attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing */
+           aerialViewButtonText: "Aerial view",                /* Text displayed for aerial view radio button, no radio buttons if missing */
+           virtualVisitButtonText: "Virtual visit",            /* Text displayed for virtual visit radio button, no radio buttons if missing */
+        /* level: "Roof", */                                   /* Uncomment to select the displayed level, default level if missing */
+        /* selectableLevels: ["Ground floor", "Roof"], */      /* Uncomment to choose the list of displayed levels, no select component if empty array */
+        /* camera: "Exterior view", */                         /* Uncomment to select a camera, default camera if missing */
+        /* selectableCameras: ["Exterior view", "Kitchen"], */ /* Uncomment to choose the list of displayed cameras, no camera if missing */
+           activateCameraSwitchKey: true,                      /* Switch between top view / virtual visit with space bar if not false or missing */
+           viewerControlsAdditionalHTML: "",                   /* Additional HTML text appended to controls displayed below the canvas 3D, by default empty */
+           readingHomeText: "Reading",                         /* Comment displayed while reading home */
+           readingModelText: "Model",                          /* Comment displayed while reading models */
+           noWebGLSupportError: "No WebGL support"             /* Error message displayed if the browser do not support WebGL */
+          };
+    </script>
+
+    <style type="text/css">
+    /* The class of components handled by the viewer */
+        .viewerComponent {
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+</head>
+<body>
+<article class="markdown-body">
+<header id="title-block-header">
+<!-- <h1 class="title">Remodel Plan</h1> -->
+<h1 class="title followed-by-subtitle">Remodel Plan</h1>
+<p class="subtitle">Richland Prefab 2BR</p>
+<p class="author">John D. Fisher</p>
+<p class="date">Sat Jul 12 20:16:01 2025 UTC</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+Richland, WA, 1 bedroom Prefab Remodel starting from the original floor
+plans, which are available from <span class="citation"
+data-cites="columbiaabc"><a href="#ref-columbiaabc"
+role="doc-biblioref">[1]</a></span>. The dimensions have been updated to
+match the actual house.
+</div>
+</header>
+<nav id="TOC" role="doc-toc">
+<h2 id="toc-title">Contents</h2>
+<ul>
+<li><a href="#overview" id="toc-overview">Overview</a></li>
+<li><a href="#abbreviations"
+id="toc-abbreviations">Abbreviations</a></li>
+<li><a href="#errata" id="toc-errata">Errata</a></li>
+<li><a href="#phase-1-remodel" id="toc-phase-1-remodel">Phase 1
+Remodel</a></li>
+<li><a href="#phase-2-remodel" id="toc-phase-2-remodel">Phase 2
+Remodel</a>
+<ul>
+<li><a href="#bathroom-phase-2" id="toc-bathroom-phase-2">Bathroom Phase
+2</a></li>
+<li><a href="#doors-phase-2" id="toc-doors-phase-2">Doors Phase
+2</a></li>
+</ul></li>
+<li><a href="#third-party-notices" id="toc-third-party-notices">Third
+Party Notices</a></li>
+<li><a href="#sweet-home-3d-model-and-dimensional-cad-drawings"
+id="toc-sweet-home-3d-model-and-dimensional-cad-drawings">Sweet Home 3D
+Model and Dimensional CAD Drawings</a></li>
+<li><a href="#license" id="toc-license">License</a></li>
+</ul>
+</nav>
+<!-- markdownlint-disable MD025 -->
+<h2 id="overview">Overview</h2>
+<p>The <a href="https://jfishe.github.io/Richland_prefab_2br/">home page
+for the remodel</a> shows the layout and general idea of the color
+choices, materials, fittings and furnishings in a format which can be
+viewed with modern web browsers (Chrome and Edge have been tested).</p>
+<ul>
+<li>Click the <code>View home</code> button to open the
+<code>Sweet Home 3D</code> viewer. The viewer provides an aerial view
+and allows a walk-through (Virtual visit) of the house.</li>
+<li>Check Virtual visit to switch from Aerial view (check boxes are at
+the bottom of the view-window):
+<ul>
+<li>Arrow keys rotate the view.</li>
+<li>Shift+Up moves forward.</li>
+<li>Shift+Down moves backward.</li>
+<li>Shift+Left or Right turns Left or Right.</li>
+</ul></li>
+</ul>
+<!-- markdownlint-disable MD013 MD033 -->
+<div>
+<!-- Copy the following button in your page -->
+<!-- Mouse and keyboard navigation explained at
+       http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
+       You may also switch between aerial view and virtual visit with the space bar -->
+<!-- For browser compatibility, see http://caniuse.com/webgl -->
+<p>
+<button onclick="viewHomeInOverlay(inputPlan, inputSettings)">
+View home
+</button>
+</p>
+</div>
+<!-- markdownlint-enable MD013 MD033 -->
+<h2 id="abbreviations">Abbreviations</h2>
+<dl>
+<dt>BR#x</dt>
+<dd>
+<p>Bedroom #x, where x is 1 or 2 (e.g., Bedroom #1)</p>
+</dd>
+</dl>
+<h2 id="errata">Errata</h2>
+<ul>
+<li>The <code>Sweet Home 3D viewer</code> plugin does not show the
+horizontal KALLAX shelf in Bedroom #2 correctly; rather it renders the
+shelf vertically, instead of horizontal. The plants show the correct
+elevation of the shelf. The <code>Sweet Home 3D</code> application
+renders correctly.</li>
+<li>The corner cabinet counter top does not display correctly. It should
+be quartz, like the rest of the counter.</li>
+</ul>
+<h2 id="phase-1-remodel">Phase 1 Remodel</h2>
+<p>The following scope covers the completed Phase 1, included for
+information.</p>
+<p>Estimates should address <a href="#phase-2-remodel">Phase 2</a>
+only.</p>
+<p><a href="Phase1.html">Phase 1 Details</a></p>
+<h2 id="phase-2-remodel">Phase 2 Remodel</h2>
+<p>The following scope covers current plans for Phase 2. Estimates
+should address only.</p>
+<!-- markdownlint-disable MD025 -->
+<h3 id="bathroom-phase-2">Bathroom Phase 2</h3>
+<!-- markdownlint-enable MD025 -->
+<ul>
+<li><strong>Shower valve</strong>: similar to shower door hardware,
+e.g., Genta LX 1-Handle Posi-Temp Valve Trim Kit in Matte Black</li>
+<li><strong>Sink faucet</strong>: match shower valve and size for sink,
+e.g., Moen Genta Single Handle Single Hole Bathroom Faucet in Matte
+Black.</li>
+<li><strong>Shower shelves</strong>: 3</li>
+<li><strong>Shower bench</strong>: 18” Teak Folding Shower Seat Wall
+Mounted,Fold Down Shower Bench for Small Shower Space, Home Care Teak
+Wood Stool for Inside Shower</li>
+<li><strong>Shower tile</strong>: floridatile Calcutta Gold
+20026DB8/17</li>
+<li><strong>Shower pan</strong>: floridatile Calcutta Gold
+20023DB8/17</li>
+<li><strong>Tile grout</strong>: match tile</li>
+<li><strong>Shower door</strong>:
+<ul>
+<li>Out of stock: <a
+href="https://www.homedepot.com/p/Delta-Custom-Shower-Door-Collection/315677210?57823-Sliding&amp;57830-50-60-in&amp;57840-3-8-10mm&amp;57836-Rain-Semi-Transparent&amp;57842-Mod-Slow-Close&amp;57852-Lyndall&amp;57858-Matte-Black">Home
+Depot Delta Custom Shower Door Collection Sliding, 50–60 in x 3/8 in
+(10mm) Rain Semi Transparent, Mod Slow Close, Lyndall Matte Black</a>
+<ul>
+<li>Minimum opening height is 73-1/2 inches</li>
+</ul></li>
+<li>Alternate: <a
+href="https://www.lowes.com/pd/DreamLine-Duet-Plus-Matte-Black-56-in-to-60-in-x-72-in-Semi-frameless-Bypass-Sliding-Shower-Door/5013398145">Lowes
+DreamLine Duet Plus Matte Black 56 in to 60 in x 72 in Semi frameless
+Bypass Sliding Shower Door</a></li>
+</ul></li>
+<li><strong>Toilet</strong>: <a
+href="https://www.homedepot.com/p/Glacier-Bay-Hartridge-1-Piece-1-0-1-6-GPF-Dual-Flush-Elongated-Toilet-in-White-GBTO205/317382017">Hartridge
+1-Piece 1.0/1.6 GPF Dual Flush Elongated Toilet in White</a> Internet #
+317382017 Model # GBTO205</li>
+<li>Finish and paint bathroom. Sherwin Williams 7002 Downy Enamel,
+Emerald Interior Acrylic Latex, Eggshell, orange peel style texture.
+<ul>
+<li>Paint baseboard.</li>
+</ul></li>
+<li><strong>Vanity</strong>: see <a
+href="#bathroom-cabinets-and-fixtures-phase-2">Bathroom Cabinets and
+Fixtures Phase 2</a></li>
+<li><strong>Floor</strong>: Shaw Shale 00281</li>
+</ul>
+<h4 id="bathroom-walls-and-floor-phase-2">Bathroom Walls and Floor Phase
+2</h4>
+<ul>
+<li>Insulate the floor and walls, as needed, especially exterior
+wall.</li>
+<li>Replace window with Cascade white vinyl picture window, with low-E
+glass and argon gas (tempered and obscure glass).</li>
+<li>Overlay sheetrock outside shower area, walls and ceiling. Orange
+peel style texture.</li>
+</ul>
+<h4 id="bathroom-electrical-phase-2">Bathroom Electrical Phase 2</h4>
+<ul>
+<li>Replace exhaust fan with Panasonic Whisper bath fan.</li>
+<li>Add ceiling light.</li>
+<li>Retain duplex outlet, adjacent to vanity for hair dryer, curling
+iron etc.</li>
+</ul>
+<h4 id="bathroom-cabinets-and-fixtures-phase-2">Bathroom Cabinets and
+Fixtures Phase 2</h4>
+<ol type="1">
+<li>Remove old sink and cabinet.</li>
+<li>Retain mirror cabinet: <a
+href="https://www.ikea.com/us/en/catalog/products/10218999/"
+title="GODMORGON">GODMORGON Mirror cabinet with 2 doors</a> Article
+Number: 102.189.99 Size: 23-5/8 x 5-1/2 x 37-3/4 inches.</li>
+<li>Retain rack behind toilet.</li>
+<li>Retain towel rack near current location.</li>
+<li>New sink, already purchased:
+<ol type="1">
+<li>Plumber should choose matching shower trim and vanity faucet, matte
+black preferred, i.e., similar to shower <a
+href="#bathroom-phase-2">door</a>.</li>
+<li>IKEA <a
+href="https://www.ikea.com/us/en/p/aengsjoen-backsjoen-bathroom-vanity-with-sink-faucet-brown-oak-effect-black-marble-effect-s99532009/">ÄNGSJÖN
+/ BACKSJÖN Bathroom vanity with sink &amp; faucet</a> Article Number:
+995.320.09 Size 25 x 21-1/2 x 28-1/4 inches.</li>
+<li><a
+href="https://www.ikea.com/us/en/p/almaan-leg-stainless-steel-20534916/">ALMAÅN
+Leg</a></li>
+<li><a
+href="https://www.moen.com/products/90-Degree/90-Degree-Matte-black-one-handle-high-arc-vessel-bathroom-faucet/S6712BL">moen
+products 90 Degree 90 Degree Matte black one handle high arc vessel
+bathroom faucet S6712BL</a></li>
+<li><a
+href="https://www.moen.com/products/Align/Align-Matte-black-one-handle-high-arc-vessel-bathroom-faucet/6192BL">moen
+products Align Align Matte black one handle high arc vessel bathroom
+faucet 6192BL</a> Article Number: 205.349.16</li>
+</ol></li>
+<li>Retain handheld shower and replace filter. New filter provided by
+owner.</li>
+<li>Toilet: Retain tee-valve and spray hose.</li>
+</ol>
+<!-- markdownlint-disable MD025 -->
+<h3 id="doors-phase-2">Doors Phase 2</h3>
+<!-- markdownlint-enable MD025 -->
+<h4 id="exterior-paint">Exterior paint</h4>
+<ul>
+<li>Exterior door Sherwin-Williams 7701 Cavern Clay</li>
+<li>Exterior trim Sherwin-Williams 9183 Dark Clove</li>
+<li>Exterior base Sherwin-Williams 9173 Shitake</li>
+</ul>
+<h4 id="front-door">Front door</h4>
+<ul>
+<li>36” Thermo Tru S200 fiberglass 2 panel, archtop prehung door</li>
+<li><a
+href="https://www.homedepot.com/p/Andersen-300-Series-36-in-x-80-in-Bronze-Universal-3-4-Light-Mid-View-Aluminum-Storm-Door-with-Black-Handle-Set-95953/325578583">Anderson
+300 series</a>, bronze ¾ lite, dual vent storm door complete with hands
+free, foot operated closer model #95951</li>
+</ul>
+<h4 id="back-door">Back door</h4>
+<ul>
+<li>36” Thero Tru, S6034, fiberglass prehung door with vented ½ light
+single hung window.</li>
+</ul>
+<h2 id="third-party-notices">Third Party Notices</h2>
+<p><a
+href="https://github.com/jfishe/Richland_prefab_2br/blob/master/THIRD-PARTY-NOTICES.md"
+title="Third Party Notices">Third Party Notices</a>.</p>
+<h2 id="sweet-home-3d-model-and-dimensional-cad-drawings">Sweet Home 3D
+Model and Dimensional CAD Drawings</h2>
+<p>Refer to the <a href="https://github.com/jfishe/Richland_prefab_2br"
+title="jfishe/Richland_prefab_2br">Github project site</a> for
+dimensional <code>LibreCAD</code> drawings, which should be readable by
+most CAD software. These drawings show the before and after floor
+plan.</p>
+<p>The <code>Sweet Home 3D</code> model is also available at the <a
+href="https://github.com/jfishe/Richland_prefab_2br"
+title="jfishe/Richland_prefab_2br">project site</a>.</p>
+<p>See <a href="#third-party-notices">Third party notices</a> for the
+free and open source software required to view/edit the Home Plan and
+the CAD drawings. The dimensions are close to actual, but there may be
+discrepancies.</p>
+<h2 id="license">License</h2>
+<p><a
+href="https://github.com/jfishe/Richland_prefab_2br/blob/master/LICENSE"
+title="License">Software License and Copyright</a></p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-columbiaabc" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div
+class="csl-right-inline">Columbia River Exhibition of History, Science
+and Technology, <em><span class="nocase">ABC Homes: The Houses that
+Hanford Built : A to Z House Plans</span></em>. The Exhibition [Online].
+Available: <a
+href="https://books.google.com/books?id=-IwyGwAACAAJ">https://books.google.com/books?id=-IwyGwAACAAJ</a></div>
+</div>
+</div>
+</article>
+</body>
+</html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v3.5 — by John D. Fisher
+==============================================================================
+Copyright © John D. Fisher, 2024, MIT License (MIT). Project's home:
+
+- https://github.com/jfishe/pandoc_settings
+
+The CSS is a modified version of https://gist.github.com/killercup/5917178.
+
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party software:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
