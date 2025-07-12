@@ -13,6 +13,8 @@ header-includes:
     ```
 ---
 
+## Exterior paint
+
 - Exterior door Sherwin-Williams 7701 Cavern Clay
 - Exterior trim Sherwin-Williams 9183 Dark Clove
 - Exterior base Sherwin-Williams 9173 Shitake
