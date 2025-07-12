@@ -4,7 +4,7 @@ subtitle: Richland Prefab 2BR
 author: John D. Fisher
 email: jdfenw@gmail.com
 summary:
-  Proposed Phase 2 changes to the BR#1 and BR#2 doors. Collect plans for Phase
+  Proposed Phase 2 changes to the front and back doors. Collect plans for Phase
   2 to be completed separatetly from the Phase 1 Kitchen, Living Room and Bedrooms.
 header-includes:
   - |
@@ -12,6 +12,12 @@ header-includes:
       <link rel="stylesheet" type="text/css" media="print" href="print.css" />
     ```
 ---
+
+<!-- markdownlint-disable MD025 -->
+
+# Doors Phase 2
+
+<!-- markdownlint-enable MD025 -->
 
 ## Exterior paint
 
