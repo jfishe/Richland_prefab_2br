@@ -119,7 +119,13 @@ publish: html
 # }}}
 
 # Recipe for converting a Markdown file to pdf or LaTeX using Pandoc {{{
-$(pdfoutput)/%.pdf $(pdfoutput)/%.tex : $(source)/%.md $(pandoc_pdf) | $(pdfoutput)/
+# Note: pdf and tex are declared as separate pattern rules (not a single
+# multi-target rule) because pandoc's output format is chosen from $@'s
+# extension, so one invocation never produces both files. A shared
+# multi-target rule would make Make expect both peer targets to be
+# updated by every recipe run, which they aren't -- hence
+# "pattern recipe did not update peer target" warnings.
+define pandoc_to_pdf_or_tex
 	pandoc \
 		--citeproc \
 		--variable fontsize=$(fontsize) \
@@ -134,6 +140,13 @@ $(pdfoutput)/%.pdf $(pdfoutput)/%.tex : $(source)/%.md $(pandoc_pdf) | $(pdfoutp
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
+endef
+
+$(pdfoutput)/%.pdf : $(source)/%.md $(pandoc_pdf) | $(pdfoutput)/
+	$(pandoc_to_pdf_or_tex)
+
+$(pdfoutput)/%.tex : $(source)/%.md $(pandoc_pdf) | $(pdfoutput)/
+	$(pandoc_to_pdf_or_tex)
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
