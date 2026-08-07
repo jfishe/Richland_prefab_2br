@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
-# pre-commit hook using ghp-import to push HTML to Github Pages.
+# Deploy step invoked by `make publish` to push HTML to Github Pages via
+# ghp-import (run standalone through uv, not installed as a project dep).
 # Assumes:
 #   HTML exists in docs folder.
-#   ghp-import in PATH, e.g., `python -m pip install ghp-import`.
+#   uv in PATH to run ghp-import (`uvx ghp-import`).
 #   `git config ghppages.pathhtml <absolute path>/docs`. Defaults to
-#   "$GIT_WORK_TREE/docs".
+#   "<repo toplevel>/docs".
 #   `git config ghppages.push true`. Otherwise skip publishing.
+
+set -euo pipefail
 
 if git config --get-colorbool color.interactive
 then
@@ -26,8 +29,8 @@ say_done () {
 # Update gh-pages
 if test "$(git config --bool ghppages.push || echo false)" = true
 then
-  pathhtml=$(git config ghppages.pathhtml || echo "$GIT_WORK_TREE/docs")
+  pathhtml=$(git config ghppages.pathhtml || echo "$(git rev-parse --show-toplevel)/docs")
   say 'Pushing html to gh-pages...'
-  ghp-import -n -o -p -f "$pathhtml"
+  uvx ghp-import -n -o -p -f "$pathhtml"
   say_done
 fi
