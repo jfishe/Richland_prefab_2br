@@ -1,11 +1,17 @@
 $--| GitHub HTML5 Pandoc Template" | 2024/11/09 | pandoc v3.5
 $--| pandoc --print-default-template=html5
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<html xmlns="http://www.w3.org/1999/xhtml"$if(lang)$ lang="$lang$" xml:lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc $pandoc-version$" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+$--| add to default-template:
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-hashes' 'sha256-KLBS79lh/Ic3Z/Fh+E+U0SqZxH9UjG7HGrvoZ/lnAjo=' 'sha256-AGsYtpKhME+QGNUNaitkV8rnO/7Y2dCmqJ2xwzyUVV4='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'self';"
+  />
+$--| end add to default-template.
 $for(author-meta)$
   <meta name="author" content="$author-meta$" />
 $endfor$
@@ -80,9 +86,9 @@ $endfor$
 </html>
 <!--
 ==============================================================================
-           "GitHub HTML5 Pandoc Template" v3.5 — by John D. Fisher
+           "GitHub HTML5 Pandoc Template" v3.10.1 — by John D. Fisher
 ==============================================================================
-Copyright © John D. Fisher, 2024, MIT License (MIT). Project's home:
+Copyright © John D. Fisher, 2026, MIT License (MIT). Project's home:
 
 - https://github.com/jfishe/pandoc_settings
 
