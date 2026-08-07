@@ -147,7 +147,7 @@ $(htmloutput)/%.html : $(source)/%.md $(pandoc_html) | $(htmloutput)/
 		--lua-filter date.lua \
 		--table-of-contents \
 		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
-		--highlight-style=breezedark \
+		--syntax-highlighting=breezedark \
 		--template="pandoc.html5" \
 		--css="pandoc.css" \
 		--from=markdown  $< \
@@ -167,7 +167,7 @@ $(source)/tmp/%.md : $(source)/%.md | $(source)/tmp/
 	--output $@
 
 %.md : %.mdpp $(markdown)
-	markdown-pp $< --output $@
+	uv tool run --from=MarkdownPP markdown-pp $< --output $@
 
 $(staticoutput)/% : $(CURDIR)/% | $(staticoutput)/
 	cp $< $@

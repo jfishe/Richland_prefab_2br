@@ -1,4 +1,10 @@
-#! /usr/bin/env python
+#!/usr/bin/env -S uv run
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#   "panflute",
+# ]
+# ///
 """pandoc filter converts URL extension to match destination extension.
 
     Convert .md extension to .pdf or .html, depending on output format.
