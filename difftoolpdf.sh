@@ -14,7 +14,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # the temp directory used, within $DIR
 # omit the -p parameter to create a temporal directory in the default location
-WORK_DIR=`mktemp -d -p "$DIR"`
+WORK_DIR=$(mktemp -d -p "$DIR")
 
 # check if tmp dir was created
 if [[ ! "$WORK_DIR" || ! -d "$WORK_DIR" ]]; then
@@ -32,25 +32,25 @@ function cleanup {
 trap cleanup EXIT
 
 
-git worktree add $WORK_DIR/old --no-checkout --detach
-cd $WORK_DIR/old
-git checkout $1
+git worktree add "$WORK_DIR/old" --no-checkout --detach
+cd "$WORK_DIR/old" || exit 1
+git checkout "$1"
 make tex --quiet
-cd $DIR
+cd "$DIR" || exit 1
 
-git worktree add $WORK_DIR/new --no-checkout --detach
-cd $WORK_DIR/new
-git checkout $2
+git worktree add "$WORK_DIR/new" --no-checkout --detach
+cd "$WORK_DIR/new" || exit 1
+git checkout "$2"
 make tex --quiet
-cd $DIR
+cd "$DIR" || exit 1
 
 latexdiff --preamble=pdfcomment.tex \
-  $WORK_DIR/old/print/Richland_Prefab_2BR.tex $WORK_DIR/new/print/Richland_Prefab_2BR.tex \
-  > $DIR/print/Richland_Prefab_2BR_diff.tex
+  "$WORK_DIR/old/print/Richland_Prefab_2BR.tex" "$WORK_DIR/new/print/Richland_Prefab_2BR.tex" \
+  > "$DIR/print/Richland_Prefab_2BR_diff.tex"
 
-git worktree remove $WORK_DIR/old
-git worktree remove $WORK_DIR/new
+git worktree remove "$WORK_DIR/old"
+git worktree remove "$WORK_DIR/new"
 
-cd $DIR/print
+cd "$DIR/print" || exit 1
 latexmk -quiet -xelatex Richland_Prefab_2BR_diff.tex
 latexmk -c
