@@ -24,7 +24,7 @@ header-includes:
    the pole in the neighbors yard. A longer run of coaxial cable is likely
    needed to reach BR#2. Do you do that or do we need Charter?
 
-   > TODO: <14-12-18, John D. Fisher> > Issue #24 Charter support
+   > Issue #24 Charter support
 
 4. I assume Charter would not be needed to install the cable connection inside,
    but if they're here for run to the house, I assume it makes sense to have
@@ -81,8 +81,7 @@ already grounded.
 1. How should ceiling lights be placed in kitchen? Current location may not be
    ideal for open concept floor plan.
 
-   > TODO: <14-12-18, John D. Fisher> > Issue #26 and #24 kitchen ceiling
-   > lights
+   > Issue #26 and #24 kitchen ceiling lights
 
 2. Check ceiling light gang boxes. They're surface mounted, galvanized steel
    with wire clamps.

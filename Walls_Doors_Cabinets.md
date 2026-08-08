@@ -183,7 +183,7 @@ counter, backsplash and cabinet selections.
    Size refrigerator cubicle for standard 36 inch; actual refrigerator is
    smaller.
 
-   > TODO: <21-11-18, John D. Fisher> Decide how to conceal the empty space.
+   > Decide how to conceal the empty space.
    > Work with cabinet maker to design a door that could be removed if we end
    > up with a larger refrigerator later.
 
