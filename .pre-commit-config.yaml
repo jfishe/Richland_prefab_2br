@@ -2,7 +2,7 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-merge-conflict
@@ -11,19 +11,19 @@ repos:
       - id: mixed-line-ending
       - id: trailing-whitespace
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.6.7
+    rev: 0.7.1
     hooks:
       - id: fix-smartquotes
       - id: fix-ligatures
       - id: fix-spaces
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.3
     hooks:
       - id: codespell
         # args:
         #   - "--write-changes"
   - repo: https://github.com/mrtazz/checkmake.git
-    rev: 0.2.2
+    rev: v0.3.2
     hooks:
     # Use this hook to let pre-commit build checkmake in its sandbox
     - id: checkmake

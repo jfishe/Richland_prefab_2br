@@ -150,8 +150,7 @@ $(pdfoutput)/%.tex : $(source)/%.md $(pandoc_pdf) | $(pdfoutput)/
 # }}}
 
 # Recipe for converting a Markdown file into HTML5 using Pandoc {{{
-.SECONDARY: $(staticobjects)
-$(htmloutput)/%.html : $(source)/%.md $(pandoc_html) | $(htmloutput)/
+define pandoc_to_html
 	pandoc \
 		--standalone \
 		--citeproc \
@@ -166,6 +165,11 @@ $(htmloutput)/%.html : $(source)/%.md $(pandoc_html) | $(htmloutput)/
 		--from=markdown  $< \
 		--to="html5" \
 		--output $@
+endef
+
+.SECONDARY: $(staticobjects)
+$(htmloutput)/%.html : $(source)/%.md $(pandoc_html) | $(htmloutput)/
+	$(pandoc_to_html)
 
 $(staticoutput)/Home_Plan.zip : $(source)/Home_Plan.zip | $(staticoutput)/
 	$(MAKE) cleanhome
