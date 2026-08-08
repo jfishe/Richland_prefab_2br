@@ -23,9 +23,13 @@ source := $(CURDIR)
 # Select default fontsize for XeLaTeX.
 fontsize := 12pt
 
+# Select default Citation Style Language for Pandoc.
+# See https://www.zotero.org/styles for more options.
+CSL ?= ieee.csl
+
 # Pandoc peripheral files for conversion.
-pandoc_pdf := biblio.bib ieee-with-url.csl link_filter.py date.lua
-pandoc_html := $(pandoc_pdf) pandoc.html5
+pandoc_pdf := biblio.bib $(CSL) link_filter.py date.lua
+pandoc_html := $(pandoc_pdf) pandoc.html5 pandoc.css
 
 # Output paths.
 remodel := docs
@@ -136,7 +140,7 @@ define pandoc_to_pdf_or_tex
 		--lua-filter date.lua \
 		--table-of-contents \
 		--number-sections \
-		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
+		--bibliography="biblio.bib" --csl="$(CSL)" \
 		--from=markdown  $< \
 		--pdf-engine=xelatex \
 		--output $@
@@ -158,7 +162,7 @@ define pandoc_to_html
 		--filter link_filter.py \
 		--lua-filter date.lua \
 		--table-of-contents \
-		--bibliography="biblio.bib" --csl="ieee-with-url.csl" \
+		--bibliography="biblio.bib" --csl="$(CSL)" \
 		--syntax-highlighting=breezedark \
 		--template="pandoc.html5" \
 		--css="pandoc.css" \
